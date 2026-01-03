@@ -4,6 +4,7 @@ import WhyItMatters from './components/WhyItMatters'
 import HowToLearn from './components/HowToLearn'
 import LearningPaths from './components/LearningPaths'
 import PracticePreview from './components/PracticePreview'
+import PrintableExercises from './components/PrintableExercises'
 import AudienceSection from './components/AudienceSection'
 import Footer from './components/Footer'
 
@@ -18,6 +19,9 @@ export default function Home() {
       
       {/* Supplementary: Practice and Games */}
       <PracticePreview />
+      
+      {/* Printable Exercises */}
+      <PrintableExercises />
       
       {/* Macro Context: Definition Section */}
       <DefinitionSection />

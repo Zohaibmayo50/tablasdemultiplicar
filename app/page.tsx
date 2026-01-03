@@ -16,6 +16,9 @@ export default function Home() {
       {/* Contextual Bridge: Learning Paths (Core Content Links) */}
       <LearningPaths />
       
+      {/* Supplementary: Practice and Games */}
+      <PracticePreview />
+      
       {/* Macro Context: Definition Section */}
       <DefinitionSection />
       
@@ -24,9 +27,6 @@ export default function Home() {
       
       {/* Learning Methodology */}
       <HowToLearn />
-      
-      {/* Supplementary: Practice and Games */}
-      <PracticePreview />
       
       {/* Trust & Audience Expansion */}
       <AudienceSection />

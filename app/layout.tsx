@@ -6,12 +6,35 @@ export const metadata: Metadata = {
   title: 'Çarpım Tablosu – Öğren, Anla ve Pratik Yap',
   description: 'Çarpım tablosunu adım adım öğrenin, anlayın ve pratik yapın. Öğrenciler, ebeveynler ve öğretmenler için kapsamlı çarpım tablosu eğitim kaynağı.',
   keywords: 'çarpım tablosu, multiplication table, matematik, öğrenme, pratik, eğitim',
+  authors: [{ name: 'Çarpım Tablosu' }],
+  creator: 'Çarpım Tablosu',
+  publisher: 'Çarpım Tablosu',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     title: 'Çarpım Tablosu – Öğren, Anla ve Pratik Yap',
     description: 'Çarpım tablosunu adım adım öğrenin, anlayın ve pratik yapın.',
     type: 'website',
     locale: 'tr_TR',
     url: 'https://carpimtablosu.com.tr',
+    siteName: 'Çarpım Tablosu',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Çarpım Tablosu – Öğren, Anla ve Pratik Yap',
+    description: 'Çarpım tablosunu adım adım öğrenin, anlayın ve pratik yapın.',
+  },
+  verification: {
+    google: 'your-google-site-verification',
   },
 }
 

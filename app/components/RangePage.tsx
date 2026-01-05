@@ -342,6 +342,50 @@ export default function RangePage({
         </div>
       </section>
 
+      {/* Links to Number Pages */}
+      <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+            Bu Aralıktaki Bireysel Çarpım Tabloları
+          </h2>
+          
+          <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+            Her sayının çarpım tablosunu ayrıntılı olarak öğrenmek isterseniz, aşağıdaki 
+            bağlantılardan ilgili sayfaya gidebilirsiniz. Her sayfa, o sayıya özel 
+            örüntüler, ipuçları ve pratik araçları içerir.
+          </p>
+          
+          <div className="grid md:grid-cols-2 gap-4">
+            {rangeNumbers.map((num) => (
+              <Link
+                key={num}
+                href={`/number/${num}`}
+                className="block bg-white rounded-xl p-6 border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all group"
+              >
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="text-2xl font-bold text-slate-900 mb-1">
+                      {num} Çarpım Tablosu
+                    </div>
+                    <p className="text-slate-600">
+                      {num} sayısının detaylı açıklaması ve örnekleri
+                    </p>
+                  </div>
+                  <svg 
+                    className="w-6 h-6 text-blue-600 group-hover:translate-x-1 transition-transform" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Difficulty & Progression */}
       <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -554,50 +598,6 @@ export default function RangePage({
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Links to Number Pages */}
-      <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Bu Aralıktaki Bireysel Çarpım Tabloları
-          </h2>
-          
-          <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-            Her sayının çarpım tablosunu ayrıntılı olarak öğrenmek isterseniz, aşağıdaki 
-            bağlantılardan ilgili sayfaya gidebilirsiniz. Her sayfa, o sayıya özel 
-            örüntüler, ipuçları ve pratik araçları içerir.
-          </p>
-          
-          <div className="grid md:grid-cols-2 gap-4">
-            {rangeNumbers.map((num) => (
-              <Link
-                key={num}
-                href={`/number/${num}`}
-                className="block bg-white rounded-xl p-6 border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all group"
-              >
-                <div className="flex items-center justify-between">
-                  <div>
-                    <div className="text-2xl font-bold text-slate-900 mb-1">
-                      {num} Çarpım Tablosu
-                    </div>
-                    <p className="text-slate-600">
-                      {num} sayısının detaylı açıklaması ve örnekleri
-                    </p>
-                  </div>
-                  <svg 
-                    className="w-6 h-6 text-blue-600 group-hover:translate-x-1 transition-transform" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
-              </Link>
-            ))}
           </div>
         </div>
       </section>

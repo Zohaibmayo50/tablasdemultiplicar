@@ -1,4 +1,7 @@
 import Link from 'next/link'
+import PracticePreview from './PracticePreview'
+import GamesSection from './GamesSection'
+import PrintableExercises from './PrintableExercises'
 
 interface RangePageProps {
   rangeStart: number
@@ -397,6 +400,15 @@ export default function RangePage({
           </div>
         </div>
       </section>
+
+      {/* Practice Area */}
+      <PracticePreview rangeStart={rangeStart} rangeEnd={rangeEnd} />
+
+      {/* Games Section */}
+      <GamesSection rangeStart={rangeStart} rangeEnd={rangeEnd} />
+
+      {/* Printable Worksheets */}
+      <PrintableExercises rangeStart={rangeStart} rangeEnd={rangeEnd} />
 
       {/* Navigation: Previous & Next Range */}
       <section className="section-container bg-gradient-to-br from-blue-600 to-indigo-600 text-white">

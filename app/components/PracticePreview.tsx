@@ -5,7 +5,12 @@ import Link from 'next/link'
 
 type ExerciseType = 'easy' | 'medium' | 'hard' | 'expert' | null
 
-export default function PracticePreview() {
+interface PracticePreviewProps {
+  rangeStart?: number
+  rangeEnd?: number
+}
+
+export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: PracticePreviewProps) {
   const [activeTab, setActiveTab] = useState<'quick' | 'exercises'>('quick')
   const [question, setQuestion] = useState({ num1: 7, num2: 8 })
   const [userAnswer, setUserAnswer] = useState('')
@@ -20,7 +25,7 @@ export default function PracticePreview() {
 
   const generateQuestion = () => {
     setQuestion({
-      num1: Math.floor(Math.random() * 10) + 1,
+      num1: Math.floor(Math.random() * (rangeEnd - rangeStart + 1)) + rangeStart,
       num2: Math.floor(Math.random() * 10) + 1
     })
     setUserAnswer('')
@@ -53,16 +58,16 @@ export default function PracticePreview() {
   // Exercise functions
   const startExercise = (type: ExerciseType) => {
     const config = {
-      easy: { min: 2, max: 5, count: 20 },
-      medium: { min: 6, max: 8, count: 30 },
-      hard: { min: 9, max: 12, count: 40 },
-      expert: { min: 1, max: 12, count: 50 }
+      easy: { min: rangeStart, max: Math.min(rangeStart + 4, rangeEnd), count: 20 },
+      medium: { min: rangeStart, max: Math.min(rangeStart + 7, rangeEnd), count: 30 },
+      hard: { min: Math.max(rangeStart, rangeEnd - 5), max: rangeEnd, count: 40 },
+      expert: { min: rangeStart, max: rangeEnd, count: 50 }
     }
     
     const { min, max, count } = config[type as keyof typeof config]
     const questions = Array.from({ length: count }, () => ({
       num1: Math.floor(Math.random() * (max - min + 1)) + min,
-      num2: Math.floor(Math.random() * (max - min + 1)) + min,
+      num2: Math.floor(Math.random() * 10) + 1,
       userAnswer: '',
       correct: null as boolean | null
     }))

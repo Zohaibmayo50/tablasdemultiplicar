@@ -4,7 +4,12 @@ import { useState, useEffect } from 'react'
 
 type GameType = 'speed' | 'hero' | 'memory' | 'space' | null
 
-export default function GamesSection() {
+interface GamesSectionProps {
+  rangeStart?: number
+  rangeEnd?: number
+}
+
+export default function GamesSection({ rangeStart = 1, rangeEnd = 10 }: GamesSectionProps) {
   const [activeGame, setActiveGame] = useState<GameType>(null)
   
   // Speed Game states
@@ -51,7 +56,7 @@ export default function GamesSection() {
 
   const generateSpeedQuestion = () => {
     setSpeedQuestion({
-      num1: Math.floor(Math.random() * 10) + 1,
+      num1: Math.floor(Math.random() * (rangeEnd - rangeStart + 1)) + rangeStart,
       num2: Math.floor(Math.random() * 10) + 1
     })
     setSpeedAnswer('')
@@ -71,14 +76,14 @@ export default function GamesSection() {
     setHeroLevel(1)
     setHeroLives(3)
     setHeroQuestionsCleared(0)
-    generateHeroQuestion(1)
+    setActiveGame('hero')
+    generateHeroQuestion()
   }
 
-  const generateHeroQuestion = (level: number) => {
-    const max = Math.min(level + 3, 12)
+  const generateHeroQuestion = () => {
     setHeroQuestion({
-      num1: Math.floor(Math.random() * max) + 1,
-      num2: Math.floor(Math.random() * max) + 1
+      num1: Math.floor(Math.random() * (rangeEnd - rangeStart + 1)) + rangeStart,
+      num2: Math.floor(Math.random() * 10) + 1
     })
     setHeroAnswer('')
   }
@@ -91,9 +96,9 @@ export default function GamesSection() {
       if (newCleared >= heroLevel * 5) {
         setHeroLevel(heroLevel + 1)
         setHeroQuestionsCleared(0)
-        generateHeroQuestion(heroLevel + 1)
+        generateHeroQuestion()
       } else {
-        generateHeroQuestion(heroLevel)
+        generateHeroQuestion()
       }
     } else {
       setHeroLives(heroLives - 1)
@@ -108,7 +113,7 @@ export default function GamesSection() {
   const startMemoryGame = () => {
     const pairs = []
     for (let i = 0; i < 6; i++) {
-      const num1 = Math.floor(Math.random() * 10) + 1
+      const num1 = Math.floor(Math.random() * (rangeEnd - rangeStart + 1)) + rangeStart
       const num2 = Math.floor(Math.random() * 10) + 1
       pairs.push(
         { id: i * 2, question: `${num1} × ${num2}`, answer: num1 * num2, flipped: false, matched: false },
@@ -163,7 +168,7 @@ export default function GamesSection() {
 
   const generateSpaceQuestion = () => {
     setSpaceQuestion({
-      num1: Math.floor(Math.random() * 10) + 1,
+      num1: Math.floor(Math.random() * (rangeEnd - rangeStart + 1)) + rangeStart,
       num2: Math.floor(Math.random() * 10) + 1
     })
     setSpaceAnswer('')

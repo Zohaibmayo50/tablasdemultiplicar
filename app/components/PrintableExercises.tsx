@@ -2,13 +2,18 @@
 
 import { useState, useRef } from 'react'
 
-export default function PrintableExercises() {
-  const [selectedTable, setSelectedTable] = useState<number>(2)
+interface PrintableExercisesProps {
+  rangeStart?: number
+  rangeEnd?: number
+}
+
+export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, rangeEnd: defaultRangeEnd = 10 }: PrintableExercisesProps) {
+  const [selectedTable, setSelectedTable] = useState<number>(defaultRangeStart)
   const [questionCount, setQuestionCount] = useState<number>(20)
   const [includeAnswers, setIncludeAnswers] = useState<boolean>(false)
-  const [exerciseType, setExerciseType] = useState<'single' | 'mixed' | 'range'>('single')
-  const [rangeStart, setRangeStart] = useState<number>(2)
-  const [rangeEnd, setRangeEnd] = useState<number>(5)
+  const [exerciseType, setExerciseType] = useState<'single' | 'mixed' | 'range'>('range')
+  const [rangeStart, setRangeStart] = useState<number>(defaultRangeStart)
+  const [rangeEnd, setRangeEnd] = useState<number>(defaultRangeEnd)
   const printRef = useRef<HTMLDivElement>(null)
 
   const generateQuestions = () => {

@@ -232,25 +232,25 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       </section>
 
       {/* Patterns & Observations */}
-      <section className="section-container bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+      <section className="section-container bg-white py-12">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-slate-900 mb-4">
             {number} Çarpım Tablosundaki Desenler
           </h2>
           
-          <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+          <p className="text-base text-slate-700 mb-6 leading-relaxed">
             Desenleri anlamak öğrenmeyi daha kolay ve eğlenceli hale getirir. {number} çarpım tablosu, 
             salt ezberleme yapmadan hatırlamanıza yardımcı olabilecek güzel desenlere sahiptir.
           </p>
           
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-4">
             {getPatterns().map((pattern, index) => (
-              <div key={index} className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border-2 border-amber-100">
-                <h3 className="text-xl font-semibold text-slate-900 mb-3 flex items-center gap-2">
-                  <span className="text-2xl">{index === 0 ? '🔄' : index === 1 ? '📊' : '✨'}</span>
+              <div key={index} className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-4 border-2 border-amber-100">
+                <h3 className="text-lg font-semibold text-slate-900 mb-2 flex items-center gap-2">
+                  <span className="text-xl">{index === 0 ? '🔄' : index === 1 ? '📊' : '✨'}</span>
                   {pattern.title}
                 </h3>
-                <p className="text-slate-700 leading-relaxed">
+                <p className="text-sm text-slate-700 leading-relaxed">
                   {pattern.description}
                 </p>
               </div>

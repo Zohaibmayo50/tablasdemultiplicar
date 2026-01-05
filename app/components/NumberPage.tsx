@@ -175,26 +175,38 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-8 items-start">
             {/* Left: Explanation */}
-            <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-4">
-                {number} Sayısı Çarpmada Ne Anlama Gelir?
-              </h2>
-              
-              <p className="text-base text-slate-700 leading-relaxed mb-6">
-                {getNumberMeaning()}
-              </p>
-              
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-5 border-2 border-blue-100">
-                <div className="flex items-start gap-3">
-                  <span className="text-3xl">💡</span>
-                  <div>
-                    <h3 className="text-lg font-semibold text-slate-900 mb-2">Basit Açıklama</h3>
-                    <p className="text-sm text-slate-700 leading-relaxed">
-                      {number} × 4 gördüğünüzde şunu düşünün: "4 grubum var ve her grupta {number} öğe var." 
-                      Yani {number} × 4 = {number} + {number} + {number} + {number} = {number * 4}.
-                    </p>
+            <div className="space-y-6">
+              <div>
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">
+                  {number} Sayısı Çarpmada Ne Anlama Gelir?
+                </h2>
+                
+                <p className="text-base text-slate-700 leading-relaxed mb-6">
+                  {getNumberMeaning()}
+                </p>
+                
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-5 border-2 border-blue-100">
+                  <div className="flex items-start gap-3">
+                    <span className="text-3xl">💡</span>
+                    <div>
+                      <h3 className="text-lg font-semibold text-slate-900 mb-2">Basit Açıklama</h3>
+                      <p className="text-sm text-slate-700 leading-relaxed">
+                        {number} × 4 gördüğünüzde şunu düşünün: "4 grubum var ve her grupta {number} öğe var." 
+                        Yani {number} × 4 = {number} + {number} + {number} + {number} = {number * 4}.
+                      </p>
+                    </div>
                   </div>
                 </div>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">
+                  {number} Çarpım Tablosunu Öğrenmek Neden Önemlidir
+                </h2>
+                
+                <p className="text-base text-slate-700 leading-relaxed">
+                  {getWhyImportant()}
+                </p>
               </div>
             </div>
 
@@ -216,19 +228,6 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Why This Number is Important */}
-      <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-            {number} Çarpım Tablosunu Öğrenmek Neden Önemlidir
-          </h2>
-          
-          <p className="text-lg text-slate-700 leading-relaxed">
-            {getWhyImportant()}
-          </p>
         </div>
       </section>
 

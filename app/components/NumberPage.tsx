@@ -197,6 +197,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       28: "28 ile çarpmak, 4×7 ilişkisini kullanır. 28=4×7=2×14 olduğundan, birden fazla yoldan öğrenilebilir. 28 gün Şubat ayının gün sayısıdır (artık yıl değilse). 28 aynı zamanda mükemmel sayıdır (bölenlerinin toplamı kendisine eşittir: 1+2+4+7+14=28).",
       29: "29 ile çarpmak, asal sayı olması nedeniyle özel stratejiler gerektirir. 29'u 30-1 olarak düşünmek en pratik yöntemdir: bir sayıyı 30 ile çarpıp kendisini çıkarın. 29 gün Şubat ayının artık yıllardaki gün sayısıdır. 29 tablosunu öğrenmek, problem çözme becerilerini geliştirir.",
       30: "30 ile çarpmak, 10×3 ilişkisini kullanır. Bir sayıyı 30 ile çarpmak için, onu 10 ile çarpıp sonucu 3 ile çarpabilirsiniz. 30 gün birçok ayın gün sayısıdır (Nisan, Haziran, Eylül, Kasım). 30 aynı zamanda yarım saattir (30 dakika). 30 tablosu, yüzde hesaplamalarında (30% indirim) sıkça kullanılır.",
+      31: "31 ile çarpmak, asal sayı özellikleri nedeniyle özel stratejiler gerektirir. 31'i 30+1 olarak düşünmek en pratik yöntemdir: bir sayıyı 30 ile çarpıp kendisini ekleyin. 31 gün birçok ayın maksimum gün sayısıdır (Ocak, Mart, Mayıs, Temmuz, Ağustos, Ekim, Aralık). 31 tablosunu öğrenmek, büyük sayılarla zihinsel hesaplama becerilerini geliştirir.",
+      32: "32 ile çarpmak, 2'nin 5. kuvvetidir (2⁵=2×2×2×2×2=32). Bu, 32'yi ikiye katlama zincirleriyle öğrenmeyi mümkün kılar. 16'ı ikiye katlayarak 32'yi bulabilirsiniz. 32 derece Fahrenheit'ta suyun donma noktasıdır. Bilgisayar biliminde 32 bit sistemler yaygındır. 32=4×8=2×16 ilişkileri farklı hesaplama yöntemleri sunar.",
+      33: "33 ile çarpmak, 3×11 ilişkisini kullanır. 11 tablosunu biliyorsanız üçe katlayarak veya 3 tablosunu biliyorsanız 11 ile çarparak 33 tablosunu bulabilirsiniz. 33, iki basamaklı en büyük repdigit sayıdır (aynı rakamların tekrarı). 33'teki tüm rakamların aynı olması, bazı ilginç desenler oluşturur.",
+      34: "34 ile çarpmak, 17'nin iki katıdır (34=2×17). 17 tablosunu biliyorsanız, her sonucu ikiye katlayarak 34 tablosunu bulabilirsiniz. 34'teki rakamların toplamı 7'dir (3+4=7), bu da 7 ile ilişkili desenlere yol açar. 34'ü 35-1 veya 30+4 olarak düşünmek hesaplamaları kolaylaştırır.",
+      35: "35 ile çarpmak, 5×7 ilişkisini kullanır. Her iki tablo da bilinen tablolarsa, 35 ile çarpma oldukça kolay olur. 35'in tüm katları 5 veya 0 ile biter (5'in katları gibi). 35 dakika yarım saatten 5 dakika fazladır. 35=5×7 ilişkisi, hem 5 hem 7 tablolarının özelliklerini birleştirir.",
+      36: "36 ile çarpmak, en çok yönlü çarpım tablolarından biridir. 36=6×6=4×9=3×12=2×18 olduğundan, birçok farklı yoldan hesaplanabilir. 36, 6'nın karesidir (6²). 36 tam bir düzenin katlarıdır (1 düzine = 12, 3 düzine = 36). 36'nın çok sayıda böleni vardır, bu da onu kesirlerde çok kullanışlı yapar.",
+      37: "37 ile çarpmak, asal sayı olması nedeniyle özel stratejiler gerektirir. 37'yi 40-3 veya 35+2 olarak düşünmek hesaplamaları kolaylaştırır. 37, repdigit sayılarla ilginç ilişkilere sahiptir: 37×3=111. 37'nin bu özel özelliği, bazı hile hesaplamalar için kullanılabilir.",
+      38: "38 ile çarpmak, 19'un iki katıdır (38=2×19). 19 tablosunu biliyorsanız, her sonucu ikiye katlayarak 38 tablosunu bulabilirsiniz. 38'i 40-2 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. 38 derece Celsius insan vücut ısısı için hafif ateştir.",
+      39: "39 ile çarpmak, 3×13 ilişkisini kullanır. 39=3×13 olduğundan, 13 tablosunu üçe katlayarak veya 3 tablosunu 13 ile çarparak hesaplanabilir. 39'u 40-1 olarak düşünmek en pratik yöntemdir. 39, 3'e ve 13'e bölünebilen ilginç bir sayıdır.",
+      40: "40 ile çarpmak, 4×10 ilişkisini kullanır. Bir sayıyı 40 ile çarpmak için, onu 10 ile çarpıp sonucu 4 ile çarpabilirsiniz. Veya 4 ile çarpıp sonuna sıfır ekleyebilirsiniz. 40, günlük hayatta sıkça kullanılır: 40 saat çalışma haftası, 40 yaş orta yaş sayılır. 40 tablosu, 10'ların 4 katı olduğu için çok düzenlidir.",
     }
     return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
   }
@@ -233,6 +243,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       28: "28 çarpım tablosu, takvim bilgisi (Şubat ayı) için önemlidir. 28'in mükemmel sayı olması (bölenler toplamı kendisine eşit), özel matematiksel özellikler gösterir. 28=4×7 ilişkisi, çarpanlara ayırmayı anlamayı derinleştirir. Bu tablo, zaman hesaplamaları ve haftalık planlamada kullanılır.",
       29: "29 çarpım tablosu, asal sayı stratejilerini mükemmelleştirmek için mükemmeldir. 30-1 ilişkisi, tamamlayıcı sayıları kullanmayı öğretir. Takvim bilgisi (artık yıl Şubat'ı) için gereklidir. Bu tabloyu öğrenmek, zihinsel hesaplama becerilerini en üst düzeye çıkarır.",
       30: "30 çarpım tablosu, onluk sistem ve çarpma arasındaki köprüdür. 30=3×10 ilişkisi, yer değeri anlayışını güçlendirir. Zaman (yarım saat), takvim (ay günleri) ve açı ölçümlerinde (30°) sürekli kullanılır. Bu tablo, yüzde hesaplamalarının (30% indirim) ve pratik matematiğin temelini oluşturur.",
+      31: "31 çarpım tablosu, takvim bilgisi için kritiktir. Ayların çoğu 31 gün olduğu için, tarih ve zaman hesaplamalarında sürekli kullanılır. 31 asal sayı olduğundan, zihinsel hesaplama stratejilerini geliştirmek için mükemmeldir. 30+1 stratejisi, tamamlayıcı sayılar kullanmayı öğretir ve büyük sayı hesaplamalarında yetkinlik kazandırır.",
+      32: "32 çarpım tablosu, üslü sayıları (2⁵) ve ikili sistemleri anlamak için önemlidir. Bilgisayar biliminde 32 bit mimarisi yaygın olduğu için, teknoloji çağında pratik önem taşır. İkiye katlama zincirlerini mükemmelleştirmek için harikadır. Sıcaklık dönüşümlerinde (Fahrenheit) kullanılır.",
+      33: "33 çarpım tablosu, 3 ve 11 tablolarını birleştirerek matematiksel ilişkileri güçlendirir. Repdigit özelliği (33, 66, 99...) desen tanımayı kolaylaştırır. 33=3×11 ilişkisi, çarpanlar ve katlar arasındaki bağlantıları anlamayı derinleştirir. Bu tablo, çoklu çarpma stratejilerini öğretir.",
+      34: "34 çarpım tablosu, 17 tablosunu pekiştirmeye yardımcı olur. 34=2×17 ilişkisi, asal sayılarla çift sayılar arasındaki bağlantıyı gösterir. Bu tablo, zihinsel esneklik ve alternatif hesaplama yöntemleri (35-1, 30+4) geliştirir. Çift sayı özelliklerini ve ikiye katlama becerilerini pekiştirir.",
+      35: "35 çarpım tablosu, 5 ve 7 tablolarının birleşimi olarak çarpanlara ayırma becerisini geliştirir. 5×7 ilişkisi, her iki tabloyu da pekiştirir. Zaman hesaplamalarında (35 dakika) ve günlük matematikte kullanılır. Bu tablo, 5'in deseniyle (son basamak 5 veya 0) tanınabilir örüntüler oluşturur.",
+      36: "36 çarpım tablosu, en kullanışlı tablolardan biridir. 36=6² olması, kare sayıları anlamak için kritiktir. Çok sayıda böleni olması (1,2,3,4,6,9,12,18,36), kesirler ve oranlar için ideal yapar. Düzine sisteminde (3 düzine) ve açı ölçümlerinde (360°'nin onda biri) sık kullanılır.",
+      37: "37 çarpım tablosu, asal sayı özellikleri ve zihinsel matematik stratejilerini mükemmelleştirir. 37×3=111 gibi özel ilişkiler, sayı desenleri hakkında derin anlayış sağlar. 40-3 veya 35+2 stratejileri, yaratıcı problem çözme becerilerini geliştirir. Bu tablo, matematiksel merak ve keşif ruhunu teşvik eder.",
+      38: "38 çarpım tablosu, 19 tablosunu pekiştirmeye yardımcı olur. 38=2×19 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. 40-2 yaklaşımı, tamamlayıcı sayılar kullanmayı öğretir. Sağlık bağlamında (vücut ısısı) pratik öneme sahiptir.",
+      39: "39 çarpım tablosu, 3 ve 13 tablolarını birleştirerek matematiksel bağlantıları güçlendirir. 40-1 stratejisi, 40 gibi yuvarlak sayıları kullanarak hızlı hesaplama yapmayı öğretir. Bu tablo, çoklu çarpanlara ayrıştırma (3×13) becerilerini geliştirir ve zihinsel esneklik kazandırır.",
+      40: "40 çarpım tablosu, onluk sistemi derin anlamak için mükemmeldir. 40=4×10 ilişkisi, yer değeri ve çarpma arasındaki bağlantıyı gösterir. Çalışma saatleri (40 saatlik hafta) ve sosyal normlar (40 yaş) nedeniyle günlük hayatta çok kullanılır. Bu tablo, büyük sayılar ve yüzde hesaplamaları için temel oluşturur.",
     }
     return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
   }
@@ -389,6 +409,56 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { title: "Hep 0 ile Biter", description: "30'un tüm katları 0 ile biter: 30, 60, 90, 120, 150, 180, 210, 240, 270, 300." },
         { title: "Onlukların Üçlü Katları", description: "30, 60, 90, 120, 150... Her biri 30 artış. 10'ların 3 katıdır." },
       ],
+      31: [
+        { title: "30+1 Stratejisi", description: "31=30+1. 31×n = (30×n) + n. Örnek: 31×7 = 210 + 7 = 217." },
+        { title: "Asal Sayı Deseni", description: "31 asal olduğundan özel desen vardır. Birler basamağı: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0." },
+        { title: "Ay Günleri İlişkisi", description: "31 gün maksimum ay uzunluğu. 31, 62 (2 ay), 93 (3 ay), 124 (4 ay) gibi takvim hesaplamaları." },
+      ],
+      32: [
+        { title: "2'nin Kuvveti", description: "32=2⁵. İkiye katlama zinciri: 2→4→8→16→32. Tüm katları bu deseni korur." },
+        { title: "16'nın İki Katı", description: "32=2×16. 16 tablosunu biliyorsanız ikiye katlayın: 16×5=80, yani 32×5=160." },
+        { title: "Hep Çift ve 8'e Bölünebilir", description: "32'nin tüm katları hem çift hem de 4'e, 8'e, 16'ya bölünebilir: 32, 64, 96, 128..." },
+      ],
+      33: [
+        { title: "3×11 İlişkisi", description: "33=3×11. 11 tablosunu üçe katlayın: 11×4=44, yani 33×4=132. Veya 3 tablosunu 11 ile çarpın." },
+        { title: "Repdigit Deseni", description: "33×1=33, 33×2=66, 33×3=99. İlk 3'ü çift basamak gösterir. Sonra 132, 165..." },
+        { title: "Hep 3'e Bölünebilir", description: "33'ün tüm katları 3'e ve 11'e bölünebilir. Basamaklar toplamı 3'ün katıdır." },
+      ],
+      34: [
+        { title: "17'nin İki Katı", description: "34=2×17. 17 tablosunu ikiye katlayın: 17×6=102, yani 34×6=204." },
+        { title: "Hep Çift Sayılar", description: "34'ün tüm katları çifttir: 34, 68, 102, 136, 170, 204, 238, 272, 306, 340." },
+        { title: "35-1 veya 30+4", description: "34×n = (35×n) - n veya (30×n) + (4×n). Örnek: 34×5 = 175-5 = 170." },
+      ],
+      35: [
+        { title: "5×7 İlişkisi", description: "35=5×7. Hem 5 hem 7 tablolarını kullanabilirsiniz: 35×4 = 5×4×7 = 20×7 = 140." },
+        { title: "5 veya 0 ile Biter", description: "35'in tüm katları 5 veya 0 ile biter: 35, 70, 105, 140, 175, 210, 245, 280..." },
+        { title: "7'lerin Beşlisi", description: "35, 70, 105, 140, 175... 7'lerin katlarını 5 ile çarpın. Veya 5'lerin katlarını 7 ile." },
+      ],
+      36: [
+        { title: "6'nın Karesi", description: "36=6². Ayrıca 36=4×9=3×12=2×18. Çoklu çarpan ilişkileri." },
+        { title: "Çok Sayıda Bölen", description: "36'nın 9 böleni var: 1,2,3,4,6,9,12,18,36. Bu, kesirler için çok kullanışlı yapar." },
+        { title: "9'a ve 4'e Bölünebilir", description: "36'nın tüm katları hem 4'e hem 9'a bölünebilir. Basamaklar toplamı 9'un katıdır." },
+      ],
+      37: [
+        { title: "40-3 Stratejisi", description: "37=40-3. 37×n = (40×n) - (3×n). Örnek: 37×6 = 240 - 18 = 222." },
+        { title: "Sihirli 111 İlişkisi", description: "37×3=111. Bu özel ilişki: 37×6=222, 37×9=333. Her 3'ün katında repdigit sonuç!" },
+        { title: "Asal Sayı Benzersizliği", description: "37 asal olduğundan özel desenler vardır. 35+2 veya 40-3 stratejileri kullanışlıdır." },
+      ],
+      38: [
+        { title: "19'un İki Katı", description: "38=2×19. 19 tablosunu ikiye katlayın: 19×7=133, yani 38×7=266." },
+        { title: "40-2 Stratejisi", description: "38=40-2. 38×n = (40×n) - (2×n). Örnek: 38×5 = 200 - 10 = 190." },
+        { title: "Hep Çift Sayılar", description: "38'in tüm katları çifttir: 38, 76, 114, 152, 190, 228, 266, 304, 342, 380." },
+      ],
+      39: [
+        { title: "3×13 İlişkisi", description: "39=3×13. 13 tablosunu üçe katlayın: 13×4=52, yani 39×4=156." },
+        { title: "40-1 Stratejisi", description: "39=40-1. 39×n = (40×n) - n. Örnek: 39×7 = 280 - 7 = 273. Çok pratik!" },
+        { title: "3'e Bölünebilir", description: "39'un tüm katları 3'e ve 13'e bölünebilir. Basamaklar toplamı 3'ün katıdır." },
+      ],
+      40: [
+        { title: "4×10 İlişkisi", description: "40=4×10. Bir sayıyı 40 ile çarpmak: 4 ile çarp, sonuna 0 ekle. 7×40: 7×4=28, sonuna 0: 280." },
+        { title: "Hep 0 ile Biter", description: "40'ın tüm katları 0 ile biter: 40, 80, 120, 160, 200, 240, 280, 320, 360, 400." },
+        { title: "10'ların Dört Katı", description: "40, 80, 120, 160, 200... Her biri 40 artış. 10'ların 4 katıdır." },
+      ],
     }
     return patterns[number] || []
   }
@@ -520,6 +590,46 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       30: [
         { mistake: "30×7=200 sanmak (210 yerine)", solution: "30×7=210, 200 değil (30×6=180, 30×7=210). 10×7=70, ×3=210." },
         { mistake: "Sıfırı unutmak", solution: "30'un tüm katları 0 ile bitmeli: 30, 60, 90, 120, 150... 30×8=240, 24 değil!" },
+      ],
+      31: [
+        { mistake: "31×5=145 sanmak (155 yerine)", solution: "31×5=155, 145 değil. 30×5=150, artı 5: 155. 145 aslında 29×5." },
+        { mistake: "31×7=207 ile 31×7=217'yi karıştırmak", solution: "31×7=217 doğrudur (30×7=210, artı 7). 207 başka bir sonuçtur." },
+      ],
+      32: [
+        { mistake: "32×5=150 sanmak (160 yerine)", solution: "32×5=160, 150 değil. 16×5=80, ikiye katlayın: 160. Veya 32×10=320, yarısı 160." },
+        { mistake: "32×7=214 ile 32×7=224'ü karıştırmak", solution: "32×7=224 doğrudur (16×7=112, ×2). 214 başka bir hesaptır." },
+      ],
+      33: [
+        { mistake: "33×4=122 sanmak (132 yerine)", solution: "33×4=132, 122 değil. 11×4=44, ×3=132. Veya 30×4=120, artı 3×4=12: 132." },
+        { mistake: "33×9=297 ile 33×9=287'yi karıştırmak", solution: "33×9=297 doğrudur (11×9=99, ×3). 287 başka bir sonuçtur." },
+      ],
+      34: [
+        { mistake: "34×5=160 sanmak (170 yerine)", solution: "34×5=170, 160 değil. 17×5=85, ikiye katlayın: 170. 160 aslında 32×5." },
+        { mistake: "34×8=262 ile 34×8=272'yi karıştırmak", solution: "34×8=272 doğrudur (17×8=136, ×2). 262 başka bir sonuçtur." },
+      ],
+      35: [
+        { mistake: "35×6=200 sanmak (210 yerine)", solution: "35×6=210, 200 değil. 5×6=30, 7×6=42, 30×7=210 veya 5×42=210." },
+        { mistake: "35×8=270 ile 35×8=280'i karıştırmak", solution: "35×8=280 doğrudur (5×8=40, 7×8=56, 40×7=280). 270 aslında 27×10." },
+      ],
+      36: [
+        { mistake: "36×5=170 sanmak (180 yerine)", solution: "36×5=180, 170 değil. 6×5=30, ×6=180. Veya 18×10=180. 170 aslında 34×5." },
+        { mistake: "36×7=242 ile 36×7=252'yi karıştırmak", solution: "36×7=252 doğrudur (6×7=42, ×6 veya 9×7=63, ×4). 242 başka bir sonuçtur." },
+      ],
+      37: [
+        { mistake: "37×5=175 sanmak (185 yerine)", solution: "37×5=185, 175 değil. 40×5=200, eksi 3×5=15: 185. 175 aslında 35×5." },
+        { mistake: "37×3=111 sonrasını yanlış hesaplamak", solution: "37×3=111, 37×6=222, 37×9=333. Her 3'ün katında repdigit! 37×7=259, 37×8=296." },
+      ],
+      38: [
+        { mistake: "38×5=180 sanmak (190 yerine)", solution: "38×5=190, 180 değil. 19×5=95, ikiye katlayın: 190. 180 aslında 36×5." },
+        { mistake: "38×9=332 ile 38×9=342'yi karıştırmak", solution: "38×9=342 doğrudur (19×9=171, ×2 veya 40×9=360, eksi 2×9=18). 332 başka bir sonuçtur." },
+      ],
+      39: [
+        { mistake: "39×5=185 sanmak (195 yerine)", solution: "39×5=195, 185 değil. 40×5=200, eksi 5: 195. 185 aslında 37×5." },
+        { mistake: "39×8=302 ile 39×8=312'yi karıştırmak", solution: "39×8=312 doğrudur (40×8=320, eksi 8). 302 başka bir sonuçtur." },
+      ],
+      40: [
+        { mistake: "40×7=270 sanmak (280 yerine)", solution: "40×7=280, 270 değil. 4×7=28, sonuna 0 ekle: 280. Veya 10×7=70, ×4=280." },
+        { mistake: "Sıfırı unutmak", solution: "40'ın tüm katları 0 ile bitmeli: 40, 80, 120, 160, 200... 40×9=360, 36 değil!" },
       ],
     }
     return mistakes[number] || []
@@ -731,6 +841,76 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Yarım saat ile ilişkilendirin: 30 dakika",
         "Ay günleri: Birçok ay 30 gün (Nisan, Haziran, Eylül, Kasım)",
         "30'arli sayın: 30, 60, 90, 120, 150, 180, 210, 240, 270, 300",
+      ],
+      31: [
+        "30+1 stratejisini kullanın: 31×n = 30n + n",
+        "Örnek: 31×8 = 240 + 8 = 248. Çok basit ve etkili!",
+        "Takvim ile ilişkilendirin: 31 gün maksimum ay uzunluğu",
+        "31'erli sayın: 31, 62, 93, 124, 155, 186, 217, 248, 279, 310",
+        "En zor katları pratik edin: 31×7=217, 31×9=279",
+      ],
+      32: [
+        "İkiye katlama zinciri: 16'yı ikiye katlayın",
+        "Örnek: 16×5=80, yani 32×5=160",
+        "2'nin kuvveti olduğunu hatırlayın: 32=2×2×2×2×2",
+        "32'şerli sayın: 32, 64, 96, 128, 160, 192, 224, 256, 288, 320",
+        "Bilgisayar terimleriyle: 32 bit sistem",
+      ],
+      33: [
+        "3×11 stratejisini kullanın: 11 tablosunu üçe katlayın",
+        "Veya 3 tablosunu 11 ile çarpın: 3×7=21, 21×11=231, yani 33×7=231",
+        "Repdigit desenini gözlemleyin: 33, 66, 99 (ilk üç sonuç)",
+        "33'erli sayın: 33, 66, 99, 132, 165, 198, 231, 264, 297, 330",
+        "En zor katları pratik edin: 33×7=231, 33×8=264, 33×9=297",
+      ],
+      34: [
+        "17 tablosunu biliyorsanız ikiye katlayın: 17×6=102, yani 34×6=204",
+        "35-1 stratejisi: 34×4 = 140-4 = 136",
+        "Veya 30+4: 34×5 = 150+20 = 170",
+        "34'erli sayın: 34, 68, 102, 136, 170, 204, 238, 272, 306, 340",
+        "En kullanışlı katları ezberleyin: 34×5=170, 34×10=340",
+      ],
+      35: [
+        "5×7 stratejisi: 5 tablosunu 7 ile çarpın veya tersi",
+        "Örnek: 35×4 = 5×4×7 = 20×7 = 140",
+        "Son basamak desenini kullanın: Hep 5 veya 0 ile biter",
+        "35'erli sayın: 35, 70, 105, 140, 175, 210, 245, 280, 315, 350",
+        "Zaman hesaplama: 35 dakika = yarım saat + 5 dakika",
+      ],
+      36: [
+        "6'nın karesi olduğunu hatırlayın: 36=6×6",
+        "Çoklu yöntemler: 36=4×9, 3×12, 2×18. Hangisi daha kolay?",
+        "9 tablosunu biliyorsanız 4 ile çarpın: 9×7=63, 63×4=252, yani 36×7=252",
+        "36'şarlı sayın: 36, 72, 108, 144, 180, 216, 252, 288, 324, 360",
+        "Açı ölçümü: 360° tam tur, 36° onuna biri",
+      ],
+      37: [
+        "40-3 stratejisini kullanın: 37×n = 40n - 3n",
+        "Sihirli 111 ilişkisini ezberleyin: 37×3=111, 37×6=222, 37×9=333!",
+        "Örnek: 37×8 = 320 - 24 = 296",
+        "37'şerli sayın: 37, 74, 111, 148, 185, 222, 259, 296, 333, 370",
+        "Repdigit desenini keşfedin: Her 3'ün katında ilginç sonuçlar",
+      ],
+      38: [
+        "19 tablosunu biliyorsanız ikiye katlayın: 19×7=133, yani 38×7=266",
+        "40-2 stratejisi: 38×6 = 240 - 12 = 228",
+        "38'erli sayın: 38, 76, 114, 152, 190, 228, 266, 304, 342, 380",
+        "En zor katları pratik edin: 38×7=266, 38×9=342",
+        "Vücut ısısı ile ilişkilendirin: 38°C hafif ateş",
+      ],
+      39: [
+        "40-1 stratejisi MUKEMMELDİR: 39×n = 40n - n",
+        "Örnek: 39×7 = 280 - 7 = 273. Çok kolay!",
+        "Veya 3×13: 13 tablosunu üçe katlayın",
+        "39'şarlı sayın: 39, 78, 117, 156, 195, 234, 273, 312, 351, 390",
+        "En zor katları pratik edin: 39×7=273, 39×8=312",
+      ],
+      40: [
+        "4×10 stratejisi: 4 ile çarp, sonuna 0 ekle",
+        "Örnek: 7×40: 7×4=28, sonuna 0 ekle: 280",
+        "Çalışma haftası: 40 saat standart çalışma",
+        "40'arlı sayın: 40, 80, 120, 160, 200, 240, 280, 320, 360, 400",
+        "Yüzde hesaplama: 40% = 2/5",
       ],
     }
     return strategies[number] || [

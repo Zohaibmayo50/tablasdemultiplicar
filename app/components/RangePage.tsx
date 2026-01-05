@@ -56,57 +56,161 @@ export default function RangePage({
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero / Range Introduction */}
-      <section className={`section-container bg-gradient-to-br ${difficultyColor} border-b border-gray-200`}>
-        <div className="max-w-4xl mx-auto">
-          <div className="inline-block bg-white/90 backdrop-blur px-4 py-2 rounded-full text-sm font-semibold text-slate-900 mb-4">
-            {difficultyLabels[difficultyLevel]}
+      <section className={`relative overflow-hidden bg-gradient-to-br ${difficultyColor} pt-20 pb-16 md:pt-24 md:pb-20`}>
+        {/* Decorative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Floating Numbers */}
+          {rangeNumbers.slice(0, 5).map((num, index) => (
+            <div
+              key={num}
+              className={`absolute text-7xl md:text-8xl font-bold opacity-10 animate-float${index % 2 === 0 ? '' : '-delayed'}`}
+              style={{
+                top: `${10 + index * 15}%`,
+                left: index % 2 === 0 ? `${10 + index * 10}%` : 'auto',
+                right: index % 2 !== 0 ? `${5 + index * 8}%` : 'auto'
+              }}
+            >
+              {num}
+            </div>
+          ))}
+          
+          {/* Colorful Circles */}
+          <div className="absolute top-20 right-[30%] w-32 h-32 bg-yellow-300/20 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-32 left-[20%] w-40 h-40 bg-pink-300/20 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/2 left-[45%] w-28 h-28 bg-green-300/20 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-[15%] w-36 h-36 bg-purple-300/20 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="max-w-5xl mx-auto px-4 relative z-10">
+          {/* Difficulty Badge with Icon */}
+          <div className="flex justify-center mb-6">
+            <div className="inline-flex items-center gap-3 px-6 py-3 bg-white/90 backdrop-blur-sm rounded-full shadow-lg border-2 border-white/50">
+              <span className="text-3xl">
+                {difficultyLevel === 'beginner' ? '🌟' : difficultyLevel === 'intermediate' ? '🚀' : '⭐'}
+              </span>
+              <span className="text-base font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                {difficultyLabels[difficultyLevel]}
+              </span>
+              {difficultyLevel === 'beginner' && <span className="text-2xl">✨</span>}
+              {difficultyLevel === 'intermediate' && <span className="text-2xl">💪</span>}
+              {difficultyLevel === 'advanced' && <span className="text-2xl">🏆</span>}
+            </div>
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Çarpım Tablosu {rangeStart}'den {rangeEnd}'a
-          </h1>
+          {/* Main Heading with Fun Elements */}
+          <div className="text-center mb-8">
+            <div className="flex items-center justify-center gap-4 mb-4">
+              <span className="text-5xl md:text-6xl animate-bounce">🎯</span>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                  {rangeStart} - {rangeEnd}
+                </span>
+                <br />
+                <span className="text-slate-900">Çarpım Tablosu</span>
+              </h1>
+              <span className="text-5xl md:text-6xl animate-bounce" style={{ animationDelay: '0.2s' }}>🎨</span>
+            </div>
+            
+            {/* Fun Stats Cards */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 max-w-2xl mx-auto mt-8 mb-6">
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-md border-2 border-blue-100">
+                <div className="text-3xl mb-1">📚</div>
+                <div className="text-2xl font-bold text-blue-600">{rangeNumbers.length}</div>
+                <div className="text-xs text-slate-600">Sayı</div>
+              </div>
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-md border-2 border-indigo-100">
+                <div className="text-3xl mb-1">✖️</div>
+                <div className="text-2xl font-bold text-indigo-600">{rangeNumbers.length * 10}</div>
+                <div className="text-xs text-slate-600">İşlem</div>
+              </div>
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-md border-2 border-purple-100 col-span-2 md:col-span-1">
+                <div className="text-3xl mb-1">🎮</div>
+                <div className="text-2xl font-bold text-purple-600">Sınırsız</div>
+                <div className="text-xs text-slate-600">Pratik</div>
+              </div>
+            </div>
+          </div>
           
-          <p className="text-lg text-slate-700 mb-4 leading-relaxed">
-            {rangeStart}'den {rangeEnd}'a kadar olan çarpım tablosu, matematik öğreniminde önemli bir aşamayı 
-            temsil eder. Bu aralık, {rangeNumbers.length} farklı sayının çarpım tablolarını kapsar ve 
-            toplamda {rangeNumbers.length * 10} farklı çarpma işlemini öğrenmenizi sağlar.
-          </p>
-          
-          <p className="text-lg text-slate-700 leading-relaxed">
-            {difficultyDescriptions[difficultyLevel]} Her sayının kendi örüntüleri ve öğrenme stratejileri vardır.
-          </p>
+          {/* Description with Better Typography */}
+          <div className="max-w-3xl mx-auto space-y-4 text-center">
+            <p className="text-lg md:text-xl text-slate-700 leading-relaxed">
+              <span className="font-semibold text-blue-600">{rangeStart}'den {rangeEnd}'a</span> kadar olan çarpım tablosunu 
+              <span className="font-semibold text-indigo-600"> eğlenceli oyunlar</span>, 
+              <span className="font-semibold text-purple-600"> interaktif alıştırmalar</span> ve 
+              <span className="font-semibold text-pink-600"> yazdırılabilir çalışma kağıtları</span> ile öğrenin!
+            </p>
+            
+            {/* Quick Action Buttons */}
+            <div className="flex flex-wrap items-center justify-center gap-3 pt-4">
+              <a 
+                href="#practice"
+                className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200"
+              >
+                <span className="text-xl">🎯</span>
+                <span>Hemen Pratik Yap</span>
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </a>
+              <a 
+                href="#games"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white/90 backdrop-blur-sm text-indigo-600 font-bold rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 border-2 border-indigo-100"
+              >
+                <span className="text-xl">🎮</span>
+                <span>Oyunlarla Öğren</span>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Learning Context */}
       <section className="section-container bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            {rangeStart}'den {rangeEnd}'a Çarpım Tablosu Neyi Kapsar?
-          </h2>
+          <div className="text-center mb-8">
+            <span className="text-5xl mb-4 inline-block">📖</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              {rangeStart}'den {rangeEnd}'a Çarpım Tablosu Neyi Kapsar?
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-indigo-400 mx-auto rounded-full"></div>
+          </div>
           
-          <p className="text-lg text-slate-700 mb-6 leading-relaxed">
+          <p className="text-lg text-slate-700 mb-8 leading-relaxed text-center max-w-2xl mx-auto">
             Bu aralık, {rangeStart} ile {rangeEnd} arasındaki her sayının kendi içindeki çarpım tablosunu içerir. 
             Bu sayıların her biri, 1'den 10'a kadar olan sayılarla çarpılarak öğrenilir.
           </p>
           
-          <div className="bg-blue-50 rounded-xl p-6 mb-6">
-            <h3 className="text-xl font-semibold text-slate-900 mb-4">Kapsanan Sayılar:</h3>
-            <div className="grid md:grid-cols-2 gap-3">
-              {rangeNumbers.map((num) => (
-                <div key={num} className="flex items-center text-slate-700">
-                  <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                  {num} çarpım tablosu
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 mb-8 border-2 border-blue-100 shadow-lg">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-3xl">🎯</span>
+              <h3 className="text-2xl font-bold text-slate-900">Kapsanan Sayılar:</h3>
+            </div>
+            <div className="grid md:grid-cols-2 gap-4">
+              {rangeNumbers.map((num, index) => (
+                <div key={num} className="flex items-center gap-3 bg-white/80 backdrop-blur-sm rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow">
+                  <span className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 text-white font-bold text-lg shadow-md">
+                    {num}
+                  </span>
+                  <span className="text-slate-700 font-medium">{num} Çarpım Tablosu</span>
+                  <span className="ml-auto text-2xl">{index % 4 === 0 ? '⭐' : index % 4 === 1 ? '🌟' : index % 4 === 2 ? '✨' : '💫'}</span>
                 </div>
               ))}
             </div>
           </div>
           
-          <p className="text-lg text-slate-700 leading-relaxed">
-            Öğrenciler bu aralıkta toplam {rangeNumbers.length * 10} çarpma işlemini öğrenirler. 
-            Simetri özelliği sayesinde gerçekte ezberlemeleri gereken işlem sayısı daha azdır 
-            (örneğin {rangeStart} × {rangeEnd} = {rangeEnd} × {rangeStart}).
-          </p>
+          <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-100">
+            <div className="flex items-start gap-4">
+              <span className="text-4xl">💡</span>
+              <div>
+                <p className="text-lg text-slate-700 leading-relaxed">
+                  <span className="font-bold text-purple-600">Öğrenciler</span> bu aralıkta toplam 
+                  <span className="font-bold text-indigo-600"> {rangeNumbers.length * 10} çarpma işlemini</span> öğrenirler. 
+                  <span className="font-bold text-pink-600"> Simetri özelliği</span> sayesinde gerçekte ezberlemeleri gereken işlem sayısı daha azdır 
+                  (örneğin <span className="font-mono bg-white px-2 py-1 rounded">{rangeStart} × {rangeEnd} = {rangeEnd} × {rangeStart}</span>).
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

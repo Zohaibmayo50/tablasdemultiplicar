@@ -177,6 +177,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       8: "8 ile çarpmak, üç kez ikiye katlamak gibidir (8 = 2 × 2 × 2). Bir sayıyı ikiye katlayın, sonucu tekrar ikiye katlayın, ve bir kez daha ikiye katlayın—8 ile çarpmış olursunuz. Bu tablo, 2 ve 4 tablolarını iyi biliyorsanız daha kolay öğrenilir. 8, geometride (sekizgen) ve müzikte (oktav) önemli bir sayıdır.",
       9: "9 ile çarpmak, matematikteki en büyüleyici desenlerden birine sahiptir. 9'un tüm katlarının basamakları toplandığında sonuç her zaman 9'a bölünebilir. Ayrıca, 9 × n'in onlar basamağı her zaman n-1'dir. Bu tablo, parmak hilesi ile de öğrenilebilir. 9, 10'dan sadece 1 eksik olduğu için, 10 tablosunu kullanarak da hesaplanabilir.",
       10: "10 ile çarpmak, en kolay çarpım tablolarından biridir. Herhangi bir sayıyı 10 ile çarptığınızda, sadece sonuna bir sıfır eklersiniz. Bu, ondalık sistemimizin temelini oluşturur. 10 ile çarpmayı öğrenmek, öğrencilere yer değeri kavramını ve büyük sayılarla çalışmayı öğretir. 10 tablosu, tüm diğer çarpım tablolarını anlamak için bir referans noktasıdır.",
+      11: "11 ile çarpmak, matematikte en ilginç desenlerden birine sahiptir. 11 ile tek basamaklı sayıları çarptığınızda, sonuç o sayının iki kez tekrarıdır (11×3=33, 11×7=77). İki basamaklı sayıları 11 ile çarparken de güzel bir desen vardır: basamakları toplayıp ortaya yerleştirirsiniz. 11, bir asal sayıdır ve özel matematiksel özelliklere sahiptir.",
+      12: "12 ile çarpmak, en pratik çarpım tablolarından biridir çünkü 12, birçok sayıya bölünebilir (1, 2, 3, 4, 6, 12). Bu özellik 12'yi günlük hayatta çok kullanışlı yapar—bir düzinede 12 nesne, saatte 12 saat, yılda 12 ay vardır. 12 = 3 × 4 = 2 × 6 olduğundan, bu tabloyu birden fazla yoldan öğrenebilirsiniz.",
+      13: "13 ile çarpmak, öğrencilerin desen tanıma becerilerini geliştirir. 13 bir asal sayıdır, bu yüzden diğer tablolardan basitçe türetilemiyor. Ancak 13'ü 10+3 olarak düşünmek çok yardımcı olur: bir sayıyı 13 ile çarpmak, onu 10 ile çarpıp 3 ile çarparak toplamaktır. 13, birçok kültürde özel öneme sahip bir sayıdır.",
+      14: "14 ile çarpmak, 7 çarpım tablosunun iki katıdır. 14 = 2 × 7 olduğundan, 7 tablosunu biliyorsanız her sonucu ikiye katlayarak 14 tablosunu bulabilirsiniz. 14, haftalık planlamada önemlidir (2 hafta = 14 gün) ve çift sayı özelliklerini gösterir.",
+      15: "15 ile çarpmak, hem 3'ün hem de 5'in katlarını birleştirir. 15 = 3 × 5 olduğundan, bu tablo her iki sayının özelliklerini taşır. 15'in tüm katları hem 3'e hem de 5'e bölünebilir. 15 dakika çeyrek saat olduğu için, zaman hesaplamalarında çok kullanılır.",
+      16: "16 ile çarpmak, 2'nin 4. kuvvetidir (2×2×2×2=16). Bu, 16 tablosunu ikiye katlama zincirleriyle öğrenmeyi mümkün kılar. 8'i ikiye katlayarak 16'yı bulabilirsiniz. Bilgisayar biliminde 16 önemli bir sayıdır (onaltılık sistem) ve günlük hayatta da sıkça görülür.",
+      17: "17 ile çarpmak, asal sayı özellikleri nedeniyle zor olabilir. 17, diğer tablolardan basitçe türetilemiyor. Ancak 17'yi 20-3 veya 10+7 olarak düşünmek hesaplamaları kolaylaştırır. 17 tablosunu öğrenmek, zihinsel matematik becerilerini ve problem çözme stratejilerini geliştirir.",
+      18: "18 ile çarpmak, birçok ilişki içerir. 18 = 2 × 9 = 3 × 6 olduğundan, bu tabloyu birden fazla yoldan öğrenebilirsiniz. 9 tablosunu ikiye katlamak veya 6 tablosunu üçe katlamak 18 tablosunu verir. 18, reşit olma yaşı olarak birçok ülkede önemlidir.",
+      19: "19 ile çarpmak, 19'un asal sayı olması nedeniyle diğer tablolardan türetilemez. Ancak 19'u 20-1 olarak düşünmek çok pratiktir: bir sayıyı 20 ile çarpıp kendisini çıkarın. Bu strateji, 19 tablosunu zihinsel olarak hesaplamayı çok kolaylaştırır.",
+      20: "20 ile çarpmak, 10 tablosunun doğal uzantısıdır. Herhangi bir sayıyı 20 ile çarptığınızda, onu 10 ile çarpıp sonucu ikiye katlayabilirsiniz. Veya basitçe sonuna bir sıfır ekleyip ikiye katlayın. 20 tablosu, para hesaplamalarında (20 lira) ve ölçümlerde (20 metre, 20 kilogram) sürekli kullanılır.",
     }
     return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
   }
@@ -193,6 +203,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       8: "8 çarpım tablosunu öğrenmek, öğrencilerin ikiye katlama stratejilerini pekiştirmesine yardımcı olur. 8 = 2 × 2 × 2 olduğundan, öğrenciler 2 ve 4 tablolarını kullanarak 8 tablosunu öğrenebilirler. Bu tablo, alan hesaplamalarında (8 kenarlı şekiller), müzik teorisinde (oktavlar) ve bilgisayar biliminde (8 bit = 1 byte) önemlidir. 8 tablosunu öğrenmek, matematiksel düşünme becerilerini geliştirir.",
       9: "9 çarpım tablosu, en büyüleyici matematiksel desenlerden birine sahiptir. Basamak toplama kuralı ve parmak hilesi, öğrencilere matematiğin sihirli yönünü gösterir. 9 tablosunu öğrenmek sadece ezberleme değil, desen tanımayı ve matematiksel ilişkileri anlamayı öğretir. Bu tablo, zihinden hesaplama becerilerini geliştirmek ve matematiksel güven oluşturmak için mükemmeldir.",
       10: "10 çarpım tablosu, yer değeri kavramını öğretmek için temeldir. Öğrenciler 10 ile çarpmayı öğrendiklerinde, ondalık sistemimizin nasıl çalıştığını anlamaya başlarlar. Bu tablo, para hesaplamaları, ölçüm birimleri arası dönüşümler ve büyük sayılarla çalışma için hayati önem taşır. 10 tablosunu öğrenmek, tüm diğer çarpım tablolarını anlamak için sağlam bir temel oluşturur ve zihinsel matematik becerilerini büyük ölçüde geliştirir.",
+      11: "11 çarpım tablosu, desen tanıma becerilerini geliştirmek için mükemmeldir. Tek basamaklı sayılarla çarpıldığında ortaya çıkan tekrar deseni (11×4=44), öğrencilere matematiğin güzelliğini gösterir. 11 tablosunu öğrenmek, zihinsel hesaplama stratejilerini geliştirir ve sayı örüntülerini tanıma yeteneğini artırır. Bu tablo, büyük sayılarla çalışma güveni oluşturur.",
+      12: "12 çarpım tablosu, günlük hayatta en sık kullanılan tablolardan biridir. Düzine sayma, saat okuma, yıllık planlama gibi birçok alanda 12 kullanılır. 12'nin birçok böleni olması (1,2,3,4,6,12), onu kesirleri ve oranları anlamak için ideal yapar. Bu tabloyu öğrenmek, pratik matematik becerilerini önemli ölçüde geliştirir.",
+      13: "13 çarpım tablosu, öğrencilerin matematiksel dayanıklılığını geliştirir. Asal sayı olması nedeniyle kolay kısayollar yoktur, bu da gerçek anlama gerektirir. 13 tablosunu öğrenmek, zihinsel aritmetik becerilerini güçlendirir ve sayıları farklı şekillerde düşünmeyi öğretir (10+3 ayrıştırma stratejisi).",
+      14: "14 çarpım tablosu, 7 tablosunu pekiştirmeye yardımcı olur. 14=2×7 ilişkisi, öğrencilere çarpmanın çarpanlara ayrılma özelliğini gösterir. Haftalık ve iki haftalık dönemleri hesaplamak için gereklidir. Bu tablo, çift sayı özelliklerini ve ikiye katlama stratejilerini anlamayı derinleştirir.",
+      15: "15 çarpım tablosu, hem 3 hem de 5 tablosunu birleştirir, bu da matematiksel bağlantıları anlamak için harikadır. Çeyrek saat (15 dakika) hesaplamaları için hayati önem taşır. 15 tablosunu öğrenmek, bölünebillik kurallarını anlamayı ve sayılar arası ilişkileri görmeyi öğretir. Yüzde hesaplamalarında (15% bahşiş gibi) sıkça kullanılır.",
+      16: "16 çarpım tablosu, ikili sistemleri ve üslü sayıları anlamak için mükemmeldir. 2⁴=16 ilişkisi, üslü sayıların gücünü gösterir. Bilgisayar biliminde (16 bit, onaltılık sistem) kritik öneme sahiptir. Bu tablo, çoklu ikiye katlama stratejilerini ve geometrik dizileri anlamayı geliştirir.",
+      17: "17 çarpım tablosu, zihinsel matematik stratejilerini geliştirmek için mükemmel bir araçtır. Asal sayı olması, öğrencileri yaratıcı hesaplama yöntemleri bulmaya zorlar (20-3 veya 10+7 stratejileri). Bu tablo, problem çözme becerilerini ve sayılarla esnekliği geliştirir.",
+      18: "18 çarpım tablosu, matematiksel ilişkilerin zenginliğini gösterir. 18=2×9=3×6 olması, çarpanların farklı kombinasyonlarını anlamayı öğretir. Reşit olma yaşı olarak kültürel önemi vardır. Bu tablo, birden fazla stratejiyle bir probleme yaklaşmayı ve en verimli yöntemi seçmeyi öğretir.",
+      19: "19 çarpım tablosu, zihinsel hesaplama becerilerini en üst düzeye çıkarır. '20-1' stratejisi, öğrencilere tamamlayıcı sayıları kullanmayı öğretir. Asal sayı olması, desen tanımadan ziyade gerçek anlamayı vurgular. Bu tablo, karmaşık hesaplamaları basit adımlara bölme becerisini geliştirir.",
+      20: "20 çarpım tablosu, yer değeri sistemini pekiştirmek ve büyük sayılarla rahatça çalışmak için kritiktir. 20=2×10 ilişkisi, onluk sistemi anlamayı derinleştirir. Para hesaplamalarında (20 lira banknotları) ve ölçümlerde sürekli kullanılır. Bu tablo, yüzde hesaplamalarının (20% indirim) temelini oluşturur.",
     }
     return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
   }
@@ -249,6 +269,56 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { title: "Hep 0 ile Biter", description: "10'un tüm katları 0 ile biter: 10, 20, 30, 40, 50... Bu desen asla değişmez." },
         { title: "Yer Değeri Sistemi", description: "10 ile çarpmak, her basamağı bir sola kaydırır. Bu, ondalık sistemimizin temelidir: 25×10=250." },
       ],
+      11: [
+        { title: "Çift Basamak Deseni", description: "Tek basamaklı sayılarla çarpıldığında sonuç çift basamaktır: 11×2=22, 11×3=33, 11×7=77, 11×9=99." },
+        { title: "Basamak Toplama Hilesi", description: "İki basamaklı bir sayıyı 11 ile çarpın: basamakları toplayıp ortaya koyun. 23×11: 2_(2+3)_3 = 253." },
+        { title: "Onarlı Artış", description: "11'in katları: 11, 22, 33, 44, 55, 66, 77, 88, 99, 110. İlk 9 tanesi çift basamak deseni gösterir." },
+      ],
+      12: [
+        { title: "Düzine Deseni", description: "12'nin katları: 12, 24, 36, 48, 60, 72, 84, 96, 108, 120. Her biri bir düzine artış gösterir." },
+        { title: "Hem 3 Hem 4 Katları", description: "12=3×4 olduğundan, tüm sonuçlar hem 3'e hem 4'e bölünebilir. 12×5=60: 60÷3=20, 60÷4=15." },
+        { title: "Çift Sayı Deseni", description: "12'nin tüm katları çifttir ve 4'e bölünebilir: 12, 24, 36, 48..." },
+      ],
+      13: [
+        { title: "10+3 Ayrıştırma", description: "13×n = (10×n) + (3×n). Örnek: 13×4 = 40 + 12 = 52. Bu strateji hesaplamayı kolaylaştırır." },
+        { title: "Birler Basamağı Döngüsü", description: "Birler basamağı: 3, 6, 9, 2, 5, 8, 1, 4, 7, 0 ve tekrarlanır. Tam 10 adımda bir döngü tamamlanır." },
+        { title: "Asal Sayı Davranışı", description: "13 asal olduğundan, sadece 1 ve 13 ile bölünebilir. Bu, özel ezber stratejileri gerektirir." },
+      ],
+      14: [
+        { title: "7'nin İki Katı", description: "14=2×7 olduğundan, 7 tablosunu biliyorsanız her sonucu ikiye katlayın: 7×6=42, yani 14×6=84." },
+        { title: "Hep Çift Sayılar", description: "14'ün tüm katları çifttir: 14, 28, 42, 56, 70, 84, 98, 112, 126, 140." },
+        { title: "İki Hafta Deseni", description: "14 gün = 2 hafta. 14'ün katları haftalık planlamada kullanılır: 28 gün = 4 hafta." },
+      ],
+      15: [
+        { title: "0 veya 5 ile Biter", description: "15'in tüm katları 0 veya 5 ile biter: 15, 30, 45, 60, 75, 90, 105, 120, 135, 150." },
+        { title: "3×5 İlişkisi", description: "15=3×5 olduğundan, hem 3 hem 5 tablolarıyla ilişkilidir. 15×4=60: 3×4=12, 5×4=20, 12+20=32 değil ama 3×20=60 veya 5×12=60." },
+        { title: "Çeyrek Saat Katları", description: "15 dakika = çeyrek saat. 30 dakika = yarım saat, 45 dakika = üç çeyrek, 60 dakika = 1 saat." },
+      ],
+      16: [
+        { title: "2'nin Kuvveti", description: "16=2⁴ (2×2×2×2). İkiye katlama zinciri: 2→4→8→16. Her katı da bu deseni korur." },
+        { title: "8'in İki Katı", description: "16=2×8 olduğundan, 8 tablosunu biliyorsanız her sonucu ikiye katlayın: 8×3=24, yani 16×3=48." },
+        { title: "Hep Çift ve 8'e Bölünebilir", description: "16'nın tüm katları hem çift hem de 4'e, 8'e bölünebilir: 16, 32, 48, 64, 80..." },
+      ],
+      17: [
+        { title: "20-3 Stratejisi", description: "17=20-3 olarak düşünün. 17×6 = (20×6) - (3×6) = 120 - 18 = 102." },
+        { title: "10+7 Ayrıştırma", description: "17×n = (10×n) + (7×n). Örnek: 17×4 = 40 + 28 = 68." },
+        { title: "Asal Sayı Benzersizliği", description: "17 asal sayıdır, bu yüzden sadece kendine özgü desenler vardır. Birler basamağı: 7, 4, 1, 8, 5, 2, 9, 6, 3, 0." },
+      ],
+      18: [
+        { title: "9'un İki Katı", description: "18=2×9 olduğundan, 9 tablosunu ikiye katlayın: 9×5=45, yani 18×5=90." },
+        { title: "6'nın Üç Katı", description: "18=3×6 olduğundan, 6 tablosunu üçe katlayın: 6×4=24, yani 18×4=72." },
+        { title: "Hep Çift ve 9'a Bölünebilir", description: "18'in katları hem çift hem de 9'a bölünebilir. Basamaklar toplamı 9'un katıdır: 18(1+8=9), 36(3+6=9), 54(5+4=9)." },
+      ],
+      19: [
+        { title: "20-1 Stratejisi", description: "19=20-1 olarak düşünün. 19×6 = (20×6) - 6 = 120 - 6 = 114. Çok pratik bir yöntem!" },
+        { title: "10+9 Ayrıştırma", description: "19×n = (10×n) + (9×n). Örnek: 19×3 = 30 + 27 = 57." },
+        { title: "Asal Sayı Deseni", description: "19 asal olduğundan özel desenler vardır. Birler basamağı: 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 (azalan sıra)." },
+      ],
+      20: [
+        { title: "Sonuna Sıfır Ekle ve İkiye Katla", description: "20=10×2. Bir sayıyı 20 ile çarpmak: sonuna 0 ekleyip ikiye katlayın. 7×20: 70×2=140 YANLIŞ! Doğrusu: 7×10=70, 70×2=140." },
+        { title: "Hep 0 ile Biter", description: "20'nin tüm katları 0 ile biter: 20, 40, 60, 80, 100, 120, 140, 160, 180, 200." },
+        { title: "Çift Onluklar", description: "20, 40, 60, 80, 100... Her biri 20 artış gösterir. 10'ların çift katlarıdır." },
+      ],
     }
     return patterns[number] || []
   }
@@ -298,6 +368,47 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       10: [
         { mistake: "Sıfırı unutmak", solution: "En kolay hatırlatma: 10 ile çarptığınızda SADECE sonuna bir sıfır ekleyin. 6×10=60, 25×10=250." },
         { mistake: "Çok fazla sıfır eklemek", solution: "10 ile çarpma SADECE bir sıfır ekler. 100 (iki sıfır), 1000 (üç sıfır) değil, sadece 10 (bir sıfır)." },
+      ],
+      11: [
+        { mistake: "11×12=121 olduğunu düşünmek (132 yerine)", solution: "Çift basamak deseni sadece 11×1'den 11×9'a kadar geçerlidir. 11×10=110, 11×12=132." },
+        { mistake: "Basamak toplama hilesini yanlış uygulamak", solution: "23×11: Basamakları topla (2+3=5), ortaya koy: 253. Eğer toplam >9 ise, elde var: 67×11: 6_(6+7=13)_7 = 6_(13)_7 = 737." },
+        { mistake: "11×11=111 sanmak", solution: "11×11=121, 111 değil. Her 11 katı, bir öncekine 11 ekler: 99+11=110, 110+11=121." },
+      ],
+      12: [
+        { mistake: "12×8=84 ile 12×9=108'i karıştırmak", solution: "12×8=96 (8 düzine), 12×9=108 (9 düzine). 84 aslında 12×7. Düzine sayarak kontrol edin." },
+        { mistake: "12 ile 10'u karıştırmak", solution: "12×5=60, 10×5=50. 12 her zaman 10'dan %20 fazladır (10'a 2 eklenmiş)." },
+      ],
+      13: [
+        { mistake: "13×7=91 ile 13×8=104'ü karıştırmak", solution: "13×7=91, 13×8=104. Aradaki fark 13'tür. 10+3 stratejisini kullanın: 70+21=91, 80+24=104." },
+        { mistake: "13'ü 3 veya 30 ile karıştırmak", solution: "13×4=52, 3×4=12 değil. 30×4=120 da değil. 13, tam olarak 10+3'tür." },
+      ],
+      14: [
+        { mistake: "14×7=98 sanmak (doğrusu 14×7=98)", solution: "14×7=98 doğru! Ama 14×8=112'yi unutmayın (98+14=112). 7 tablosunun iki katı olduğunu hatırlayın." },
+        { mistake: "14×6=72 ile 14×6=84'ü karıştırmak", solution: "14×6=84 doğrudur (7×6=42, ×2=84). 72 aslında 12×6 veya 8×9." },
+      ],
+      15: [
+        { mistake: "15×6=80 sanmak (90 yerine)", solution: "15×6=90 (1.5 düzine). 80 aslında 16×5. 15×6'yı 3×6=18, sonra ×5=90 veya 5×6=30, sonra ×3=90 olarak hesaplayın." },
+        { mistake: "15×4=50 ile karıştırmak", solution: "15×4=60, 50 değil. 15 dakika×4 = 1 saat (60 dakika) olduğunu hatırlayın." },
+      ],
+      16: [
+        { mistake: "16×6=84 ile 16×6=96'yı karıştırmak", solution: "16×6=96 doğrudur (8×6=48, ×2=96). 84 aslında 14×6 veya 12×7." },
+        { mistake: "16'yı 6 ile karıştırmak", solution: "16×4=64, 6×4=24 değil. 16, 6'dan çok farklıdır. 16=2⁴ olduğunu hatırlayın." },
+      ],
+      17: [
+        { mistake: "17×6=102 ile 17×7=119'u karıştırmak", solution: "20-3 stratejisi: 17×6=120-18=102, 17×7=140-21=119. Veya 10+7: 60+42=102, 70+49=119." },
+        { mistake: "17×8=126 ile 17×9=153'ü karıştırmak", solution: "17×8=136 (170-34), 17×9=153 (180-27). 126 aslında 18×7." },
+      ],
+      18: [
+        { mistake: "18×7=126 ile 18×8=144'ü karıştırmak", solution: "18×7=126 (9×7=63, ×2), 18×8=144 (9×8=72, ×2). Aradaki fark 18'dir." },
+        { mistake: "18×6=108 ile 18×6=104'ü karıştırmak", solution: "18×6=108 doğrudur (6×6=36, ×3 veya 9×6=54, ×2). 104 aslında 13×8." },
+      ],
+      19: [
+        { mistake: "19×5=100 sanmak (95 yerine)", solution: "19×5=95, 100 değil (20×5=100). 19, 20'den 1 eksiktir, bu yüzden 100-5=95." },
+        { mistake: "19×6=114 ile 19×7=133'ü karıştırmak", solution: "20-1 stratejisi: 19×6=120-6=114, 19×7=140-7=133. Her seferinde çarpanı 20'den çıkarın." },
+      ],
+      20: [
+        { mistake: "20×7=120 sanmak (140 yerine)", solution: "20×7=140, 120 değil (20×6=120). 10×7=70, ikiye katlayın: 140. Veya 7×20=7×10×2." },
+        { mistake: "Sıfırı unutmak", solution: "20'nin tüm katları 0 ile bitmeli: 20, 40, 60, 80, 100... 20×8=160, 16 değil!" },
       ],
     }
     return mistakes[number] || []
@@ -369,6 +480,76 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Yer değeri ilişkisini anlayın: 10 ile çarpmak bir basamak sola kaydırır",
         "Büyük sayılarla pratik yapın: 23×10=230, 47×10=470",
         "Bu tabloyu diğer tabloları kontrol etmek için kullanın (örn: 9×6 = 60-6)",
+      ],
+      11: [
+        "Çift basamak desenini ezberleyin: 11, 22, 33, 44, 55, 66, 77, 88, 99",
+        "Basamak toplama hilesini pratik edin: 23×11 = 253 (2_[2+3]_3)",
+        "11×11=121 ve 11×12=132'yi özel olarak ezberleyin",
+        "Şarkı veya kafiye oluşturun: 'On bir beş, elli beş' (11×5=55)",
+        "Her gün bir 11 katını gerçek hayatta bulun (11 yaş, 11 saat vb.)",
+      ],
+      12: [
+        "Düzine sayarak pratik yapın: yumurta kutularını sayın (12, 24, 36...)",
+        "3 veya 4 tablosunu kullanarak 12'yi hesaplayın: 12=3×4, yani 12×5 = 3×5×4 = 15×4 = 60",
+        "Saat dilimi kullanın: 12×5=60 dakika (1 saat)",
+        "12'nin en zor katlarına odaklanın: 12×7=84, 12×8=96, 12×9=108",
+        "Günlük hayatta 12 kullanın: aylar, saatler, düzineler",
+      ],
+      13: [
+        "10+3 stratejisini her zaman kullanın: 13×6 = 60+18 = 78",
+        "13 tablosunu şarkı haline getirin veya ritim bulun",
+        "En zor ikililere odaklanın: 13×7=91, 13×8=104, 13×9=117",
+        "Her gün 2-3 farklı 13 katını pratik edin, hepsini birden değil",
+        "Geriye doğru çalışın: 130, 117, 104, 91, 78... (130'dan 13'er azaltın)",
+      ],
+      14: [
+        "7 tablosunu ezberleyin, sonra her cevabı ikiye katlayın",
+        "İki haftalık takvim kullanın: 14 gün periyotları",
+        "14×7=98 ve 14×8=112'yi özellikle ezberleyin",
+        "7 tablosunu kontrol etmek için 14 kullanın: 14×6=84, yani 7×6=42",
+        "14'erli sayın: 14, 28, 42, 56, 70, 84, 98, 112, 126, 140",
+      ],
+      15: [
+        "Saat stratejisi: 15 dakika = çeyrek saat. 15×4=60 dakika = 1 saat",
+        "3 veya 5 tablosunu kullanın: 15=3×5, yani 15×4 = 3×4×5 = 12×5 = 60",
+        "0 veya 5 ile biten deseni takip edin: 15, 30, 45, 60, 75, 90...",
+        "Bah­şiş hesaplama pratiği: %15 bah­şiş nasıl hesaplanır (10%+5%)",
+        "15'in en kullanışlı katlarını ezberleyin: 15×4=60, 15×6=90, 15×8=120",
+      ],
+      16: [
+        "İkiye katlama zinciri: Sayıyı ikiye katla (×2), tekrar (×4), tekrar (×8), tekrar (×16)",
+        "8 tablosunu biliyorsanız her sonucu ikiye katlayın: 8×7=56, yani 16×7=112",
+        "16×16=256'yı özel olarak ezberleyin (2⁸=256)",
+        "Bilgisayar terimleriyle ilişkilendirin: 16 bit, onaltılık sistem",
+        "16'erli sayın: 16, 32, 48, 64, 80, 96, 112, 128, 144, 160",
+      ],
+      17: [
+        "20-3 stratejisini mükemmelleştirin: 17×n = 20n - 3n",
+        "10+7 ayrıştırma: 17×6 = 60+42 = 102",
+        "En zor ikilileri günlük pratik edin: 17×7=119, 17×8=136, 17×9=153",
+        "17 yaşla ilişkilendirin: 17 yaşında ne olur, 34 yaşında ne olur (17×2)",
+        "Sabırlı olun! 17 asal sayıdır, pratik gerektirir",
+      ],
+      18: [
+        "9 veya 6 tablosunu kullanın: 18=2×9 veya 18=3×6",
+        "9 tablosunu ikiye katlayın: 9×4=36, yani 18×4=72",
+        "6 tablosunu üçe katlayın: 6×5=30, yani 18×5=90",
+        "Reşit olma yaşıyla ilişkilendirin: 18, 36 (18×2), 54 (18×3)",
+        "18'erli sayın: 18, 36, 54, 72, 90, 108, 126, 144, 162, 180",
+      ],
+      19: [
+        "20-1 stratejisini her zaman kullanın: 19×n = 20n - n",
+        "Örnek: 19×7 = 140-7 = 133. Çok basit ve etkili!",
+        "10+9 ayrıştırma: 19×4 = 40+36 = 76",
+        "En zor katları pratik edin: 19×7=133, 19×8=152, 19×9=171",
+        "19 tablosunu geriye doğru öğrenin: 190, 171, 152, 133... zihinsel esneklik için",
+      ],
+      20: [
+        "En kolay: 10 ile çarp, sonra ikiye katla",
+        "Veya: Sonuna sıfır ekle, sonra ikiye katla (YANLIŞ yöntem! 7×20: 70 sonra ×2=140)",
+        "Doğru yöntem: 7×10=70, 70×2=140 veya 7×2=14, sonuna 0 ekle: 140",
+        "20'şerli hızlıca sayın: 20, 40, 60, 80, 100, 120, 140, 160, 180, 200",
+        "Para ile pratik yapın: 20 lira banknotlarını sayın",
       ],
     }
     return strategies[number] || [

@@ -1,5 +1,6 @@
 'use client'
 
+import { useRef } from 'react'
 import Link from 'next/link'
 import Footer from './Footer'
 import PracticePreview from './PracticePreview'
@@ -13,6 +14,8 @@ interface NumberPageProps {
 }
 
 export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageProps) {
+  const tableRef = useRef<HTMLDivElement>(null)
+  
   const colors = [
     'from-blue-500 to-indigo-600',
     'from-purple-500 to-pink-600',
@@ -22,6 +25,144 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
   ]
   
   const colorIndex = (number - 1) % colors.length
+
+  // Print function
+  const handlePrint = () => {
+    if (tableRef.current) {
+      const printWindow = window.open('', '', 'width=800,height=600')
+      if (printWindow) {
+        printWindow.document.write(`
+          <html>
+            <head>
+              <title>${number} Çarpım Tablosu</title>
+              <style>
+                body {
+                  font-family: Arial, sans-serif;
+                  padding: 20px;
+                  max-width: 600px;
+                  margin: 0 auto;
+                }
+                h1 {
+                  text-align: center;
+                  color: #1e40af;
+                  margin-bottom: 30px;
+                }
+                .table-item {
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 12px 20px;
+                  margin: 8px 0;
+                  background: #f0f9ff;
+                  border-radius: 8px;
+                  font-size: 18px;
+                }
+                .equation {
+                  font-weight: 500;
+                }
+                .result {
+                  font-weight: bold;
+                  color: #1e40af;
+                }
+                @media print {
+                  body { padding: 10px; }
+                  .table-item { page-break-inside: avoid; }
+                }
+              </style>
+            </head>
+            <body>
+              <h1>${number} Çarpım Tablosu</h1>
+              ${Array.from({ length: 10 }, (_, i) => `
+                <div class="table-item">
+                  <span class="equation">${number} × ${i + 1}</span>
+                  <span class="result">= ${number * (i + 1)}</span>
+                </div>
+              `).join('')}
+            </body>
+          </html>
+        `)
+        printWindow.document.close()
+        printWindow.focus()
+        setTimeout(() => {
+          printWindow.print()
+          printWindow.close()
+        }, 250)
+      }
+    }
+  }
+
+  // Download as image function
+  const handleDownload = async () => {
+    if (tableRef.current) {
+      try {
+        // Create a canvas to draw the table
+        const canvas = document.createElement('canvas')
+        const ctx = canvas.getContext('2d')
+        if (!ctx) return
+
+        // Set canvas size
+        canvas.width = 600
+        canvas.height = 700
+        
+        // Background gradient
+        const gradient = ctx.createLinearGradient(0, 0, 600, 700)
+        const gradients: { [key: number]: [string, string] } = {
+          0: ['#3b82f6', '#4f46e5'],
+          1: ['#a855f7', '#ec4899'],
+          2: ['#10b981', '#14b8a6'],
+          3: ['#f97316', '#ef4444'],
+          4: ['#06b6d4', '#3b82f6']
+        }
+        const [color1, color2] = gradients[colorIndex]
+        gradient.addColorStop(0, color1)
+        gradient.addColorStop(1, color2)
+        ctx.fillStyle = gradient
+        ctx.fillRect(0, 0, 600, 700)
+
+        // Title
+        ctx.fillStyle = '#ffffff'
+        ctx.font = 'bold 36px Arial'
+        ctx.textAlign = 'center'
+        ctx.fillText(\`${number} Çarpım Tablosu\`, 300, 60)
+
+        // Table items
+        ctx.font = '24px Arial'
+        let y = 120
+        for (let i = 1; i <= 10; i++) {
+          // Background for each row
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.2)'
+          ctx.beginPath()
+          ctx.roundRect(30, y - 30, 540, 50, 10)
+          ctx.fill()
+
+          // Text
+          ctx.fillStyle = '#ffffff'
+          ctx.textAlign = 'left'
+          ctx.font = '22px Arial'
+          ctx.fillText(\`${number} × \${i}\`, 50, y)
+          
+          ctx.textAlign = 'right'
+          ctx.font = 'bold 26px Arial'
+          ctx.fillText(\`= \${number * i}\`, 550, y)
+          
+          y += 60
+        }
+
+        // Convert to blob and download
+        canvas.toBlob((blob) => {
+          if (blob) {
+            const url = URL.createObjectURL(blob)
+            const link = document.createElement('a')
+            link.href = url
+            link.download = \`${number}-carpim-tablosu.png\`
+            link.click()
+            URL.revokeObjectURL(url)
+          }
+        })
+      } catch (error) {
+        console.error('Download failed:', error)
+      }
+    }
+  }
 
   // Number-specific content
   const getNumberMeaning = () => {
@@ -339,11 +480,38 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
 
             {/* Right: Multiplication Table */}
             <div className="lg:sticky lg:top-8">
-              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-3 sm:mb-4 text-center lg:text-left">
-                {number} Çarpım Tablosu
-              </h2>
+              <div className="flex items-center justify-between mb-3 sm:mb-4">
+                <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
+                  {number} Çarpım Tablosu
+                </h2>
+                
+                {/* Print and Download Buttons */}
+                <div className="flex gap-2">
+                  <button
+                    onClick={handlePrint}
+                    className="group flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 bg-white border-2 border-blue-200 text-blue-600 rounded-lg hover:bg-blue-50 hover:border-blue-300 transition-all text-xs sm:text-sm font-semibold"
+                    title="Yazdır"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                    </svg>
+                    <span className="hidden sm:inline">Yazdır</span>
+                  </button>
+                  
+                  <button
+                    onClick={handleDownload}
+                    className="group flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all text-xs sm:text-sm font-semibold shadow-md hover:shadow-lg"
+                    title="İndir"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    <span className="hidden sm:inline">İndir</span>
+                  </button>
+                </div>
+              </div>
               
-              <div className={`bg-gradient-to-br ${colors[colorIndex]} rounded-2xl p-4 sm:p-6 text-white shadow-xl`}>
+              <div ref={tableRef} className={`bg-gradient-to-br ${colors[colorIndex]} rounded-2xl p-4 sm:p-6 text-white shadow-xl`}>
                 <div className="space-y-1.5 sm:space-y-2">
                   {[...Array(10)].map((_, i) => (
                     <div key={i} className="flex justify-between items-center bg-white/20 backdrop-blur-sm rounded-lg px-3 sm:px-5 py-2 sm:py-2.5 hover:bg-white/30 transition-colors">

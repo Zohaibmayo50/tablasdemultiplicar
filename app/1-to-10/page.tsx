@@ -11,8 +11,6 @@ export default function MultiplicationTable1to10() {
     />
   )
 }
-          
-          <p className="text-lg text-slate-700 mb-4 leading-relaxed">
             1'den 10'a kadar olan çarpım tablosu, matematik öğreniminin en temel ve en önemli 
             yapı taşlarından biridir. Bu aralık, çarpma işleminin mantığını kavramak ve sayılar 
             arasındaki ilişkileri anlamak isteyen her öğrenci için başlangıç noktasıdır.

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import PracticePreview from './PracticePreview'
 import GamesSection from './GamesSection'
 import PrintableExercises from './PrintableExercises'
+import Footer from './Footer'
 
 interface RangePageProps {
   rangeStart: number
@@ -556,6 +557,9 @@ export default function RangePage({
           </p>
         </div>
       </section>
+
+      {/* Footer */}
+      <Footer />
     </main>
   )
 }

@@ -207,6 +207,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       38: "38 ile çarpmak, 19'un iki katıdır (38=2×19). 19 tablosunu biliyorsanız, her sonucu ikiye katlayarak 38 tablosunu bulabilirsiniz. 38'i 40-2 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. 38 derece Celsius insan vücut ısısı için hafif ateştir.",
       39: "39 ile çarpmak, 3×13 ilişkisini kullanır. 39=3×13 olduğundan, 13 tablosunu üçe katlayarak veya 3 tablosunu 13 ile çarparak hesaplanabilir. 39'u 40-1 olarak düşünmek en pratik yöntemdir. 39, 3'e ve 13'e bölünebilen ilginç bir sayıdır.",
       40: "40 ile çarpmak, 4×10 ilişkisini kullanır. Bir sayıyı 40 ile çarpmak için, onu 10 ile çarpıp sonucu 4 ile çarpabilirsiniz. Veya 4 ile çarpıp sonuna sıfır ekleyebilirsiniz. 40, günlük hayatta sıkça kullanılır: 40 saat çalışma haftası, 40 yaş orta yaş sayılır. 40 tablosu, 10'ların 4 katı olduğu için çok düzenlidir.",
+      41: "41 ile çarpmak, asal sayı özellikleri nedeniyle zihinsel matematik becerilerini geliştirir. 41'i 40+1 olarak düşünmek en pratik yöntemdir: bir sayıyı 40 ile çarpıp kendisini ekleyin. 41 asal bir sayıdır ve diğer tablolardan basitçe türetilemez. 41 tablosunu öğrenmek, büyük sayılarla hızlı hesaplama yapma yeteneğini artırır.",
+      42: "42 ile çarpmak, en çok yönlü tablolardan biridir. 42=6×7=2×21=3×14 olduğundan, birden fazla yoldan hesaplanabilir. 42, bilim kurgu kültüründe 'Çevre, Hayat ve Her Şeyin Nihai Cevabı' olarak ünlüdür (Otostöperün Galaksi Rehberi). 6 ve 7 tablolarını birleştirdiği için, her ikisini de pekiştirir.",
+      43: "43 ile çarpmak, asal sayı olması nedeniyle özel stratejiler gerektirir. 43'ü 40+3 veya 45-2 olarak düşünmek hesaplamaları kolaylaştırır. 43 asal sayıdır ve sadece 1 ve 43 ile bölünebilir. 43 tablosunu öğrenmek, sayılarla yaratıcı düşünme becerisini geliştirir.",
+      44: "44 ile çarpmak, 11'ün dört katıdır (44=4×11). 11 tablosunu biliyorsanız dörde katlayarak veya 4 tablosunu 11 ile çarparak hesaplayabilirsiniz. 44=2×22 ilişkisi de farklı bir yöntem sunar. 44, repdigit benzeri desen gösterir ve çift sayı özelliklerine sahiptir.",
+      45: "45 ile çarpmak, 5×9 ilişkisini kullanır. Her iki tablo da bilinen tablolarsa, 45 ile çarpma kolay olur. 45 derece yarım dik açıdır, geometride önemli bir açıdır. 45 dakika üç çeyrek saattir (45 dakika = 0.75 saat). 45'in tüm katları 5 veya 0 ile biter.",
+      46: "46 ile çarpmak, 23'ün iki katıdır (46=2×23). 23 tablosunu biliyorsanız, her sonucu ikiye katlayarak 46 tablosunu bulabilirsiniz. 46'yı 45+1 veya 50-4 olarak düşünmek hesaplamaları kolaylaştırır. 46, insan kromozomlarının toplam sayısıdır (23 çift).",
+      47: "47 ile çarpmak, asal sayı özellikleri nedeniyle zihinsel stratejiler gerektirir. 47'yi 50-3 veya 45+2 olarak düşünmek en etkili yöntemlerdir. 47 asal bir sayıdır ve özel matematiksel özelliklere sahiptir. 47 tablosunu öğrenmek, karmaşık sayılarla rahatça çalışma becerisini geliştirir.",
+      48: "48 ile çarpmak, çok sayıda çarpan ilişkisine sahiptir. 48=6×8=4×12=3×16=2×24 olduğundan, birden fazla yoldan hesaplanabilir. 48, 12'nin 4 katı olduğu için düzine hesaplamalarında kullanışlıdır (4 düzine). 48 saat = 2 gün, zaman hesaplamalarında sıkça karşılaşılır.",
+      49: "49 ile çarpmak, 7'nin karesidir (49=7×7=7²). Bu özel ilişki, 7 tablosunu mükemmel bilmeyi gerektirir. 49'u 50-1 olarak düşünmek zihinsel hesaplamayı çok kolaylaştırır. 49, kare sayı olduğu için geometri ve alan hesaplamalarında önemlidir. 49 aynı zamanda 7×7 satranç tahtası değil, ama matematik desenleri için önemli.",
+      50: "50 ile çarpmak, 5×10 ilişkisini kullanır ve en kolay tablolardan biridir. Bir sayıyı 50 ile çarpmak için, onu 5 ile çarpıp sonuna sıfır ekleyebilirsiniz. Veya 100'ün yarısı olarak düşünebilirsiniz. 50, yarım yüzyıl, yarım saat (30 dakika değil, 50 birimlik sistemlerde), ve yüzde hesaplamalarında (50%=1/2) sıkça kullanılır.",
     }
     return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
   }
@@ -253,6 +263,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       38: "38 çarpım tablosu, 19 tablosunu pekiştirmeye yardımcı olur. 38=2×19 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. 40-2 yaklaşımı, tamamlayıcı sayılar kullanmayı öğretir. Sağlık bağlamında (vücut ısısı) pratik öneme sahiptir.",
       39: "39 çarpım tablosu, 3 ve 13 tablolarını birleştirerek matematiksel bağlantıları güçlendirir. 40-1 stratejisi, 40 gibi yuvarlak sayıları kullanarak hızlı hesaplama yapmayı öğretir. Bu tablo, çoklu çarpanlara ayrıştırma (3×13) becerilerini geliştirir ve zihinsel esneklik kazandırır.",
       40: "40 çarpım tablosu, onluk sistemi derin anlamak için mükemmeldir. 40=4×10 ilişkisi, yer değeri ve çarpma arasındaki bağlantıyı gösterir. Çalışma saatleri (40 saatlik hafta) ve sosyal normlar (40 yaş) nedeniyle günlük hayatta çok kullanılır. Bu tablo, büyük sayılar ve yüzde hesaplamaları için temel oluşturur.",
+      41: "41 çarpım tablosu, asal sayı stratejilerini ileri seviyeye taşır. 40+1 yaklaşımı, tamamlayıcı sayıları kullanmada ustalaşmayı sağlar. Asal sayı olduğu için, zihinsel esneklik ve yaratıcı problem çözme gerektirir. Bu tablo, büyük sayılarla hızlı hesaplama yapma becerisini geliştirir.",
+      42: "42 çarpım tablosu, çarpanlara ayırma becerilerini mükemmelleştirir. 42=6×7=2×21=3×14 ilişkileri, matematiksel bağlantıları görmeyi öğretir. 6 ve 7 tablolarını birleştirdiği için, her ikisini de pekiştirir. Pop kültür referansları (Hitchhiker's Guide) nedeniyle aklıda kalıcıdır.",
+      43: "43 çarpım tablosu, asal sayı özellikleri ve zihinsel hesaplama stratejilerini geliştirir. 40+3 veya 45-2 gibi alternatif yaklaşımlar, matematiksel düşünmede esneklik sağlar. Bu tablo, sayılarla yaratıcı çalışma becerisini artırır ve problem çözme stratejilerini zenginleştirir.",
+      44: "44 çarpım tablosu, 11 tablosunu pekiştirmek için mükemmeldir. 44=4×11 ilişkisi, çoklu çarpma becerilerini geliştirir. Repdigit benzeri desen (44, 88) görsel tanımayı kolaylaştırır. Çift sayı özelliklerini ve dördün katı olmayı anlamayı derinleştirir.",
+      45: "45 çarpım tablosu, 5 ve 9 tablolarını birleştirerek matematiksel ilişkileri güçlendirir. Geometride (45° açı) ve zaman hesaplamalarında (üç çeyrek saat) sık kullanılır. 5×9 ilişkisi, hem 5 hem 9 tablolarını pekiştirir. Bu tablo, pratik matematik ve günlük hesaplamalar için çok kullanışlıdır.",
+      46: "46 çarpım tablosu, 23 tablosunu pekiştirmeye yardımcı olur. 46=2×23 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. Biyolojide (46 kromozom) önemli bir sayıdır. Bu tablo, çift sayı özelliklerini ve büyük sayı hesaplamalarını geliştirir.",
+      47: "47 çarpım tablosu, asal sayı stratejilerini en üst seviyeye çıkarır. 50-3 yaklaşımı, yuvarlak sayılardan çıkarma stratejisini mükemmelleştirir. Asal özellikler nedeniyle, zihinsel esneklik ve alternatif çözüm yöntemleri gerektirir. Bu tablo, ileri düzey zihinsel matematik becerileri kazandırır.",
+      48: "48 çarpım tablosu, en çok yönlü tablolardan biridir. Birçok böleni olması (1,2,3,4,6,8,12,16,24,48), kesirler ve oranlar için ideal yapar. Düzine sisteminde (4 düzine) ve zaman hesaplamalarında (48 saat=2 gün) kullanılır. Çoklu çarpan ilişkileri, matematiksel bağlantıları anlamayı derinleştirir.",
+      49: "49 çarpım tablosu, kare sayıları (7²) anlamak için kritiktir. 7 tablosunu mükemmel bilmeyi gerektirir ve pekiştirir. 50-1 stratejisi, yuvarlak sayıları kullanarak hızlı hesaplama yapmayı öğretir. Geometri ve alan hesaplamalarında, kare özellikler nedeniyle önemlidir.",
+      50: "50 çarpım tablosu, yüzde hesaplamalarının (50%=1/2) temelini oluşturur. 5×10 ilişkisi, onluk sistemi ve çarpmayı birleştirir. Yarım kavramı (½) ile doğrudan bağlantılıdır. Para sistemlerinde (50 kuruş, 50 lira), zaman ölçümlerinde ve günlük matematikte sürekli kullanılır. Bu tablo, pratik hesaplama becerilerini önemli ölçüde geliştirir.",
     }
     return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
   }
@@ -459,6 +479,56 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { title: "Hep 0 ile Biter", description: "40'ın tüm katları 0 ile biter: 40, 80, 120, 160, 200, 240, 280, 320, 360, 400." },
         { title: "10'ların Dört Katı", description: "40, 80, 120, 160, 200... Her biri 40 artış. 10'ların 4 katıdır." },
       ],
+      41: [
+        { title: "40+1 Stratejisi", description: "41=40+1. 41×n = (40×n) + n. Örnek: 41×6 = 240 + 6 = 246. En pratik yöntem!" },
+        { title: "Asal Sayı Özellikleri", description: "41 asal olduğundan sadece 1 ve 41 ile bölünebilir. Birler basamağı: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0." },
+        { title: "45-4 veya 50-9", description: "Alternatif stratejiler: 41×4 = 180-16 = 164. Veya 41×5 = 250-45 = 205." },
+      ],
+      42: [
+        { title: "6×7 İlişkisi", description: "42=6×7. Hem 6 hem 7 tablolarını kullanabilirsiniz: 42×3 = 6×3×7 = 18×7 = 126." },
+        { title: "2×21 veya 3×14", description: "42=2×21=3×14. Birden fazla yolla hesaplanabilir: 42×5 = 21×10 = 210." },
+        { title: "Hep 6'ya Bölünebilir", description: "42'nin tüm katları hem 2'ye, 3'e, 6'ya, 7'ye bölünebilir: 42, 84, 126, 168, 210..." },
+      ],
+      43: [
+        { title: "40+3 veya 45-2", description: "43=40+3 veya 45-2. Örnek: 43×7 = 280+21 = 301 veya 315-14 = 301." },
+        { title: "Asal Sayı Deseni", description: "43 asal olduğundan özel stratejiler gerekir. Birler basamağı: 3, 6, 9, 2, 5, 8, 1, 4, 7, 0." },
+        { title: "50-7 Stratejisi", description: "Büyük sayılarla: 43×8 = 400-56 = 344. 50'den çıkarma alternatif yöntemdir." },
+      ],
+      44: [
+        { title: "11'in Dört Katı", description: "44=4×11. 11 tablosunu dörde katlayın: 11×6=66, yani 44×6=264." },
+        { title: "Repdigit Benzeri", description: "44×1=44, 44×2=88. İlk 2'si çift basamak gösterir. Sonra 132, 176, 220..." },
+        { title: "Hep Çift ve 4'e Bölünebilir", description: "44'ün tüm katları hem çift hem de 4'e, 11'e bölünebilir: 44, 88, 132, 176, 220..." },
+      ],
+      45: [
+        { title: "5×9 İlişkisi", description: "45=5×9. Hem 5 hem 9 tablolarını kullanabilirsiniz: 45×4 = 5×4×9 = 20×9 = 180." },
+        { title: "5 veya 0 ile Biter", description: "45'in tüm katları 5 veya 0 ile biter: 45, 90, 135, 180, 225, 270, 315, 360..." },
+        { title: "9'a Bölünebilir", description: "45'in tüm katları 9'a bölünebilir. Basamaklar toplamı 9'un katıdır: 135 (1+3+5=9)." },
+      ],
+      46: [
+        { title: "23'ün İki Katı", description: "46=2×23. 23 tablosunu ikiye katlayın: 23×7=161, yani 46×7=322." },
+        { title: "45+1 veya 50-4", description: "46×n = (45×n) + n veya (50×n) - (4×n). Örnek: 46×5 = 225+5 = 230." },
+        { title: "Hep Çift Sayılar", description: "46'nın tüm katları çifttir: 46, 92, 138, 184, 230, 276, 322, 368, 414, 460." },
+      ],
+      47: [
+        { title: "50-3 Stratejisi", description: "47=50-3. 47×n = (50×n) - (3×n). Örnek: 47×6 = 300 - 18 = 282. En etkili!" },
+        { title: "45+2 Alternatifi", description: "47=45+2. Örnek: 47×8 = 360 + 16 = 376. 45 tablosunu biliyorsanız kullanışlı." },
+        { title: "Asal Sayı Benzersizliği", description: "47 asal olduğundan özel desenler vardır. Birler basamağı: 7, 4, 1, 8, 5, 2, 9, 6, 3, 0." },
+      ],
+      48: [
+        { title: "Çoklu Çarpan İlişkileri", description: "48=6×8=4×12=3×16=2×24. Birçok yoldan hesaplanabilir: 48×5 = 12×20 = 240." },
+        { title: "Hep Çift ve Çoklu Bölenler", description: "48'in tüm katları hem 2'ye, 3'e, 4'e, 6'ya, 8'e, 12'ye bölünebilir." },
+        { title: "50-2 Stratejisi", description: "48=50-2. Örnek: 48×7 = 350 - 14 = 336. Yuvarlak sayılardan çıkarma." },
+      ],
+      49: [
+        { title: "7'nin Karesi", description: "49=7². 7 tablosunu kullanın: 49×3 = 7×7×3 = 7×21 = 147. Veya 7×3×7." },
+        { title: "50-1 Stratejisi", description: "49=50-1. 49×n = (50×n) - n. Örnek: 49×6 = 300 - 6 = 294. Çok kolay!" },
+        { title: "Kare Sayı Deseni", description: "49, 98, 147, 196, 245... 7'nin katlarının 7 katı. Ayrıca 7²×1, 7²×2, 7²×3..." },
+      ],
+      50: [
+        { title: "5×10 İlişkisi", description: "50=5×10. Bir sayıyı 50 ile çarpmak: 5 ile çarp, sonuna 0 ekle. 8×50: 8×5=40, sonuna 0: 400." },
+        { title: "Hep 0 veya 50 ile Biter", description: "50'nin tüm katları 0 veya 50 ile biter: 50, 100, 150, 200, 250, 300, 350, 400..." },
+        { title: "100'ün Yarısı", description: "50×n = (100×n)÷2. Örnek: 50×7 = 700÷2 = 350. Yüzde hesaplamalarında kullanışlı." },
+      ],
     }
     return patterns[number] || []
   }
@@ -630,6 +700,46 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       40: [
         { mistake: "40×7=270 sanmak (280 yerine)", solution: "40×7=280, 270 değil. 4×7=28, sonuna 0 ekle: 280. Veya 10×7=70, ×4=280." },
         { mistake: "Sıfırı unutmak", solution: "40'ın tüm katları 0 ile bitmeli: 40, 80, 120, 160, 200... 40×9=360, 36 değil!" },
+      ],
+      41: [
+        { mistake: "41×5=200 sanmak (205 yerine)", solution: "41×5=205, 200 değil. 40×5=200, artı 5: 205. Her zaman o ekstra 1'i eklemeyi unutmayın." },
+        { mistake: "41×9=360 ile 41×9=369'u karıştırmak", solution: "41×9=369 doğrudur (40×9=360, artı 9). 360 aslında 40×9." },
+      ],
+      42: [
+        { mistake: "42×5=200 sanmak (210 yerine)", solution: "42×5=210, 200 değil. 6×5=30, 7×5=35, 30+35=65... Veya 40×5=200, artı 2×5=10: 210." },
+        { mistake: "42×8=326 ile 42×8=336'yı karıştırmak", solution: "42×8=336 doğrudur (6×8=48, 7×8=56 veya 40×8=320, artı 16). 326 başka bir sonuçtur." },
+      ],
+      43: [
+        { mistake: "43×5=205 sanmak (215 yerine)", solution: "43×5=215, 205 değil. 40×5=200, artı 3×5=15: 215. 205 aslında 41×5." },
+        { mistake: "43×9=377 ile 43×9=387'yi karıştırmak", solution: "43×9=387 doğrudur (40×9=360, artı 3×9=27). 377 başka bir sonuçtur." },
+      ],
+      44: [
+        { mistake: "44×5=210 sanmak (220 yerine)", solution: "44×5=220, 210 değil. 11×5=55, ×4=220. Veya 40×5=200, artı 4×5=20: 220." },
+        { mistake: "44×9=386 ile 44×9=396'yı karıştırmak", solution: "44×9=396 doğrudur (11×9=99, ×4 veya 40×9=360, artı 4×9=36). 386 başka bir sonuçtur." },
+      ],
+      45: [
+        { mistake: "45×5=220 sanmak (225 yerine)", solution: "45×5=225, 220 değil. 9×5=45, ×5=225. Veya 40×5=200, artı 5×5=25: 225." },
+        { mistake: "45×8=350 ile 45×8=360'ı karıştırmak", solution: "45×8=360 doğrudur (9×8=72, ×5 veya 5×8=40, ×9). 350 başka bir sonuçtur." },
+      ],
+      46: [
+        { mistake: "46×5=225 sanmak (230 yerine)", solution: "46×5=230, 225 değil. 23×5=115, ×2=230. Veya 50×5=250, eksi 4×5=20: 230." },
+        { mistake: "46×9=404 ile 46×9=414'ü karıştırmak", solution: "46×9=414 doğrudur (23×9=207, ×2 veya 50×9=450, eksi 4×9=36). 404 başka bir sonuçtur." },
+      ],
+      47: [
+        { mistake: "47×5=230 sanmak (235 yerine)", solution: "47×5=235, 230 değil. 50×5=250, eksi 3×5=15: 235. 230 aslında 46×5." },
+        { mistake: "47×9=413 ile 47×9=423'ü karıştırmak", solution: "47×9=423 doğrudur (50×9=450, eksi 3×9=27). 413 başka bir sonuçtur." },
+      ],
+      48: [
+        { mistake: "48×5=230 sanmak (240 yerine)", solution: "48×5=240, 230 değil. 6×5=30, 8×5=40, 30×8=240. Veya 50×5=250, eksi 2×5=10: 240." },
+        { mistake: "48×9=422 ile 48×9=432'yi karıştırmak", solution: "48×9=432 doğrudur (6×9=54, ×8 veya 50×9=450, eksi 2×9=18). 422 başka bir sonuçtur." },
+      ],
+      49: [
+        { mistake: "49×5=240 sanmak (245 yerine)", solution: "49×5=245, 240 değil. 50×5=250, eksi 5: 245. Veya 7×5=35, ×7=245." },
+        { mistake: "49×9=431 ile 49×9=441'i karıştırmak", solution: "49×9=441 doğrudur (50×9=450, eksi 9). Ayrıca 441=21² (kare sayı). 431 başka bir sonuçtur." },
+      ],
+      50: [
+        { mistake: "50×7=340 sanmak (350 yerine)", solution: "50×7=350, 340 değil. 5×7=35, sonuna 0 ekle: 350. Veya 100×7=700, ÷2=350." },
+        { mistake: "Sıfırı unutmak", solution: "50'nin tüm tek katları 50 ile, çift katları 0 ile biter: 50, 100, 150, 200, 250... 50×8=400, 40 değil!" },
       ],
     }
     return mistakes[number] || []
@@ -911,6 +1021,76 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Çalışma haftası: 40 saat standart çalışma",
         "40'arlı sayın: 40, 80, 120, 160, 200, 240, 280, 320, 360, 400",
         "Yüzde hesaplama: 40% = 2/5",
+      ],
+      41: [
+        "40+1 stratejisi MÜKEMMEL: 41×n = 40n + n",
+        "Örnek: 41×7 = 280 + 7 = 287. Çok kolay!",
+        "41'erli sayın: 41, 82, 123, 164, 205, 246, 287, 328, 369, 410",
+        "En zor katları pratik edin: 41×7=287, 41×8=328",
+        "Asal sayı olduğunu hatırlayın: Sadece 1 ve 41 ile bölünür",
+      ],
+      42: [
+        "6×7 ilişkisini kullanın: Her iki tabloyu da pekiştirir",
+        "42'şerli sayın: 42, 84, 126, 168, 210, 252, 294, 336, 378, 420",
+        "Çoklu yöntemler: 42=6×7=2×21=3×14. Hangisi daha kolay?",
+        "Hitchhiker's Guide referansı: 42 popüler kültürde ünlü!",
+        "En zor katları pratik edin: 42×7=294, 42×8=336",
+      ],
+      43: [
+        "40+3 veya 45-2 stratejilerini deneyin",
+        "Örnek: 43×6 = 240+18 = 258 veya 270-12 = 258",
+        "43'erli sayın: 43, 86, 129, 172, 215, 258, 301, 344, 387, 430",
+        "En zor katları pratik edin: 43×7=301, 43×8=344",
+        "Asal sayı: Yaratıcı stratejiler gerektiren özel bir sayı",
+      ],
+      44: [
+        "11'in dört katı: 11 tablosunu dörde katlayın",
+        "Örnek: 11×7=77, ×4=308, yani 44×7=308",
+        "44'erli sayın: 44, 88, 132, 176, 220, 264, 308, 352, 396, 440",
+        "Repdigit benzeri: 44, 88 çift basamak deseni gösterir",
+        "En zor katları pratik edin: 44×7=308, 44×9=396",
+      ],
+      45: [
+        "5×9 ilişkisi: Her iki tabloyu da kullanabilirsiniz",
+        "Örnek: 45×7 = 9×7×5 = 63×5 = 315",
+        "45'erli sayın: 45, 90, 135, 180, 225, 270, 315, 360, 405, 450",
+        "Açı: 45° yarım dik açı, geometride önemli",
+        "Zaman: 45 dakika = üç çeyrek saat (3/4 saat)",
+      ],
+      46: [
+        "23'ün iki katı: 23 tablosunu ikiye katlayın",
+        "Örnek: 23×7=161, ×2=322, yani 46×7=322",
+        "45+1 veya 50-4 stratejileri: 46×5 = 225+5 = 230",
+        "46'şarlı sayın: 46, 92, 138, 184, 230, 276, 322, 368, 414, 460",
+        "Biyoloji: 46 kromozom (23 çift) insan DNA'sında",
+      ],
+      47: [
+        "50-3 stratejisi MUKEMMELDİR: 47×n = 50n - 3n",
+        "Örnek: 47×7 = 350 - 21 = 329. Çok kolay!",
+        "47'şerli sayın: 47, 94, 141, 188, 235, 282, 329, 376, 423, 470",
+        "En zor katları pratik edin: 47×7=329, 47×8=376",
+        "Asal sayı: Özel zihinsel stratejiler gerektirir",
+      ],
+      48: [
+        "Çoklu yöntemler: 48=6×8=4×12=3×16=2×24",
+        "Örnek: 48×5 = 12×20 = 240",
+        "48'erli sayın: 48, 96, 144, 192, 240, 288, 336, 384, 432, 480",
+        "Zaman: 48 saat = 2 gün. 72 saat = 3 gün",
+        "En zor katları pratik edin: 48×7=336, 48×9=432",
+      ],
+      49: [
+        "7'nin karesi: 49=7×7. 7 tablosunu pekiştirir",
+        "50-1 stratejisi ÇOK KOLAY: 49×n = 50n - n",
+        "Örnek: 49×7 = 350 - 7 = 343. Basit!",
+        "49'arlı sayın: 49, 98, 147, 196, 245, 294, 343, 392, 441, 490",
+        "Kare sayı: 49=7² geometride alan hesaplamaları için",
+      ],
+      50: [
+        "5×10 stratejisi: 5 ile çarp, sonuna 0 ekle",
+        "Örnek: 8×50: 8×5=40, sonuna 0 ekle: 400",
+        "100'ün yarısı: 50×7 = 350 (700÷2)",
+        "50'şerli sayın: 50, 100, 150, 200, 250, 300, 350, 400, 450, 500",
+        "Yüzde: 50% = 1/2, en önemli yüzde ilişkisi",
       ],
     }
     return strategies[number] || [

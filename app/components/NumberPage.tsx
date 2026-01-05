@@ -187,6 +187,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       18: "18 ile çarpmak, birçok ilişki içerir. 18 = 2 × 9 = 3 × 6 olduğundan, bu tabloyu birden fazla yoldan öğrenebilirsiniz. 9 tablosunu ikiye katlamak veya 6 tablosunu üçe katlamak 18 tablosunu verir. 18, reşit olma yaşı olarak birçok ülkede önemlidir.",
       19: "19 ile çarpmak, 19'un asal sayı olması nedeniyle diğer tablolardan türetilemez. Ancak 19'u 20-1 olarak düşünmek çok pratiktir: bir sayıyı 20 ile çarpıp kendisini çıkarın. Bu strateji, 19 tablosunu zihinsel olarak hesaplamayı çok kolaylaştırır.",
       20: "20 ile çarpmak, 10 tablosunun doğal uzantısıdır. Herhangi bir sayıyı 20 ile çarptığınızda, onu 10 ile çarpıp sonucu ikiye katlayabilirsiniz. Veya basitçe sonuna bir sıfır ekleyip ikiye katlayın. 20 tablosu, para hesaplamalarında (20 lira) ve ölçümlerde (20 metre, 20 kilogram) sürekli kullanılır.",
+      21: "21 ile çarpmak, 3×7 ilişkisini anlamayı gerektirir. 21=3×7 olduğundan, bu tablo hem 3 hem de 7 tablolarının özelliklerini taşır. 21, yasal reşit olma yaşı olarak birçok ülkede önemlidir. 21'i 20+1 olarak düşünmek hesaplamaları kolaylaştırır: bir sayıyı 20 ile çarpıp kendisini ekleyin.",
+      22: "22 ile çarpmak, 11'in iki katıdır (22=2×11). 11 tablosunu biliyorsanız, her sonucu ikiye katlayarak 22 tablosunu bulabilirsiniz. 22 aynı zamanda 2×11 olduğundan çift sayı özelliklerini gösterir. 22, futbol takımındaki oyuncu sayısı (2×11) olarak sporda sıkça görülür.",
+      23: "23 ile çarpmak, asal sayı özellikleri nedeniyle diğer tablolardan türetilemez. Ancak 23'ü 20+3 veya 25-2 olarak düşünmek hesaplamaları kolaylaştırır. 23, insan kromozom çiftlerinin sayısıdır, bu da biyolojide önemli bir sayıdır. 23 tablosunu öğrenmek, zihinsel aritmetik becerilerini güçlendirir.",
+      24: "24 ile çarpmak, en çok yönlü çarpım tablolarından biridir. 24=2×12=3×8=4×6 olduğundan, birçok farklı yoldan hesaplanabilir. 24 saat bir gün olduğu için, zaman hesaplamalarında temel bir sayıdır. 24 aynı zamanda 2 düzine olup, paketleme ve gruplama işlemlerinde sıkça kullanılır.",
+      25: "25 ile çarpmak, 5×5 (5²) ilişkisini kullanır. 25, 5'in karesi olduğundan çok özel matematiksel özelliklere sahiptir. 25 kuruş çeyrek lira, 25 sent ABD'de çeyrek dolar olduğu için para hesaplamalarında önemlidir. 25'in tüm katları 25, 50, 75, 00 ile biter - çok düzenli bir desen.",
+      26: "26 ile çarpmak, 13'ün iki katıdır (26=2×13). 13 tablosunu biliyorsanız, her sonucu ikiye katlayarak 26 tablosunu bulabilirsiniz. 26 harf İngiliz alfabesindeki harf sayısıdır. 26'yı 25+1 veya 30-4 olarak düşünmek hesaplamaları kolaylaştırır.",
+      27: "27 ile çarpmak, 3'ün 3. kuvvetidir (27=3³=3×3×3). Bu özel ilişki, 27'yi matematik ve geometride önemli yapar. 27=3×9 olduğundan, 3 veya 9 tablolarını kullanarak hesaplanabilir. 27'yi 30-3 olarak düşünmek zihinsel hesaplamayı kolaylaştırır.",
+      28: "28 ile çarpmak, 4×7 ilişkisini kullanır. 28=4×7=2×14 olduğundan, birden fazla yoldan öğrenilebilir. 28 gün Şubat ayının gün sayısıdır (artık yıl değilse). 28 aynı zamanda mükemmel sayıdır (bölenlerinin toplamı kendisine eşittir: 1+2+4+7+14=28).",
+      29: "29 ile çarpmak, asal sayı olması nedeniyle özel stratejiler gerektirir. 29'u 30-1 olarak düşünmek en pratik yöntemdir: bir sayıyı 30 ile çarpıp kendisini çıkarın. 29 gün Şubat ayının artık yıllardaki gün sayısıdır. 29 tablosunu öğrenmek, problem çözme becerilerini geliştirir.",
+      30: "30 ile çarpmak, 10×3 ilişkisini kullanır. Bir sayıyı 30 ile çarpmak için, onu 10 ile çarpıp sonucu 3 ile çarpabilirsiniz. 30 gün birçok ayın gün sayısıdır (Nisan, Haziran, Eylül, Kasım). 30 aynı zamanda yarım saattir (30 dakika). 30 tablosu, yüzde hesaplamalarında (30% indirim) sıkça kullanılır.",
     }
     return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
   }
@@ -213,6 +223,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       18: "18 çarpım tablosu, matematiksel ilişkilerin zenginliğini gösterir. 18=2×9=3×6 olması, çarpanların farklı kombinasyonlarını anlamayı öğretir. Reşit olma yaşı olarak kültürel önemi vardır. Bu tablo, birden fazla stratejiyle bir probleme yaklaşmayı ve en verimli yöntemi seçmeyi öğretir.",
       19: "19 çarpım tablosu, zihinsel hesaplama becerilerini en üst düzeye çıkarır. '20-1' stratejisi, öğrencilere tamamlayıcı sayıları kullanmayı öğretir. Asal sayı olması, desen tanımadan ziyade gerçek anlamayı vurgular. Bu tablo, karmaşık hesaplamaları basit adımlara bölme becerisini geliştirir.",
       20: "20 çarpım tablosu, yer değeri sistemini pekiştirmek ve büyük sayılarla rahatça çalışmak için kritiktir. 20=2×10 ilişkisi, onluk sistemi anlamayı derinleştirir. Para hesaplamalarında (20 lira banknotları) ve ölçümlerde sürekli kullanılır. Bu tablo, yüzde hesaplamalarının (20% indirim) temelini oluşturur.",
+      21: "21 çarpım tablosu, 3×7 çarpanlara ayırma ilişkisini anlamak için mükemmeldir. Bu tablo, öğrencilere bir sayının birden fazla çarpanı olabileceğini gösterir. 21, yasal işlemler ve reşit olma yaşı olarak sosyal önem taşır. Bu tabloyu öğrenmek, çarpanlar ve katlar arasındaki ilişkileri anlamayı derinleştirir.",
+      22: "22 çarpım tablosu, 11 tablosunu pekiştirmeye yardımcı olur. 22=2×11 ilişkisi, ikiye katlama stratejilerini güçlendirir. Spor (futbol takımı) ve günlük sayma işlemlerinde kullanılır. Bu tablo, çift sayı özelliklerini ve matematiksel ilişkileri anlamayı geliştirir.",
+      23: "23 çarpım tablosu, asal sayılarla çalışma becerilerini geliştirir. Diğer tablolardan türetilemediği için, öğrenciler yeni stratejiler geliştirmek zorunda kalır. 23, biyolojide (kromozom çiftleri) önemli bir sayıdır. Bu tabloyu öğrenmek, zihinsel esneklik ve problem çözme yeteneklerini artırır.",
+      24: "24 çarpım tablosu, günlük hayatta en kullanışlı tablolardan biridir. Gün-saat ilişkisi (24 saat) nedeniyle sürekli karşılaşılır. 24'ün birçok böleni olması (1,2,3,4,6,8,12,24), onu kesirler ve oranlar için ideal yapar. Bu tablo, zaman yönetimi ve planlama becerilerini geliştirir.",
+      25: "25 çarpım tablosu, kare sayıları (5²) anlamak için temeldir. Para sistemlerinde (25 kuruş/sent) merkezi role sahiptir. 25'in düzenli deseni (25,50,75,00), hesaplamaları çok kolaylaştırır. Bu tablo, yüzde hesaplamalarında (25%=1/4) ve kesirlerde sıkça kullanılır.",
+      26: "26 çarpım tablosu, 13 tablosunu pekiştirmeye yardımcı olur. Alfabetik sistemlerde (26 harf) önemlidir. 26=2×13 ilişkisi, asal sayılarla çift sayılar arasındaki bağlantıyı gösterir. Bu tabloyu öğrenmek, matematiksel ilişkileri görme yeteneğini geliştirir.",
+      27: "27 çarpım tablosu, üslü sayıları (3³) anlamak için kritiktir. Geometride (3D uzayda 3×3×3 küp) ve hacim hesaplamalarında önemlidir. 27=3×9 ilişkisi, 3 ve 9 tabloları arasındaki bağlantıyı güçlendirir. Bu tablo, matematiksel düşünme ve üslü sayılar konusunda temel oluşturur.",
+      28: "28 çarpım tablosu, takvim bilgisi (Şubat ayı) için önemlidir. 28'in mükemmel sayı olması (bölenler toplamı kendisine eşit), özel matematiksel özellikler gösterir. 28=4×7 ilişkisi, çarpanlara ayırmayı anlamayı derinleştirir. Bu tablo, zaman hesaplamaları ve haftalık planlamada kullanılır.",
+      29: "29 çarpım tablosu, asal sayı stratejilerini mükemmelleştirmek için mükemmeldir. 30-1 ilişkisi, tamamlayıcı sayıları kullanmayı öğretir. Takvim bilgisi (artık yıl Şubat'ı) için gereklidir. Bu tabloyu öğrenmek, zihinsel hesaplama becerilerini en üst düzeye çıkarır.",
+      30: "30 çarpım tablosu, onluk sistem ve çarpma arasındaki köprüdür. 30=3×10 ilişkisi, yer değeri anlayışını güçlendirir. Zaman (yarım saat), takvim (ay günleri) ve açı ölçümlerinde (30°) sürekli kullanılır. Bu tablo, yüzde hesaplamalarının (30% indirim) ve pratik matematiğin temelini oluşturur.",
     }
     return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
   }
@@ -319,6 +339,56 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { title: "Hep 0 ile Biter", description: "20'nin tüm katları 0 ile biter: 20, 40, 60, 80, 100, 120, 140, 160, 180, 200." },
         { title: "Çift Onluklar", description: "20, 40, 60, 80, 100... Her biri 20 artış gösterir. 10'ların çift katlarıdır." },
       ],
+      21: [
+        { title: "3×7 İlişkisi", description: "21=3×7. Hem 3 hem 7 tablosunu kullanabilirsiniz: 21×4 = 3×4×7 = 12×7 = 84." },
+        { title: "20+1 Stratejisi", description: "21×n = (20×n) + n. Örnek: 21×6 = 120 + 6 = 126. Çok pratik!" },
+        { title: "Birler Basamağı Döngüsü", description: "Birler basamağı: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 ve tekrarlanır. Basit artış deseni." },
+      ],
+      22: [
+        { title: "11'in İki Katı", description: "22=2×11. 11 tablosunu biliyorsanız ikiye katlayın: 11×3=33, yani 22×3=66." },
+        { title: "Hep Çift Sayılar", description: "22'nin tüm katları çifttir: 22, 44, 66, 88, 110, 132, 154, 176, 198, 220." },
+        { title: "Çift Basamak Benzeri Desen", description: "22×1=22, 22×2=44, 22×3=66, 22×4=88. İlk 4'ünde çift basamak deseni görülür." },
+      ],
+      23: [
+        { title: "20+3 Ayrıştırma", description: "23×n = (20×n) + (3×n). Örnek: 23×5 = 100 + 15 = 115." },
+        { title: "25-2 Stratejisi", description: "23=25-2. Örnek: 23×4 = 100 - 8 = 92. 25 ile çarpmak daha kolay olduğunda kullanışlı." },
+        { title: "Asal Sayı Deseni", description: "23 asal olduğundan özel desen vardır. Birler basamağı: 3, 6, 9, 2, 5, 8, 1, 4, 7, 0." },
+      ],
+      24: [
+        { title: "Çoklu Çarpan İlişkileri", description: "24=2×12=3×8=4×6. Birçok yoldan hesaplanabilir. 24×5 = 12×10 = 120." },
+        { title: "Hep Çift ve 4'e Bölünebilir", description: "24'ün tüm katları hem çift hem de 3'e, 4'e, 6'ya, 8'e bölünebilir." },
+        { title: "Saat İlişkisi", description: "24 saat = 1 gün. 48 saat = 2 gün, 72 saat = 3 gün. Zaman hesaplamalarında kullanışlı." },
+      ],
+      25: [
+        { title: "25, 50, 75, 00 Deseni", description: "25'in tüm katları 25, 50, 75 veya 00 ile biter. Çok düzenli ve tahmin edilebilir." },
+        { title: "Çeyrek İlişkisi", description: "25 = 100÷4. Yani 25×4=100. Bu ilişki yüzde ve kesir hesaplamalarında çok kullanışlı." },
+        { title: "5'in Karesi", description: "25=5². Bu özel ilişki: 25×n = 5×5×n. Örnek: 25×8 = 5×40 = 200." },
+      ],
+      26: [
+        { title: "13'ün İki Katı", description: "26=2×13. 13 tablosunu biliyorsanız ikiye katlayın: 13×7=91, yani 26×7=182." },
+        { title: "Hep Çift Sayılar", description: "26'nın tüm katları çifttir: 26, 52, 78, 104, 130, 156, 182, 208, 234, 260." },
+        { title: "25+1 veya 30-4", description: "26×n = (25×n) + n veya (30×n) - (4×n). Örnek: 26×4 = 100+4 = 104." },
+      ],
+      27: [
+        { title: "3'ün Kuvveti", description: "27=3³ (3×3×3). Küp sayı ilişkisi: 27, 54, 81, 108... (3'ün katları)." },
+        { title: "9'un Üç Katı", description: "27=3×9. 9 tablosunu üçe katlayın: 9×4=36, yani 27×4=108." },
+        { title: "30-3 Stratejisi", description: "27=30-3. Örnek: 27×6 = 180-18 = 162. Kolay hesaplama yöntemi." },
+      ],
+      28: [
+        { title: "4×7 veya 2×14", description: "28=4×7=2×14. Birden fazla yolla hesaplanabilir: 28×3 = 4×3×7 = 12×7 = 84." },
+        { title: "Hep Çift ve 4'e Bölünebilir", description: "28'in tüm katları hem çift hem de 4'e, 7'ye bölünebilir: 28, 56, 84, 112, 140..." },
+        { title: "Hafta İlişkisi", description: "28 gün = 4 hafta. Bu ilişki takvim hesaplamalarında kullanışlıdır." },
+      ],
+      29: [
+        { title: "30-1 Stratejisi", description: "29=30-1. 29×n = (30×n) - n. Örnek: 29×7 = 210-7 = 203. En etkili yöntem!" },
+        { title: "Birler Basamağı Deseni", description: "Birler basamağı: 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 (azalan sıra). Tahmin edilebilir." },
+        { title: "Asal Sayı Özelliği", description: "29 asal olduğundan basit çarpan ilişkileri yoktur. Zihinsel stratejiler gerektirir." },
+      ],
+      30: [
+        { title: "3×10 İlişkisi", description: "30=3×10. Bir sayıyı 30 ile çarpmak: 10 ile çarp, sonra 3 ile çarp. 7×30 = 70×3 = 210." },
+        { title: "Hep 0 ile Biter", description: "30'un tüm katları 0 ile biter: 30, 60, 90, 120, 150, 180, 210, 240, 270, 300." },
+        { title: "Onlukların Üçlü Katları", description: "30, 60, 90, 120, 150... Her biri 30 artış. 10'ların 3 katıdır." },
+      ],
     }
     return patterns[number] || []
   }
@@ -409,6 +479,47 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       20: [
         { mistake: "20×7=120 sanmak (140 yerine)", solution: "20×7=140, 120 değil (20×6=120). 10×7=70, ikiye katlayın: 140. Veya 7×20=7×10×2." },
         { mistake: "Sıfırı unutmak", solution: "20'nin tüm katları 0 ile bitmeli: 20, 40, 60, 80, 100... 20×8=160, 16 değil!" },
+      ],
+      21: [
+        { mistake: "21×5=100 sanmak (105 yerine)", solution: "21×5=105, 100 değil. 20×5=100, artı 5 daha: 105. Veya 3×7×5 = 21×5 = 105." },
+        { mistake: "21×7=140 ile 21×7=147'yi karıştırmak", solution: "21×7=147 doğrudur (3×7×7 veya 140+7). 140 aslında 20×7." },
+        { mistake: "21'i 12 ile karıştırmak", solution: "21×4=84, 12×4=48 değil. Rakamların sırasına dikkat edin: 21, 12'den çok farklıdır." },
+      ],
+      22: [
+        { mistake: "22×5=100 sanmak (110 yerine)", solution: "22×5=110, 100 değil. 11×5=55, ikiye katlayın: 110. Veya 20×5=100, artı 2×5=10: 110." },
+        { mistake: "22×9=198 ile 22×9=188'i karıştırmak", solution: "22×9=198 doğrudur (11×9=99, ×2). 188 başka bir hesaptır." },
+      ],
+      23: [
+        { mistake: "23×4=82 sanmak (92 yerine)", solution: "23×4=92, 82 değil. 20×4=80, artı 3×4=12: 92. 82 başka bir sonuçtur." },
+        { mistake: "23×5=105 ile 23×5=115'i karıştırmak", solution: "23×5=115 doğrudur (20×5=100, 3×5=15, toplam 115). 105 aslında 21×5." },
+      ],
+      24: [
+        { mistake: "24×5=100 sanmak (120 yerine)", solution: "24×5=120, 100 değil. Bir günde 24 saat, 5 gün = 120 saat. Veya 12×10=120." },
+        { mistake: "24×7=158 ile 24×7=168'i karıştırmak", solution: "24×7=168 doğrudur (4×6×7 veya 3×8×7). 158 başka bir sonuçtur." },
+      ],
+      25: [
+        { mistake: "25×8=180 sanmak (200 yerine)", solution: "25×8=200, 180 değil. 25×4=100, yani 25×8=200. Veya 5×5×8 = 25×8 = 200." },
+        { mistake: "Son iki basamağı yanlış tahmin etmek", solution: "25'in katları hep 25, 50, 75 veya 00 ile biter. Başka bir şey olamaz!" },
+      ],
+      26: [
+        { mistake: "26×5=120 ile 26×5=130'u karıştırmak", solution: "26×5=130 doğrudur (13×5=65, ×2). 120 aslında 24×5." },
+        { mistake: "26'yı 16 veya 36 ile karıştırmak", solution: "26×4=104, 16×4=64 veya 36×4=144 değil. Rakamları dikkatlice okuyun." },
+      ],
+      27: [
+        { mistake: "27×4=98 sanmak (108 yerine)", solution: "27×4=108, 98 değil. 30×4=120, eksi 3×4=12: 108. Veya 9×4=36, ×3=108." },
+        { mistake: "27×7=179 ile 27×7=189'u karıştırmak", solution: "27×7=189 doğrudur (30×7=210, eksi 3×7=21: 189). 179 başka bir sonuçtur." },
+      ],
+      28: [
+        { mistake: "28×5=130 sanmak (140 yerine)", solution: "28×5=140, 130 değil. 4×7×5 = 20×7 = 140. Veya 14×10=140." },
+        { mistake: "28×9=242 ile 28×9=252'yi karıştırmak", solution: "28×9=252 doğrudur (4×7×9 veya 30×9 eksi 2×9). 242 başka bir sonuçtur." },
+      ],
+      29: [
+        { mistake: "29×5=140 sanmak (145 yerine)", solution: "29×5=145, 140 değil. 30×5=150, eksi 5: 145. 140 aslında 28×5." },
+        { mistake: "29×7=203 ile 29×7=193'ü karıştırmak", solution: "29×7=203 doğrudur (30×7=210, eksi 7). 193 başka bir hesaptır." },
+      ],
+      30: [
+        { mistake: "30×7=200 sanmak (210 yerine)", solution: "30×7=210, 200 değil (30×6=180, 30×7=210). 10×7=70, ×3=210." },
+        { mistake: "Sıfırı unutmak", solution: "30'un tüm katları 0 ile bitmeli: 30, 60, 90, 120, 150... 30×8=240, 24 değil!" },
       ],
     }
     return mistakes[number] || []
@@ -550,6 +661,76 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Doğru yöntem: 7×10=70, 70×2=140 veya 7×2=14, sonuna 0 ekle: 140",
         "20'şerli hızlıca sayın: 20, 40, 60, 80, 100, 120, 140, 160, 180, 200",
         "Para ile pratik yapın: 20 lira banknotlarını sayın",
+      ],
+      21: [
+        "20+1 stratejisini kullanın: 21×n = 20n + n",
+        "3×7 ilişkisini kullanın: 3 tablosunu biliyor musunuz? 3×6=18, 7×6=42, yani 21×6=126",
+        "En zor katları pratik edin: 21×7=147, 21×8=168, 21×9=189",
+        "Yasal yaş ile ilişkilendirin: 21 yaşında neler değişir?",
+        "21'erli sayın: 21, 42, 63, 84, 105, 126, 147, 168, 189, 210",
+      ],
+      22: [
+        "11 tablosunu ezberleyin, sonra her sonucu ikiye katlayın",
+        "Futbol takımı ile ilişkilendirin: 2 takım = 22 oyuncu",
+        "En kolay katları önce: 22×5=110, 22×10=220",
+        "22'şerli sayın: 22, 44, 66, 88, 110, 132, 154, 176, 198, 220",
+        "İlk 4 sonuçtaki çift basamak desenini gözlemleyin: 22, 44, 66, 88",
+      ],
+      23: [
+        "20+3 stratejisini her zaman kullanın: 23×6 = 120+18 = 138",
+        "Veya 25-2 stratejisi: 23×4 = 100-8 = 92",
+        "Kromozom sayısı ile ilişkilendirin: İnsanlarda 23 çift kromozom var",
+        "En zor katları günlük pratik edin: 23×7=161, 23×8=184, 23×9=207",
+        "23 asal sayıdır, bu yüzden sabırlı olun ve çok pratik yapın",
+      ],
+      24: [
+        "Saat ilişkisini kullanın: 24 saat×3 gün = 72 saat",
+        "Çoklu yöntemler deneyin: 24=2×12, 3×8, 4×6. Hangisi daha kolay?",
+        "12 tablosunu biliyorsanız ikiye katlayın: 12×7=84, yani 24×7=168",
+        "Düzine sayma: 24 = 2 düzine. 24×5 = 10 düzine = 120",
+        "24'erli sayın: 24, 48, 72, 96, 120, 144, 168, 192, 216, 240",
+      ],
+      25: [
+        "Çeyrek sistemi: 25 = 100÷4. Yani 25×4=100, 25×8=200",
+        "Son iki basamak desenini ezberleyin: 25, 50, 75, 00 tekrar eder",
+        "Para ile pratik: 25 kuruş paralar sayın",
+        "5'in karesi olduğunu hatırlayın: 25=5×5",
+        "Yüzde hesaplama: 25% = 1/4. Bu ilişkiyi kullanın",
+      ],
+      26: [
+        "13 tablosunu biliyorsanız ikiye katlayın: 13×8=104, yani 26×8=208",
+        "25+1 stratejisi: 26×4 = 100+4 = 104",
+        "Alfabe ile ilişkilendirin: 26 harf var",
+        "26'şarlı sayın: 26, 52, 78, 104, 130, 156, 182, 208, 234, 260",
+        "En zor katları pratik edin: 26×7=182, 26×9=234",
+      ],
+      27: [
+        "30-3 stratejisini kullanın: 27×n = 30n - 3n",
+        "9 tablosunu biliyorsanız üçe katlayın: 9×6=54, yani 27×6=162",
+        "3'ün küpü olduğunu hatırlayın: 27=3×3×3",
+        "27'şerli sayın: 27, 54, 81, 108, 135, 162, 189, 216, 243, 270",
+        "En zor katları pratik edin: 27×7=189, 27×8=216, 27×9=243",
+      ],
+      28: [
+        "4×7 ilişkisini kullanın: 4 tablosunu 7 ile çarpın",
+        "Veya 14'ü ikiye katlayın: 14×5=70, yani 28×5=140",
+        "Şubat ayı ile ilişkilendirin: 28 gün (normal yıl)",
+        "28'erli sayın: 28, 56, 84, 112, 140, 168, 196, 224, 252, 280",
+        "En kullanışlı katları ezberleyin: 28×5=140, 28×7=196, 28×10=280",
+      ],
+      29: [
+        "30-1 stratejisi MUKEMMELDİR: 29×n = 30n - n",
+        "Örnek: 29×8 = 240-8 = 232. Çok kolay!",
+        "Şubat artık yıl ile ilişkilendirin: 29 gün",
+        "29'şarlı sayın: 29, 58, 87, 116, 145, 174, 203, 232, 261, 290",
+        "En zor katları pratik edin: 29×7=203, 29×9=261",
+      ],
+      30: [
+        "3×10 stratejisi: 10 ile çarp, sonra 3 ile çarp",
+        "Örnek: 7×30 = 70×3 = 210 veya 7×3=21, sonuna 0 ekle: 210",
+        "Yarım saat ile ilişkilendirin: 30 dakika",
+        "Ay günleri: Birçok ay 30 gün (Nisan, Haziran, Eylül, Kasım)",
+        "30'arli sayın: 30, 60, 90, 120, 150, 180, 210, 240, 270, 300",
       ],
     }
     return strategies[number] || [

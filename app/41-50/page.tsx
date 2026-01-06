@@ -39,7 +39,7 @@ const schemaData = {
 
 export const metadata = {
   title: '41-50 Çarpım Tablosu - Orta-İleri Seviye',
-  description: '41'den 50'ye kadar çarpım tablolarını öğrenin. Orta-ileri seviye çarpma becerileri.',
+  description: '41\'den 50\'ye kadar çarpım tablolarını öğrenin. Orta-ileri seviye çarpma becerileri.',
   keywords: '41-50 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
   alternates: {
     canonical: '/41-50',

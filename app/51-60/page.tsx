@@ -1,14 +1,56 @@
 import RangePage from '../components/RangePage'
 
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://carpimtablosu.com.tr/51-60#webpage",
+      "url": "https://carpimtablosu.com.tr/51-60",
+      "name": "51-60 Çarpım Tablosu - İleri Seviye",
+      "description": "51'den 60'a kadar çarpım tablolarını öğrenin. İleri seviye öğrenciler için büyük sayılarla çarpma pratikleri.",
+      "isPartOf": {
+        "@id": "https://carpimtablosu.com.tr/#website"
+      },
+      "about": {
+        "@id": "https://carpimtablosu.com.tr/51-60#learningresource"
+      },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://carpimtablosu.com.tr/51-60#learningresource",
+      "name": "51-60 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "İleri seviye çarpım tabloları: 51'den 60'a kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "educationalLevel": "Advanced",
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+      "teaches": "51-60 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "typicalAgeRange": "9-12",
+      "inLanguage": "tr-TR",
+      "educationalUse": ["practice", "self-study", "homework"],
+      "audience": {
+        "@type": "EducationalAudience",
+        "educationalRole": ["student"]
+      }
+    }
+  ]
+}
+
 export default function MultiplicationTable51to60() {
   return (
-    <RangePage
-      rangeStart={51}
-      rangeEnd={60}
-      nextRangeUrl="/61-70"
-      prevRangeUrl="/41-50"
-      difficultyLevel="advanced"
-      difficultyColor="from-purple-50 to-indigo-50"
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      <RangePage
+        rangeStart={51}
+        rangeEnd={60}
+        prevRangeUrl="/41-50"
+        nextRangeUrl="/61-70"
+        difficultyLevel="advanced"
+        difficultyColor="from-violet-50 to-purple-50"
+      />
+    </>
   )
 }

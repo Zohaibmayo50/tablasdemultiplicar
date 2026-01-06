@@ -1,14 +1,56 @@
 import RangePage from '../components/RangePage'
 
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://carpimtablosu.com.tr/21-30#webpage",
+      "url": "https://carpimtablosu.com.tr/21-30",
+      "name": "21-30 Çarpım Tablosu - Orta Seviye",
+      "description": "21'den 30'a kadar çarpım tablolarını öğrenin. Orta seviye öğrenciler için interaktif alıştırmalar ve pratik materyalleri.",
+      "isPartOf": {
+        "@id": "https://carpimtablosu.com.tr/#website"
+      },
+      "about": {
+        "@id": "https://carpimtablosu.com.tr/21-30#learningresource"
+      },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://carpimtablosu.com.tr/21-30#learningresource",
+      "name": "21-30 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "Orta seviye çarpım tabloları: 21'den 30'a kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "educationalLevel": "Intermediate",
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+      "teaches": "21-30 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "typicalAgeRange": "8-10",
+      "inLanguage": "tr-TR",
+      "educationalUse": ["practice", "self-study", "homework"],
+      "audience": {
+        "@type": "EducationalAudience",
+        "educationalRole": ["student"]
+      }
+    }
+  ]
+}
+
 export default function MultiplicationTable21to30() {
   return (
-    <RangePage
-      rangeStart={21}
-      rangeEnd={30}
-      nextRangeUrl="/31-40"
-      prevRangeUrl="/11-20"
-      difficultyLevel="intermediate"
-      difficultyColor="from-orange-50 to-red-50"
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      <RangePage
+        rangeStart={21}
+        rangeEnd={30}
+        prevRangeUrl="/11-20"
+        nextRangeUrl="/31-40"
+        difficultyLevel="intermediate"
+        difficultyColor="from-purple-50 to-pink-50"
+      />
+    </>
   )
 }

@@ -1,14 +1,56 @@
 import RangePage from '../components/RangePage'
 
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://carpimtablosu.com.tr/81-90#webpage",
+      "url": "https://carpimtablosu.com.tr/81-90",
+      "name": "81-90 Çarpım Tablosu - İleri Seviye",
+      "description": "81'den 90'a kadar çarpım tablolarını öğrenin. İleri seviye matematik becerilerini geliştirmek için interaktif materyaller.",
+      "isPartOf": {
+        "@id": "https://carpimtablosu.com.tr/#website"
+      },
+      "about": {
+        "@id": "https://carpimtablosu.com.tr/81-90#learningresource"
+      },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://carpimtablosu.com.tr/81-90#learningresource",
+      "name": "81-90 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "İleri seviye çarpım tabloları: 81'den 90'a kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "educationalLevel": "Advanced",
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+      "teaches": "81-90 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "typicalAgeRange": "10-12",
+      "inLanguage": "tr-TR",
+      "educationalUse": ["practice", "self-study", "homework"],
+      "audience": {
+        "@type": "EducationalAudience",
+        "educationalRole": ["student"]
+      }
+    }
+  ]
+}
+
 export default function MultiplicationTable81to90() {
   return (
-    <RangePage
-      rangeStart={81}
-      rangeEnd={90}
-      nextRangeUrl="/91-100"
-      prevRangeUrl="/71-80"
-      difficultyLevel="advanced"
-      difficultyColor="from-teal-50 to-emerald-50"
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      <RangePage
+        rangeStart={81}
+        rangeEnd={90}
+        nextRangeUrl="/91-100"
+        prevRangeUrl="/71-80"
+        difficultyLevel="advanced"
+        difficultyColor="from-fuchsia-50 to-pink-50"
+      />
+    </>
   )
 }

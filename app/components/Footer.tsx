@@ -35,12 +35,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/1-to-10" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/1-10" className="text-slate-400 hover:text-white transition-colors">
                   1-10 Tablosu
                 </Link>
               </li>
               <li>
-                <Link href="/11-to-20" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/11-20" className="text-slate-400 hover:text-white transition-colors">
                   11-20 Tablosu
                 </Link>
               </li>

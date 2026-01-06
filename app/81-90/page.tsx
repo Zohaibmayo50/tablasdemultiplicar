@@ -5,8 +5,8 @@ export default function MultiplicationTable81to90() {
     <RangePage
       rangeStart={81}
       rangeEnd={90}
-      nextRangeUrl="/91-to-100"
-      prevRangeUrl="/71-to-80"
+      nextRangeUrl="/91-100"
+      prevRangeUrl="/71-80"
       difficultyLevel="advanced"
       difficultyColor="from-teal-50 to-emerald-50"
     />

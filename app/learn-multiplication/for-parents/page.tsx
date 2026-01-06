@@ -15,7 +15,7 @@ export default function ForParents() {
     <>
       <main className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50">
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-12 md:py-16">
+        <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white pt-20 pb-12 md:pt-24 md:pb-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">

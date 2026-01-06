@@ -227,6 +227,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       58: "58 ile çarpmak, 29'un iki katıdır (58=2×29). 29 tablosunu biliyorsanız, her sonucu ikiye katlayarak 58 tablosunu bulabilirsiniz. 58'i 60-2 veya 50+8 olarak düşünmek hesaplamayı kolaylaştırır. 58, çift sayı olduğu için tüm katları da çifttir. Bu tablo, ikiye katlama ve yuvarlak sayılara yaklaştırma stratejilerini pekiştirir.",
       59: "59 ile çarpmak, asal sayı özellikleri ve 60'a yakınlık nedeniyle özel stratejiler gerektirir. 59'u 60-1 olarak düşünmek en etkili yöntemdir: bir sayıyı 60 ile çarpıp kendisini çıkarın. 59 asal bir sayıdır ve sadece 1 ve 59 ile bölünebilir. 59 tablosu, 60'a yakınlık nedeniyle dakika ve zaman hesaplamalarında (59 dakika) bağlam sağlar.",
       60: "60 ile çarpmak, 6×10 ilişkisini kullanır ve çok kullanışlıdır. Bir sayıyı 60 ile çarpmak için, onu 6 ile çarpıp sonuna sıfır ekleyebilirsiniz. 60, bir saatteki dakika sayısı, bir dakikadaki saniye sayısı ve bir dairenin 360°'sinin altıda biridir. 60=2×30=3×20=4×15=5×12 gibi çok sayıda çarpan ilişkisi vardır. Bu tablo, zaman hesaplamaları için kritiktir.",
+      61: "61 ile çarpmak, asal sayı özellikleri ve 60'a yakınlık nedeniyle özel stratejiler gerektirir. 61'i 60+1 olarak düşünmek en pratik yöntemdir: bir sayıyı 60 ile çarpıp kendisini ekleyin. 61 asal bir sayıdır ve sadece 1 ve 61 ile bölünebilir. 61 tablosunu öğrenmek, 60'ın üstündeki sayılarla zihinsel hesaplama becerisini geliştirir.",
+      62: "62 ile çarpmak, 31'in iki katıdır (62=2×31). 31 tablosunu biliyorsanız, her sonucu ikiye katlayarak 62 tablosunu bulabilirsiniz. 62'yi 60+2 veya 65-3 olarak düşünmek hesaplamayı kolaylaştırır. 62, çift sayı olduğu için tüm katları da çifttir. Bu tablo, ikiye katlama ve 60'a yakın hesaplamalar için kullanışlıdır.",
+      63: "63 ile çarpmak, 7×9 ilişkisini kullanır. Bu iki önemli tabloyu birleştirdiği için, her ikisini de pekiştirir. 63=3×21 alternatifi farklı bir strateji sunar. 63''ü 60+3 veya 65-2 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. 63, hem 7'ye hem 9'a bölünebildiği için çok yönlüdür.",
+      64: "64 ile çarpmak, 2'nin kuvvetidir (64=2⁶=8×8). Bilgisayar biliminde 64 bit mimari yaygın olduğu için, teknoloji çağında önemlidir. 64=8² (sekizin karesi) ilişkisi, kare sayıları anlamak için kritiktir. 64'ü 60+4 veya 65-1 olarak düşünmek hesaplamayı kolaylaştırır. Satranç tahtasında 64 kare vardır (8×8).",
+      65: "65 ile çarpmak, 5×13 ilişkisini kullanır. Her iki tablo da bilinen tablolarsa, 65 ile çarpma kolaydır. 65, emeklilik yaşı olarak birçok ülkede kullanılır. 65'i 60+5 veya 70-5 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. 5'in deseni (5 veya 0 ile biter) hesaplamayı kolaylaştırır.",
+      66: "66 ile çarpmak, 6×11 ilişkisini veya 2×33 ilişkisini kullanır. 66=6×11 olduğu için, repdigit benzeri desenlere sahiptir. 66'yı 60+6 veya 70-4 olarak düşünmek hesaplamayı kolaylaştırır. 66, hem 6'ya hem 11'e bölünebilir. Çift sayı olduğu için tüm katları da çifttir.",
+      67: "67 ile çarpmak, asal sayı özellikleri nedeniyle zihinsel matematik stratejilerini geliştirir. 67'yi 70-3 veya 65+2 olarak düşünmek en pratik yöntemlerdir. 67 asal bir sayıdır ve sadece 1 ve 67 ile bölünebilir. 67 tablosunu öğrenmek, büyük asal sayılarla çalışma yeteneğini artırır.",
+      68: "68 ile çarpmak, 4×17 ilişkisini veya 2×34 ilişkisini kullanır. 17 tablosunu dörde katlamak veya 34 tablosunu ikiye katlamak işe yarar. 68'i 70-2 veya 60+8 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 68, hem 4'e hem 17'ye bölünebilir.",
+      69: "69 ile çarpmak, 3×23 ilişkisini kullanır. 23 tablosunu üçe katlamak veya 3 tablosunu 23 ile çarpmak işe yarar. 69'u 70-1 olarak düşünmek en kolay stratejidir: bir sayıyı 70 ile çarpıp kendisini çıkarın. 69=3×23 olduğundan, hem 3'e hem 23'e bölünebilir. Bu tablo, 70'e yakın hesaplamalar için kullanışlıdır.",
+      70: "70 ile çarpmak, 7×10 ilişkisini kullanır ve çok kullanışlıdır. Bir sayıyı 70 ile çarpmak için, onu 7 ile çarpıp sonuna sıfır ekleyebilirsiniz. 70, bir insanın ortalama yaşam süresi (çoğu ülkede 70-80 arası) ile ilişkilendirilir. 70=2×35=5×14 gibi alternatif çarpan ilişkileri vardır. Bu tablo, 7 tablosunu pekiştirir.",
     }
     return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
   }
@@ -293,6 +303,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       58: "58 çarpım tablosu, 29 tablosunu pekiştirmeye yardımcı olur. 58=2×29 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. 60-2 yaklaşımı, yuvarlak sayılara yaklaştırma stratejisini öğretir. Bu tablo, çift sayı özellikleri ve 60'a yakın hesaplamalar için temel oluşturur.",
       59: "59 çarpım tablosu, asal sayı stratejilerini en üst seviyeye çıkarır. 60-1 yaklaşımı, yuvarlak sayıları kullanarak hızlı hesaplama yapmayı mükemmelleştirir. Asal özellikler nedeniyle, zihinsel esneklik ve yaratıcı çözüm yöntemleri gerektirir. Zaman bağlamında (59 dakika, 59 saniye) pratik öneme sahiptir. Bu tablo, ileri düzey zihinsel matematik becerileri kazandırır.",
       60: "60 çarpım tablosu, zaman hesaplamalarının (60 dakika=1 saat, 60 saniye=1 dakika) temelini oluşturur. 6×10 ilişkisi, onluk sistemi ve çarpmayı birleştirir. Çok sayıda böleni olması (1,2,3,4,5,6,10,12,15,20,30,60), kesirler ve oranlar için idealdir. Açı ölçümlerinde (360°÷6=60°) geometrik öneme sahiptir. Bu tablo, günlük yaşamda en çok kullanılan tablolardan biridir.",
+      61: "61 çarpım tablosu, asal sayı stratejilerini ileri seviyeye taşır. 60+1 yaklaşımı, zaman birimleriyle ilişkilendirme (61. dakika, 61. saniye) sağlar. Asal sayı olduğu için, zihinsel esneklik ve yaratıcı problem çözme gerektirir. Bu tablo, 60'ın üstündeki sayılarla hızlı hesaplama yapma becerisini geliştirir.",
+      62: "62 çarpım tablosu, 31 tablosunu pekiştirmeye yardımcı olur. 62=2×31 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. 60+2 yaklaşımı, yuvarlak sayılara yakından hesaplama stratejisini öğretir. Bu tablo, çift sayı özellikleri ve 60 sonrası hesaplamalar için temel oluşturur.",
+      63: "63 çarpım tablosu, 7 ve 9 tablolarını birleştirerek her ikisini de pekiştirir. 7×9=63, önemli bir çarpım çiftidir. 3×21 alternatifi, çoklu strateji kullanmayı öğretir. Hem 7'ye hem 9'a bölünebilir olması, kesirler ve oranlar için kullanışlıdır. Bu tablo, çoklu çarpan ilişkilerini anlamayı derinleştirir.",
+      64: "64 çarpım tablosu, 2'nin kuvvetlerini (üslü sayılar) anlamak için kritiktir. 64=2⁶=8² ilişkileri, hem üsleri hem kare sayıları pekiştirir. Bilgisayar biliminde 64-bit mimari nedeniyle teknolojik öneme sahiptir. Satranç tahtası (8×8=64 kare) geometrik uygulamalar sağlar. Bu tablo, üslü sayılar ve ikili sistem için temeldir.",
+      65: "65 çarpım tablosu, 5 ve 13 tablolarını birleştirerek matematiksel ilişkileri güçlendirir. 5×13 ilişkisi, her iki tabloyu da pekiştirir. Sosyal bağlamda (65 yaş emeklilik) pratik öneme sahiptir. 5'in deseni (5 veya 0 ile biter) hesaplamayı kolaylaştırır. Bu tablo, pratik yaşam matematiği için kullanışlıdır.",
+      66: "66 çarpım tablosu, 6 ve 11 tablolarını birleştirerek her ikisini de pekiştirir. 6×11=66 ilişkisi, repdigit benzeri desen oluşturur. 2×33 alternatifi, farklı stratejiler sunar. Hem 6'ya hem 11'e bölünebilir olması, çoklu kullanım sağlar. Bu tablo, çoklu çarpan becerilerini geliştirir.",
+      67: "67 çarpım tablosu, asal sayı stratejilerini en üst seviyeye çıkarır. 70-3 yaklaşımı, yuvarlak sayılardan çıkarma stratejisini mükemmelleştirir. Asal özellikler nedeniyle, zihinsel esneklik ve alternatif çözüm yöntemleri gerektirir. Bu tablo, ileri düzey zihinsel matematik becerileri kazandırır ve büyük asal sayılarla rahatlık sağlar.",
+      68: "68 çarpım tablosu, 4 ve 17 tablolarını birleştirerek matematiksel bağlantıları güçlendirir. 4×17=2×34 ilişkileri, çoklu strateji kullanmayı öğretir. 70-2 yaklaşımı, yuvarlak sayılara yaklaştırma becerisini geliştirir. Bu tablo, çift sayı özellikleri ve 70'e yakın hesaplamalar için temel oluşturur.",
+      69: "69 çarpım tablosu, 3 ve 23 tablolarını birleştirerek her ikisini de pekiştirir. 70-1 stratejisi, yuvarlak sayıları kullanarak hızlı hesaplama yapmayı öğretir. 3×23 ilişkisi, hem küçük hem büyük çarpan stratejilerini birleştirir. Bu tablo, 70'e yakın hesaplamalarda yetkinlik sağlar.",
+      70: "70 çarpım tablosu, 7 tablosunu pekiştirmek için mükemmeldir. 7×10 ilişkisi, onluk sistemi ve 7 tablosunu birleştirir. Yaşam süresi bağlamında (ortalama 70-80 yaş) sosyal öneme sahiptir. 2×35=5×14 alternatifleri, çoklu strateji kullanmayı öğretir. Bu tablo, pratik hesaplama ve zaman yönetimi için çok kullanışlıdır.",
     }
     return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
   }
@@ -599,6 +619,56 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { title: "Hep 0 ile Biter", description: "60'ın tüm katları 0 ile biter: 60, 120, 180, 240, 300, 360, 420, 480, 540, 600." },
         { title: "Çoklu Çarpan İlişkileri", description: "60=2×30=3×20=4×15=5×12=6×10. Çok sayıda yolla hesaplanabilir!" },
       ],
+      61: [
+        { title: "60+1 Stratejisi", description: "61=60+1. 61×n = (60×n) + n. Örnek: 61×7 = 420 + 7 = 427. Çok pratik!" },
+        { title: "Asal Sayı Özellikleri", description: "61 asal olduğundan sadece 1 ve 61 ile bölünebilir. Birler basamağı: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0." },
+        { title: "65-4 Alternatifi", description: "61=65-4. Örnek: 61×5 = 325-20 = 305. 65 ile çarpmak daha kolay olduğunda kullanışlı." },
+      ],
+      62: [
+        { title: "31'in İki Katı", description: "62=2×31. 31 tablosunu ikiye katlayın: 31×7=217, yani 62×7=434." },
+        { title: "60+2 Stratejisi", description: "62=60+2. 62×n = (60×n) + (2×n). Örnek: 62×6 = 360 + 12 = 372." },
+        { title: "Hep Çift Sayılar", description: "62'nin tüm katları çifttir: 62, 124, 186, 248, 310, 372, 434, 496, 558, 620." },
+      ],
+      63: [
+        { title: "7×9 İlişkisi", description: "63=7×9. Hem 7 hem 9 tablolarını kullanabilirsiniz: 63×5 = 9×5×7 = 45×7 = 315." },
+        { title: "3×21 Alternatifi", description: "63=3×21. 21 tablosunu üçe katlayın: 21×4=84, yani 63×4=252." },
+        { title: "Hem 7'ye Hem 9'a Bölünebilir", description: "63'ün tüm katları hem 7'ye hem 9'a bölünebilir. Basamaklar toplamı 9'un katıdır." },
+      ],
+      64: [
+        { title: "8'in Karesi", description: "64=8×8=8². Ayrıca 64=2⁶. İkiye katlama zinciri: 2→4→8→16→32→64." },
+        { title: "2'nin Altıncı Kuvveti", description: "64=2⁶. Bilgisayar biliminde 64-bit mimarisi için önemli. İkili sistem temelini oluşturur." },
+        { title: "Hep Çift ve 8'e Bölünebilir", description: "64'ün tüm katları hem çift hem de 4'e, 8'e, 16'ya, 32'ye bölünebilir: 64, 128, 192, 256..." },
+      ],
+      65: [
+        { title: "5×13 İlişkisi", description: "65=5×13. Hem 5 hem 13 tablolarını kullanabilirsiniz: 65×4 = 13×4×5 = 52×5 = 260." },
+        { title: "5 veya 0 ile Biter", description: "65'in tüm katları 5 veya 0 ile biter: 65, 130, 195, 260, 325, 390, 455, 520..." },
+        { title: "60+5 veya 70-5", description: "65×n = (60×n) + (5×n) veya (70×n) - (5×n). Örnek: 65×6 = 360+30 = 390." },
+      ],
+      66: [
+        { title: "6×11 İlişkisi", description: "66=6×11. Hem 6 hem 11 tablolarını kullanabilirsiniz: 66×5 = 11×5×6 = 55×6 = 330." },
+        { title: "Repdigit Benzeri", description: "66×1=66, 66×2=132. 11'in 6 katı olarak, 11 tablosunun desenini takip eder." },
+        { title: "2×33 Alternatifi", description: "66=2×33. 33 tablosunu ikiye katlayın: 33×7=231, yani 66×7=462." },
+      ],
+      67: [
+        { title: "70-3 Stratejisi", description: "67=70-3. 67×n = (70×n) - (3×n). Örnek: 67×7 = 490 - 21 = 469. Çok kolay!" },
+        { title: "Asal Sayı Deseni", description: "67 asal olduğundan özel stratejiler gerekir. Birler basamağı: 7, 4, 1, 8, 5, 2, 9, 6, 3, 0." },
+        { title: "65+2 Alternatifi", description: "67=65+2. Örnek: 67×8 = 520 + 16 = 536. 65 tablosunu biliyorsanız kullanışlı." },
+      ],
+      68: [
+        { title: "4×17 İlişkisi", description: "68=4×17. 17 tablosunu dörde katlayın: 17×7=119, yani 68×7=476." },
+        { title: "2×34 veya 70-2", description: "68=2×34 veya 70-2. Örnek: 68×6 = 420 - 12 = 408." },
+        { title: "Hep Çift ve 4'e Bölünebilir", description: "68'in tüm katları hem çift hem de 4'e, 17'ye bölünebilir: 68, 136, 204, 272, 340..." },
+      ],
+      69: [
+        { title: "3×23 İlişkisi", description: "69=3×23. 23 tablosunu üçe katlayın: 23×7=161, yani 69×7=483." },
+        { title: "70-1 Stratejisi", description: "69=70-1. 69×n = (70×n) - n. Örnek: 69×6 = 420 - 6 = 414. MÜKEMMELDİR!" },
+        { title: "3'e Bölünebilir", description: "69'un tüm katları 3'e ve 23'e bölünebilir. Basamaklar toplamı 3'ün katıdır." },
+      ],
+      70: [
+        { title: "7×10 İlişkisi", description: "70=7×10. Bir sayıyı 70 ile çarpmak: 7 ile çarp, sonuna 0 ekle. 8×70: 8×7=56, sonuna 0: 560." },
+        { title: "Hep 0 ile Biter", description: "70'in tüm katları 0 ile biter: 70, 140, 210, 280, 350, 420, 490, 560, 630, 700." },
+        { title: "Çoklu Çarpan İlişkileri", description: "70=2×35=5×14=7×10. Birçok yoldan hesaplanabilir!" },
+      ],
     }
     return patterns[number] || []
   }
@@ -850,6 +920,46 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       60: [
         { mistake: "60×7=410 sanmak (420 yerine)", solution: "60×7=420, 410 değil. 6×7=42, sonuna 0 ekle: 420. Veya 10×7=70, ×6=420." },
         { mistake: "Sıfırı unutmak", solution: "60'ın tüm katları 0 ile bitmeli: 60, 120, 180, 240, 300, 360, 420... 60×9=540, 54 değil!" },
+      ],
+      61: [
+        { mistake: "61×5=300 sanmak (305 yerine)", solution: "61×5=305, 300 değil. 60×5=300, artı 5: 305. Her zaman o ekstra 1'i eklemeyi unutmayın." },
+        { mistake: "61×9=540 ile 61×9=549'u karıştırmak", solution: "61×9=549 doğrudur (60×9=540, artı 9). 540 aslında 60×9." },
+      ],
+      62: [
+        { mistake: "62×5=300 sanmak (310 yerine)", solution: "62×5=310, 300 değil. 31×5=155, ×2=310. Veya 60×5=300, artı 2×5=10: 310." },
+        { mistake: "62×9=548 ile 62×9=558'i karıştırmak", solution: "62×9=558 doğrudur (31×9=279, ×2 veya 60×9=540, artı 18). 548 başka bir sonuçtur." },
+      ],
+      63: [
+        { mistake: "63×5=305 sanmak (315 yerine)", solution: "63×5=315, 305 değil. 7×5=35, 9×5=45, 35×9=315. Veya 60×5=300, artı 3×5=15: 315." },
+        { mistake: "63×9=557 ile 63×9=567'yi karıştırmak", solution: "63×9=567 doğrudur (7×9=63, ×9 veya 60×9=540, artı 27). 557 başka bir sonuçtur." },
+      ],
+      64: [
+        { mistake: "64×5=310 sanmak (320 yerine)", solution: "64×5=320, 310 değil. 8×5=40, ×8=320. Veya 60×5=300, artı 4×5=20: 320." },
+        { mistake: "64×9=566 ile 64×9=576'yı karıştırmak", solution: "64×9=576 doğrudur (8×9=72, ×8 veya 60×9=540, artı 36). Ayrıca 576=24². 566 başka bir sonuçtur." },
+      ],
+      65: [
+        { mistake: "65×5=320 sanmak (325 yerine)", solution: "65×5=325, 320 değil. 13×5=65, ×5=325. Veya 60×5=300, artı 5×5=25: 325." },
+        { mistake: "65×9=575 ile 65×9=585'i karıştırmak", solution: "65×9=585 doğrudur (13×9=117, ×5 veya 70×9=630, eksi 5×9=45). 575 başka bir sonuçtur." },
+      ],
+      66: [
+        { mistake: "66×5=325 sanmak (330 yerine)", solution: "66×5=330, 325 değil. 11×5=55, ×6=330. Veya 60×5=300, artı 6×5=30: 330." },
+        { mistake: "66×9=584 ile 66×9=594'ü karıştırmak", solution: "66×9=594 doğrudur (11×9=99, ×6 veya 70×9=630, eksi 4×9=36). 584 başka bir sonuçtur." },
+      ],
+      67: [
+        { mistake: "67×5=330 sanmak (335 yerine)", solution: "67×5=335, 330 değil. 70×5=350, eksi 3×5=15: 335. 330 aslında 66×5." },
+        { mistake: "67×9=593 ile 67×9=603'ü karıştırmak", solution: "67×9=603 doğrudur (70×9=630, eksi 3×9=27). 593 başka bir sonuçtur." },
+      ],
+      68: [
+        { mistake: "68×5=330 sanmak (340 yerine)", solution: "68×5=340, 330 değil. 17×5=85, ×4=340. Veya 70×5=350, eksi 2×5=10: 340." },
+        { mistake: "68×9=602 ile 68×9=612'yi karıştırmak", solution: "68×9=612 doğrudur (17×9=153, ×4 veya 70×9=630, eksi 2×9=18). 602 başka bir sonuçtur." },
+      ],
+      69: [
+        { mistake: "69×5=340 sanmak (345 yerine)", solution: "69×5=345, 340 değil. 70×5=350, eksi 5: 345. Çok basit!" },
+        { mistake: "69×9=611 ile 69×9=621'i karıştırmak", solution: "69×9=621 doğrudur (70×9=630, eksi 9). 621=3×207. 611 başka bir sonuçtur." },
+      ],
+      70: [
+        { mistake: "70×7=480 sanmak (490 yerine)", solution: "70×7=490, 480 değil. 7×7=49, sonuna 0 ekle: 490. Veya 10×7=70, ×7=490." },
+        { mistake: "Sıfırı unutmak", solution: "70'in tüm katları 0 ile bitmeli: 70, 140, 210, 280, 350, 420, 490... 70×9=630, 63 değil!" },
       ],
     }
     return mistakes[number] || []
@@ -1271,6 +1381,76 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "60'arlı sayın: 60, 120, 180, 240, 300, 360, 420, 480, 540, 600",
         "Zaman: 60 dakika=1 saat, 60 saniye=1 dakika",
         "Çoklu yöntemler: 60=6×10=5×12=4×15=3×20=2×30",
+      ],
+      61: [
+        "60+1 stratejisi MÜKEMMEL: 61×n = 60n + n",
+        "Örnek: 61×7 = 420 + 7 = 427. Çok kolay!",
+        "61'erli sayın: 61, 122, 183, 244, 305, 366, 427, 488, 549, 610",
+        "En zor katları pratik edin: 61×7=427, 61×8=488",
+        "Asal sayı: Yaratıcı hesaplama stratejileri gerektirir",
+      ],
+      62: [
+        "60+2 stratejisi: 62×n = 60n + 2n",
+        "Örnek: 62×6 = 360 + 12 = 372",
+        "62'şerli sayın: 62, 124, 186, 248, 310, 372, 434, 496, 558, 620",
+        "31'in iki katı: 31 tablosunu ikiye katlayın",
+        "En zor katları pratik edin: 62×7=434, 62×9=558",
+      ],
+      63: [
+        "7×9 ilişkisi: Her iki tabloyu da pekiştirir",
+        "Örnek: 63×5 = 9×5×7 = 45×7 = 315",
+        "63'erli sayın: 63, 126, 189, 252, 315, 378, 441, 504, 567, 630",
+        "Alternatif: 63=3×21. 21 tablosunu üçe katlayın",
+        "En zor katları pratik edin: 63×7=441, 63×8=504",
+      ],
+      64: [
+        "8'in karesi: 64=8×8=8². Ayrıca 2⁶",
+        "Örnek: 64×5 = 8×5×8 = 40×8 = 320",
+        "64'erli sayın: 64, 128, 192, 256, 320, 384, 448, 512, 576, 640",
+        "Satranç: 8×8=64 kare, geometrik uygulama",
+        "Bilgisayar: 64-bit mimari, teknoloji bağlamı",
+      ],
+      65: [
+        "5×13 ilişkisi: Her iki tabloyu da kullanabilirsiniz",
+        "Örnek: 65×4 = 13×4×5 = 52×5 = 260",
+        "65'erli sayın: 65, 130, 195, 260, 325, 390, 455, 520, 585, 650",
+        "60+5 veya 70-5 stratejileri kullanabilirsiniz",
+        "En zor katları pratik edin: 65×7=455, 65×9=585",
+      ],
+      66: [
+        "6×11 ilişkisi: Her iki tabloyu da pekiştirir",
+        "Örnek: 66×5 = 11×5×6 = 55×6 = 330",
+        "66'şarlı sayın: 66, 132, 198, 264, 330, 396, 462, 528, 594, 660",
+        "Repdigit benzeri: 66 (6×11), 11 tablosunun deseni",
+        "En zor katları pratik edin: 66×7=462, 66×9=594",
+      ],
+      67: [
+        "70-3 stratejisi MÜKEMMEL: 67×n = 70n - 3n",
+        "Örnek: 67×7 = 490 - 21 = 469. Çok kolay!",
+        "67'şerli sayın: 67, 134, 201, 268, 335, 402, 469, 536, 603, 670",
+        "En zor katları pratik edin: 67×7=469, 67×8=536",
+        "Asal sayı: Özel zihinsel stratejiler gerektirir",
+      ],
+      68: [
+        "70-2 stratejisi: 68×n = 70n - 2n",
+        "Örnek: 68×6 = 420 - 12 = 408",
+        "68'erli sayın: 68, 136, 204, 272, 340, 408, 476, 544, 612, 680",
+        "4×17 ilişkisi: 17 tablosunu dörde katlayın",
+        "En zor katları pratik edin: 68×7=476, 68×9=612",
+      ],
+      69: [
+        "70-1 stratejisi SÜPER KOLAY: 69×n = 70n - n",
+        "Örnek: 69×7 = 490 - 7 = 483. MÜKEMMELDİR!",
+        "69'arlı sayın: 69, 138, 207, 276, 345, 414, 483, 552, 621, 690",
+        "3×23 ilişkisi: 23 tablosunu üçe katlayın",
+        "En zor katları pratik edin: 69×7=483, 69×8=552",
+      ],
+      70: [
+        "7×10 stratejisi: 7 ile çarp, sonuna 0 ekle",
+        "Örnek: 8×70: 8×7=56, sonuna 0 ekle: 560",
+        "70'erli sayın: 70, 140, 210, 280, 350, 420, 490, 560, 630, 700",
+        "7 tablosunu pekiştirir: Her sonuç 7'nin 10 katı",
+        "Çoklu yöntemler: 70=7×10=5×14=2×35",
       ],
     }
     return strategies[number] || [

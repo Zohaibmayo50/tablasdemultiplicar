@@ -247,6 +247,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       78: "78 ile çarpmak, 2×39=3×26=6×13 ilişkilerini kullanır. Birden fazla yoldan hesaplanabilir. 78'i 80-2 veya 75+3 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 78, hem 2'ye, 3'e, 6'ya, 13'e, 26'ya, 39'a bölünebilir.",
       79: "79 ile çarpmak, asal sayı özellikleri nedeniyle özel stratejiler gerektirir. 79'u 80-1 olarak düşünmek en kolay stratejidir: bir sayıyı 80 ile çarpıp kendisini çıkarın. 79 asal bir sayıdır ve sadece 1 ve 79 ile bölünebilir. 79 tablosunu öğrenmek, 80'e yakın hesaplamalar için mükemmel bir temel oluşturur.",
       80: "80 ile çarpmak, 8×10 ilişkisini kullanır ve çok kullanışlıdır. Bir sayıyı 80 ile çarpmak için, onu 8 ile çarpıp sonuna sıfır ekleyebilirsiniz. 80=2×40=4×20=5×16 gibi alternatif çarpan ilişkileri vardır. 80, ortalama insan yaşam süresinin üst limiti (çoğu ülkede 70-80) ile ilişkilendirilir. Bu tablo, 8 tablosunu pekiştirir.",
+      81: "81 ile çarpmak, 9'un karesidir (81=9×9=9²). Bu özel ilişki, 9 tablosunu mükemmel bilmeyi gerektirir. 81=3⁴ (3'ün dördúncü kuvveti) olması da ilginçtir. 81'i 80+1 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. 81, kare sayı olduğu için geometri ve alan hesaplamalarında önemlidir.",
+      82: "82 ile çarpmak, 2×41 ilişkisini kullanır. 41 tablosunu biliyorsanız, her sonucu ikiye katlayarak 82 tablosunu bulabilirsiniz. 82'yi 80+2 veya 85-3 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 82, hem 2'ye hem 41'e bölünebilir.",
+      83: "83 ile çarpmak, asal sayı özellikleri nedeniyle zihinsel matematik stratejilerini geliştirir. 83'ü 80+3 veya 85-2 olarak düşünmek en pratik yöntemlerdir. 83 asal bir sayıdır ve sadece 1 ve 83 ile bölünebilir. 83 tablosunu öğrenmek, büyük asal sayılarla çalışma yeteneğini artırır.",
+      84: "84 ile çarpmak, en çok yönlü tablolardan biridir. 84=7×12=6×14=4×21=3×28=2×42 olduğundan, birçok farklı yoldan hesaplanabilir. 84, bir haftadaki saat sayısının 12 katıdır veya 12 saatlik günün 7 katıdır. Çok sayıda böleni olması, kesir hesaplamalarında kullanışlıdır.",
+      85: "85 ile çarpmak, 5×17 ilişkisini kullanır. Her iki tablo da bilinen tablolarsa, 85 ile çarpma kolaydır. 85=80+5 veya 90-5 stratejisi de çok pratiktir. 5'in deseni (5 veya 0 ile biter) hesaplamayı kolaylaştırır. 85, hem 5'e hem 17'ye bölünebilir.",
+      86: "86 ile çarpmak, 2×43 ilişkisini kullanır. 43 tablosunu biliyorsanız, her sonucu ikiye katlayarak 86 tablosunu bulabilirsiniz. 86'yı 90-4 veya 85+1 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 86, hem 2'ye hem 43'e bölünebilir.",
+      87: "87 ile çarpmak, 3×29 ilişkisini kullanır. 29 tablosunu üçe katlamak veya 3 tablosunu 29 ile çarpmak işe yarar. 87'yi 90-3 veya 85+2 olarak düşünmek hesaplamayı kolaylaştırır. 87=3×29 olduğundan, hem 3'e hem 29'a bölünebilir.",
+      88: "88 ile çarpmak, 8×11 ilişkisini veya 4×22 ilişkisini kullanır. 88, repdigit sayıdır (8'lerin tekrarı). 88=2×44 olarak da ifade edilebilir. 88'i 90-2 veya 80+8 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir.",
+      89: "89 ile çarpmak, asal sayı özellikleri nedeniyle özel stratejiler gerektirir. 89'u 90-1 olarak düşünmek en kolay stratejidir: bir sayıyı 90 ile çarpıp kendisini çıkarın. 89 asal bir sayıdır ve sadece 1 ve 89 ile bölünebilir. 89 tablosunu öğrenmek, 90'a yakın hesaplamalar için mükemmel bir temel oluşturur.",
+      90: "90 ile çarpmak, 9×10 ilişkisini kullanır ve çok kullanışlıdır. Bir sayıyı 90 ile çarpmak için, onu 9 ile çarpıp sonuna sıfır ekleyebilirsiniz. 90=2×45=3×30=5×18=6×15 gibi çok sayıda çarpan ilişkisi vardır. 90 derece dik açıdır, geometride çok önemlidir. Bu tablo, 9 tablosunu pekiştirir.",
     }
     return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
   }
@@ -333,6 +343,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       78: "78 çarpım tablosu, çoklu çarpanlara ayırma becerilerini geliştirir. 78=2×39=3×26=6×13 ilişkileri, matematiksel esneklik sağlar. 80-2 yaklaşımı, yuvarlak sayılardan çıkarma stratejisini öğretir. Çok sayıda böleni olması, çeşitli hesaplama yöntemleri sunar. Bu tablo, çoklu strateji kullanmayı mükemmelleştirir.",
       79: "79 çarpım tablosu, asal sayı stratejilerini en üst seviyeye çıkarır. 80-1 yaklaşımı, yuvarlak sayıları kullanarak hızlı hesaplama yapmayı mükemmelleştirir. Asal özellikler nedeniyle, zihinsel esneklik ve yaratıcı çözüm yöntemleri gerektirir. Bu tablo, 80'e yakın hesaplamalarda yetkinlik kazandırır ve ileri düzey matematik becerileri geliştirir.",
       80: "80 çarpım tablosu, 8 tablosunu pekiştirmek için mükemmeldir. 8×10 ilişkisi, onluk sistemi ve 8 tablosunu birleştirir. 2×40=4×20=5×16 alternatifleri, çoklu strateji kullanmayı öğretir. Yaşam süresi bağlamında (üst limit 80 yaş) sosyal öneme sahiptir. Bu tablo, pratik hesaplama ve büyük sayılarla çalışma becerisini önemli ölçüde geliştirir.",
+      81: "81 çarpım tablosu, kare sayıları (9²) anlamak için kritiktir. 9 tablosunu mükemmel bilmeyi gerektirir ve pekiştirir. 3⁴ ilişkisi, üslü sayıları anlamayı derinleştirir. Geometri ve alan hesaplamalarında, kare özellikler nedeniyle önemlidir. 81, 1'den 9'a kadar olan tek sayıların toplamıdır (1+3+5+7+9+11+13+15+17=81). Bu tablo, matematiksel desenleri anlamayı geliştirir.",
+      82: "82 çarpım tablosu, 41 tablosunu pekiştirmeye yardımcı olur. 82=2×41 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. 80+2 yaklaşımı, yuvarlak sayılara yakından hesaplama stratejisini öğretir. Bu tablo, çift sayı özellikleri ve 80 sonrası hesaplamalar için temel oluşturur.",
+      83: "83 çarpım tablosu, asal sayı stratejilerini en üst seviyeye çıkarır. 80+3 yaklaşımı, tamamlayıcı sayılar kullanmada ustalaşmayı sağlar. Asal sayı olduğu için, zihinsel esneklik ve yaratıcı problem çözme gerektirir. Bu tablo, büyük asal sayılarla rahatça çalışma becerisini geliştirir.",
+      84: "84 çarpım tablosu, çoklu çarpanlara ayırma becerilerini mükemmelleştirir. 84=7×12=6×14 ilişkileri, matematiksel bağlantıları görmeyi öğretir. Çok sayıda böleni olması (1,2,3,4,6,7,12,14,21,28,42,84), kesirler ve oranlar için idealdir. Zaman hesaplamalarında (84 saat=1 hafta+1/2 gün) kullanışlıdır. Bu tablo, çoklu strateji kullanmayı mükemmelleştirir.",
+      85: "85 çarpım tablosu, 5 ve 17 tablolarını birleştirerek matematiksel ilişkileri pekiştirir. 5×17 ilişkisi, her iki tabloyu da güçlendirir. 5'in deseni (5 veya 0 ile biter) hesaplamayı kolaylaştırır. 80+5 veya 90-5 stratejileri, esneklik sağlar. Bu tablo, 90'a yakın hesaplamalar için hazırlık yapar.",
+      86: "86 çarpım tablosu, 43 tablosunu pekiştirmeye yardımcı olur. 86=2×43 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. 90-4 yaklaşımı, yuvarlak sayılardan çıkarma becerisini geliştirir. Bu tablo, çift sayı özellikleri ve 90'a yakın hesaplamalar için temel oluşturur.",
+      87: "87 çarpım tablosu, 3 ve 29 tablolarını birleştirerek matematiksel bağlantıları güçlendirir. 90-3 stratejisi, yuvarlak sayılardan çıkarma becerisini mükemmelleştirir. 3×29 ilişkisi, hem küçük hem büyük çarpan stratejilerini birleştirir. Bu tablo, 90'a yakın hesaplamalarda yetkinlik sağlar.",
+      88: "88 çarpım tablosu, 8 ve 11 tablolarını birleştirerek her ikisini de pekiştirir. 8×11=88 ilişkisi, repdigit desen oluşturur. 4×22=2×44 alternatifleri, çoklu strateji kullanmayı öğretir. Repdigit özelliği (88) görsel tanımayı kolaylaştırır ve aklıda kalıcılık sağlar.",
+      89: "89 çarpım tablosu, asal sayı stratejilerini en üst seviyeye çıkarır. 90-1 yaklaşımı, yuvarlak sayıları kullanarak hızlı hesaplama yapmayı mükemmelleştirir. Asal özellikler nedeniyle, zihinsel esneklik ve yaratıcı çözüm yöntemleri gerektirir. Bu tablo, 90'a yakın hesaplamalarda yetkinlik kazandırır ve ileri düzey matematik becerileri geliştirir.",
+      90: "90 çarpım tablosu, 9 tablosunu pekiştirmek için mükemmeldir. 9×10 ilişkisi, onluk sistemi ve 9 tablosunu birleştirir. Geometride (90° dik açı) kritik öneme sahiptir. Çok sayıda çarpan ilişkisi (2×45=3×30=5×18=6×15), esneklik sağlar. Bu tablo, pratik hesaplama ve açı ölçümleri için son derece önemlidir.",
     }
     return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
   }
@@ -739,6 +759,56 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { title: "Hep 0 ile Biter", description: "80'in tüm katları 0 ile biter: 80, 160, 240, 320, 400, 480, 560, 640, 720, 800." },
         { title: "Çoklu Çarpan İlişkileri", description: "80=2×40=4×20=5×16=8×10. Çok sayıda yolla hesaplanabilir!" },
       ],
+      81: [
+        { title: "9'un Karesi", description: "81=9×9=9². Ayrıca 81=3⁴. Kare ve üs ilişkileri için mükemmel örnek." },
+        { title: "80+1 Stratejisi", description: "81=80+1. 81×n = (80×n) + n. Örnek: 81×7 = 560 + 7 = 567. Çok pratik!" },
+        { title: "3'ün Dördüncü Kuvveti", description: "81=3⁴=3×3×3×3. Üslü sayıları anlamak için önemli. 9'a ve 27'ye bölünebilir." },
+      ],
+      82: [
+        { title: "2×41 İlişkisi", description: "82=2×41. 41 tablosunu ikiye katlayın: 41×7=287, yani 82×7=574." },
+        { title: "80+2 Stratejisi", description: "82=80+2. 82×n = (80×n) + (2×n). Örnek: 82×6 = 480 + 12 = 492." },
+        { title: "Hep Çift Sayılar", description: "82'nin tüm katları çifttir: 82, 164, 246, 328, 410, 492, 574, 656, 738, 820." },
+      ],
+      83: [
+        { title: "80+3 veya 85-2", description: "83=80+3 veya 85-2. Örnek: 83×6 = 480+18 = 498 veya 510-12 = 498." },
+        { title: "Asal Sayı Deseni", description: "83 asal olduğundan özel stratejiler gerekir. Birler basamağı: 3, 6, 9, 2, 5, 8, 1, 4, 7, 0." },
+        { title: "90-7 Stratejisi", description: "Büyük sayılarla: 83×8 = 720-56 = 664. 90'dan çıkarma alternatif yöntemdir." },
+      ],
+      84: [
+        { title: "7×12 İlişkisi", description: "84=7×12. Hem 7 hem 12 tablolarını kullanabilirsiniz: 84×5 = 12×5×7 = 60×7 = 420." },
+        { title: "6×14 veya 4×21", description: "84=6×14=4×21=3×28. Birden fazla yoldan hesaplanabilir: 84×4 = 21×16 = 336." },
+        { title: "Çok Sayıda Bölen", description: "84'ün 12 böleni var: 1,2,3,4,6,7,12,14,21,28,42,84. Kesirler için çok kullanışlı!" },
+      ],
+      85: [
+        { title: "5×17 İlişkisi", description: "85=5×17. Hem 5 hem 17 tablolarını kullanabilirsiniz: 85×4 = 17×4×5 = 68×5 = 340." },
+        { title: "5 veya 0 ile Biter", description: "85'in tüm katları 5 veya 0 ile biter: 85, 170, 255, 340, 425, 510, 595, 680..." },
+        { title: "90-5 veya 80+5", description: "85×n = (90×n) - (5×n) veya (80×n) + (5×n). Örnek: 85×6 = 540-30 = 510." },
+      ],
+      86: [
+        { title: "2×43 İlişkisi", description: "86=2×43. 43 tablosunu ikiye katlayın: 43×7=301, yani 86×7=602." },
+        { title: "90-4 Stratejisi", description: "86=90-4. 86×n = (90×n) - (4×n). Örnek: 86×6 = 540 - 24 = 516." },
+        { title: "Hep Çift Sayılar", description: "86'nın tüm katları çifttir: 86, 172, 258, 344, 430, 516, 602, 688, 774, 860." },
+      ],
+      87: [
+        { title: "3×29 İlişkisi", description: "87=3×29. 29 tablosunu üçe katlayın: 29×7=203, yani 87×7=609." },
+        { title: "90-3 Stratejisi", description: "87=90-3. 87×n = (90×n) - (3×n). Örnek: 87×7 = 630 - 21 = 609. Çok kolay!" },
+        { title: "3'e Bölünebilir", description: "87'nin tüm katları 3'e ve 29'a bölünebilir. Basamaklar toplamı 3'ün katıdır." },
+      ],
+      88: [
+        { title: "8×11 İlişkisi", description: "88=8×11. Hem 8 hem 11 tablolarını kullanabilirsiniz: 88×5 = 11×5×8 = 55×8 = 440." },
+        { title: "Repdigit Sayı", description: "88×1=88, 88×2=176. Repdigit özelliği (8'lerin tekrarı) görsel tanımayı kolaylaştırır." },
+        { title: "4×22 veya 2×44", description: "88=4×22=2×44. Birden fazla yoldan hesaplanabilir: 88×5 = 22×20 = 440." },
+      ],
+      89: [
+        { title: "90-1 Stratejisi", description: "89=90-1. 89×n = (90×n) - n. Örnek: 89×7 = 630 - 7 = 623. MÜKEMMELDİR!" },
+        { title: "Asal Sayı Benzersizliği", description: "89 asal olduğundan özel desenler vardır. Birler basamağı: 9, 8, 7, 6, 5, 4, 3, 2, 1, 0." },
+        { title: "85+4 Alternatifi", description: "89=85+4. Örnek: 89×8 = 680 + 32 = 712. 85 tablosunu biliyorsanız kullanışlı." },
+      ],
+      90: [
+        { title: "9×10 İlişkisi", description: "90=9×10. Bir sayıyı 90 ile çarpmak: 9 ile çarp, sonuna 0 ekle. 7×90: 7×9=63, sonuna 0: 630." },
+        { title: "Hep 0 ile Biter", description: "90'ın tüm katları 0 ile biter: 90, 180, 270, 360, 450, 540, 630, 720, 810, 900." },
+        { title: "Çoklu Çarpan İlişkileri", description: "90=2×45=3×30=5×18=6×15=9×10. Çok sayıda yolla hesaplanabilir!" },
+      ],
     }
     return patterns[number] || []
   }
@@ -1070,6 +1140,46 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       80: [
         { mistake: "80×7=550 sanmak (560 yerine)", solution: "80×7=560, 550 değil. 8×7=56, sonuna 0 ekle: 560. Veya 10×7=70, ×8=560." },
         { mistake: "Sıfırı unutmak", solution: "80'in tüm katları 0 ile bitmeli: 80, 160, 240, 320, 400, 480, 560... 80×9=720, 72 değil!" },
+      ],
+      81: [
+        { mistake: "81'i 9×9 yerine 8×10+1 gibi hesaplamak", solution: "81=9×9. Örnek: 81×7 = (9×7)×9 = 63×9 = 567. Kare ilişkisini kullan!" },
+        { mistake: "80+1 stratejisinde toplama hatası", solution: "81×7 = (80×7)+(1×7) = 560+7 = 567. Her iki kısmı dikkatli hesapla!" },
+      ],
+      82: [
+        { mistake: "82×4'ü zorlaştırmak", solution: "82×4 = (80×4)+(2×4) = 320+8 = 328. Parçala ve topla!" },
+        { mistake: "82'yi tek sayı sanmak", solution: "82=2×41, her zaman çift. Tüm katları çift sayılardır: 82, 164, 246..." },
+      ],
+      83: [
+        { mistake: "83×5'i yanlış hesaplamak", solution: "83×5 = (80×5)+(3×5) = 400+15 = 415. Parçala ve topla!" },
+        { mistake: "83'ü çift sanmak", solution: "83 asaldır, sadece 1 ve 83'e bölünür. Tek sayı ve 2'ye bölünmez." },
+      ],
+      84: [
+        { mistake: "84×5'i zorlaştırmak", solution: "84×5 = 420 (7×12×5=7×60). Veya (80×5)+(4×5)=400+20=420." },
+        { mistake: "84'ün çarpanlarını unutmak", solution: "84=7×12=6×14=4×21=3×28. Birden fazla yoldan hesaplanabilir!" },
+      ],
+      85: [
+        { mistake: "85×4'ü yanlış hesaplamak", solution: "85×4 = (80×4)+(5×4) = 320+20 = 340. Veya 85×4=17×20=340." },
+        { mistake: "Son rakamı unutmak", solution: "85'in katları hep 5 veya 0 ile biter: 85, 170, 255, 340, 425, 510..." },
+      ],
+      86: [
+        { mistake: "86×5'i zorlaştırmak", solution: "86×5 = (80×5)+(6×5) = 400+30 = 430. Parçala ve topla!" },
+        { mistake: "86'yı tek sayı sanmak", solution: "86=2×43, her zaman çift. Tüm katları çift sayılardır: 86, 172, 258..." },
+      ],
+      87: [
+        { mistake: "87×5'i yanlış hesaplamak", solution: "87×5 = (90×5)-(3×5) = 450-15 = 435. 90'dan çıkarma daha kolay!" },
+        { mistake: "87'yi asal sanmak", solution: "87=3×29, asal değil! 3'e bölünebilir (8+7=15, 3'e tam bölünür)." },
+      ],
+      88: [
+        { mistake: "88×5'i zorlaştırmak", solution: "88×5 = (80×5)+(8×5) = 400+40 = 440. Veya 88×5=11×40=440." },
+        { mistake: "88×11'i yanlış hesaplamak", solution: "88×11 = 88×10 + 88 = 880+88 = 968. 11 ile çarpma kuralını kullan!" },
+      ],
+      89: [
+        { mistake: "89'u yuvarlamadan hesaplamak", solution: "89=90-1. Örnek: 89×7 = (90×7)-7 = 630-7 = 623. ÇOK KOLAY!" },
+        { mistake: "89'u 88+1 gibi hesaplamak", solution: "90-1 stratejisi çok daha kolaydır! 89×7: 90×7=630, sonra 7 çıkar: 623." },
+      ],
+      90: [
+        { mistake: "90×5'i zorlaştırmak", solution: "90×5 = 450 (9×50). Sadece 9×5=45, sonuna 0 ekle!" },
+        { mistake: "Sıfırı unutmak", solution: "90=9×10. Sonuna her zaman 0 ekle: 90, 180, 270, 360, 450..." },
       ],
     }
     return mistakes[number] || []
@@ -1631,6 +1741,76 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "80'erli sayın: 80, 160, 240, 320, 400, 480, 560, 640, 720, 800",
         "8 tablosunu pekiştirir: Her sonuç 8'in 10 katı",
         "Çoklu yöntemler: 80=8×10=4×20=5×16=2×40",
+      ],
+      81: [
+        "9'un karesi olduğunu kullanın: 81=9×9",
+        "Örnek: 81×5 = (9×5)×9 = 45×9 = 405",
+        "80+1 stratejisi: 81×n = 80n + n. Örnek: 81×7 = 560+7 = 567",
+        "81'erli sayın: 81, 162, 243, 324, 405, 486, 567, 648, 729, 810",
+        "En zor katları pratik edin: 81×7=567, 81×8=648, 81×9=729",
+      ],
+      82: [
+        "80+2 stratejisi: 82×n = 80n + 2n",
+        "Örnek: 82×6 = 480 + 12 = 492",
+        "82'şerli sayın: 82, 164, 246, 328, 410, 492, 574, 656, 738, 820",
+        "2×41 ilişkisi: 41 tablosunu ikiye katlayın",
+        "En zor katları pratik edin: 82×7=574, 82×9=738",
+      ],
+      83: [
+        "85-2 veya 80+3 stratejisi kullanın",
+        "Örnek: 83×6 = 510-12 = 498 veya 480+18 = 498",
+        "83'erli sayın: 83, 166, 249, 332, 415, 498, 581, 664, 747, 830",
+        "Asal sayı: Yaratıcı hesaplama stratejileri gerektirir",
+        "En zor katları pratik edin: 83×7=581, 83×8=664, 83×9=747",
+      ],
+      84: [
+        "7×12 ilişkisi: Her iki tabloyu da kullanabilirsiniz",
+        "Örnek: 84×5 = 12×5×7 = 60×7 = 420",
+        "84'erli sayın: 84, 168, 252, 336, 420, 504, 588, 672, 756, 840",
+        "Çoklu yöntemler: 84=7×12=6×14=4×21=3×28",
+        "En zor katları pratik edin: 84×7=588, 84×9=756",
+      ],
+      85: [
+        "5×17 ilişkisi: Hem 5 hem 17 tablolarını kullanabilirsiniz",
+        "Örnek: 85×4 = 17×4×5 = 68×5 = 340",
+        "85'erli sayın: 85, 170, 255, 340, 425, 510, 595, 680, 765, 850",
+        "Son basamak: Hep 5 veya 0 ile biter",
+        "90-5 veya 80+5 stratejileri: 85×6 = 540-30 = 510",
+      ],
+      86: [
+        "90-4 stratejisi: 86×n = 90n - 4n",
+        "Örnek: 86×6 = 540 - 24 = 516",
+        "86'şarlı sayın: 86, 172, 258, 344, 430, 516, 602, 688, 774, 860",
+        "2×43 ilişkisi: 43 tablosunu ikiye katlayın",
+        "En zor katları pratik edin: 86×7=602, 86×9=774",
+      ],
+      87: [
+        "90-3 stratejisi MÜKEMMEL: 87×n = 90n - 3n",
+        "Örnek: 87×7 = 630 - 21 = 609. Çok kolay!",
+        "87'şerli sayın: 87, 174, 261, 348, 435, 522, 609, 696, 783, 870",
+        "3×29 ilişkisi: 29 tablosunu üçe katlayın",
+        "En zor katları pratik edin: 87×7=609, 87×8=696, 87×9=783",
+      ],
+      88: [
+        "8×11 ilişkisi: Her iki tabloyu da kullanabilirsiniz",
+        "Örnek: 88×5 = 11×5×8 = 55×8 = 440",
+        "88'erli sayın: 88, 176, 264, 352, 440, 528, 616, 704, 792, 880",
+        "Repdigit özelliği: Görsel tanıma kolaylığı (88)",
+        "Çoklu yöntemler: 88=8×11=4×22=2×44",
+      ],
+      89: [
+        "90-1 stratejisi SÜPER KOLAY: 89×n = 90n - n",
+        "Örnek: 89×7 = 630 - 7 = 623. MÜKEMMELDİR!",
+        "89'arlı sayın: 89, 178, 267, 356, 445, 534, 623, 712, 801, 890",
+        "En zor katları pratik edin: 89×7=623, 89×8=712, 89×9=801",
+        "Asal sayı: 90-1 stratejisi en pratik yöntemdir",
+      ],
+      90: [
+        "9×10 stratejisi: 9 ile çarp, sonuna 0 ekle",
+        "Örnek: 7×90: 7×9=63, sonuna 0 ekle: 630",
+        "90'arlı sayın: 90, 180, 270, 360, 450, 540, 630, 720, 810, 900",
+        "9 tablosunu pekiştirir: Her sonuç 9'un 10 katı",
+        "Çoklu yöntemler: 90=9×10=3×30=5×18=6×15",
       ],
     }
     return strategies[number] || [

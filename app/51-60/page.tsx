@@ -38,8 +38,8 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '51-60 Çarpım Tablosu - İleri Seviye',
-  description: '51\'den 60\'a kadar çarpım tablolarını öğrenin. İleri seviye çarpma becerileri.',
+  title: '51-60 Çarpım Tablosu | İleri Seviye Tablolar',
+  description: '51, 52, 53, 54, 55, 56, 57, 58, 59, 60 çarpım tablolarını öğrenin. İleri seviye öğrenciler için detaylı çalışma materyalleri.',
   keywords: '51-60 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
   alternates: {
     canonical: '/51-60',

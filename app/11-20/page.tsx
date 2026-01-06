@@ -38,8 +38,8 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '11-20 Çarpım Tablosu - İki Basamaklı Çarpma',
-  description: '11\'den 20\'ye kadar çarpım tablolarını öğrenin. İki basamaklı sayıların çarpımı için interaktif alıştırmalar.',
+  title: '11-20 Çarpım Tablosu | İki Basamaklı Sayılar',
+  description: '11, 12, 13, 14, 15, 16, 17, 18, 19, 20 çarpım tablolarını öğrenin. İki basamaklı sayılarla çarpma işlemlerinde ustalaşın.',
   keywords: '11-20 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
   alternates: {
     canonical: '/11-20',

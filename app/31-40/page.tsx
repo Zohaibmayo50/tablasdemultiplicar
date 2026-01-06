@@ -38,8 +38,8 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '31-40 Çarpım Tablosu - İleri Seviye Çarpma',
-  description: '31\'den 40\'a kadar çarpım tablolarını öğrenin. İleri seviye çarpma becerileri geliştirin.',
+  title: '31-40 Çarpım Tablosu | İleri Seviye Çarpma',
+  description: '31, 32, 33, 34, 35, 36, 37, 38, 39, 40 çarpım tablolarını öğrenin. İleri seviye çarpma becerileri için kapsamlı eğitim materyalleri.',
   keywords: '31-40 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
   alternates: {
     canonical: '/31-40',

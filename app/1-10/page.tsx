@@ -50,8 +50,8 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '1-10 Çarpım Tablosu - Temel Çarpma Öğrenme',
-  description: '1\'den 10\'a kadar çarpım tablolarını öğrenin. Başlangıç seviyesi için ideal eğitim materyalleri, interaktif alıştırmalar ve pratik ipuçları.',
+  title: '1-10 Çarpım Tablosu | Başlangıç Seviyesi Tablolar',
+  description: '1, 2, 3, 4, 5, 6, 7, 8, 9, 10 çarpım tablolarını öğrenin. Başlangıç seviyesi için kolay anlaşılır açıklamalar, görsel örnekler ve pratik alıştırmalar.',
   keywords: '1-10 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
   alternates: {
     canonical: '/1-10',

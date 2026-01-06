@@ -38,8 +38,8 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '81-90 Çarpım Tablosu - Uzman Seviye',
-  description: '81\'den 90\'a kadar çarpım tablolarını öğrenin. Uzman seviye çarpma becerileri.',
+  title: '81-90 Çarpım Tablosu | Uzman Seviye',
+  description: '81\'den 90\'a kadar çarpım tablolarını öğrenin. Uzman seviye öğrenciler için zorlu çarpma işlemleri ve stratejiler.',
   keywords: '81-90 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
   alternates: {
     canonical: '/81-90',

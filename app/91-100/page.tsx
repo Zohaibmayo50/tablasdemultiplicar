@@ -38,8 +38,8 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '91-100 Çarpım Tablosu - Uzman Seviye',
-  description: '91\'den 100\'e kadar çarpım tablolarını öğrenin. Uzman seviye çarpma becerileri.',
+  title: '91-100 Çarpım Tablosu | En Yüksek Seviye',
+  description: '91, 92, 93, 94, 95, 96, 97, 98, 99, 100 çarpım tablolarını öğrenin. En yüksek seviye çarpma becerileri için komple eğitim.',
   keywords: '91-100 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
   alternates: {
     canonical: '/91-100',

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid gap-8 md:grid-cols-4 mb-8">
+        <div className="grid gap-8 md:grid-cols-5 mb-8">
           {/* Brand Section */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
@@ -20,20 +20,10 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Learning Section */}
+          {/* Çarpım Tablosu Section */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-blue-400">Öğrenme</h3>
+            <h3 className="text-lg font-semibold mb-4 text-blue-400">Çarpım Tablosu</h3>
             <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/#definition" className="text-slate-400 hover:text-white transition-colors">
-                  Çarpım Nedir?
-                </Link>
-              </li>
-              <li>
-                <Link href="/#learning-paths" className="text-slate-400 hover:text-white transition-colors">
-                  Öğrenme Yolu
-                </Link>
-              </li>
               <li>
                 <Link href="/1-10" className="text-slate-400 hover:text-white transition-colors">
                   1-10 Tablosu
@@ -44,12 +34,81 @@ export default function Footer() {
                   11-20 Tablosu
                 </Link>
               </li>
+              <li>
+                <Link href="/21-30" className="text-slate-400 hover:text-white transition-colors">
+                  21-30 Tablosu
+                </Link>
+              </li>
+              <li>
+                <Link href="/31-40" className="text-slate-400 hover:text-white transition-colors">
+                  31-40 Tablosu
+                </Link>
+              </li>
+              <li>
+                <Link href="/41-50" className="text-slate-400 hover:text-white transition-colors">
+                  41-50 Tablosu
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Practice Section */}
+          {/* Devam Section */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-indigo-400">Pratik</h3>
+            <h3 className="text-lg font-semibold mb-4 text-indigo-400">Devam</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/51-60" className="text-slate-400 hover:text-white transition-colors">
+                  51-60 Tablosu
+                </Link>
+              </li>
+              <li>
+                <Link href="/61-70" className="text-slate-400 hover:text-white transition-colors">
+                  61-70 Tablosu
+                </Link>
+              </li>
+              <li>
+                <Link href="/71-80" className="text-slate-400 hover:text-white transition-colors">
+                  71-80 Tablosu
+                </Link>
+              </li>
+              <li>
+                <Link href="/81-90" className="text-slate-400 hover:text-white transition-colors">
+                  81-90 Tablosu
+                </Link>
+              </li>
+              <li>
+                <Link href="/91-100" className="text-slate-400 hover:text-white transition-colors">
+                  91-100 Tablosu
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Rehberler Section */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-purple-400">Rehberler</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/ogrenciler-icin" className="text-slate-400 hover:text-white transition-colors">
+                  Öğrenciler İçin
+                </Link>
+              </li>
+              <li>
+                <Link href="/veliler-icin" className="text-slate-400 hover:text-white transition-colors">
+                  Veliler İçin
+                </Link>
+              </li>
+              <li>
+                <Link href="/ogretmenler-icin" className="text-slate-400 hover:text-white transition-colors">
+                  Öğretmenler İçin
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Pratik Section */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-emerald-400">Pratik</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
@@ -58,7 +117,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
-                  Oyunlar
+                  İnteraktif Oyunlar
                 </Link>
               </li>
               <li>
@@ -66,26 +125,9 @@ export default function Footer() {
                   Testler
                 </Link>
               </li>
-            </ul>
-          </div>
-
-          {/* Resources Section */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-purple-400">Kaynaklar</h3>
-            <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/veliler-icin" className="text-slate-400 hover:text-white transition-colors">
-                  Ebeveynler İçin
-                </Link>
-              </li>
-              <li>
-                <Link href="/ogretmenler-icin" className="text-slate-400 hover:text-white transition-colors">
-                  Öğretmenler İçin
-                </Link>
-              </li>
-              <li>
-                <Link href="/#audience" className="text-slate-400 hover:text-white transition-colors">
-                  Kimler İçin?
+                <Link href="/#learning-paths" className="text-slate-400 hover:text-white transition-colors">
+                  Öğrenme Yolları
                 </Link>
               </li>
             </ul>

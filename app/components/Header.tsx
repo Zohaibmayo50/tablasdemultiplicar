@@ -33,35 +33,84 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
-            <Link 
-              href="/#definition" 
-              className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
-            >
-              Çarpım Nedir?
-            </Link>
-            <Link 
-              href="/#learning-paths" 
-              className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
-            >
-              Öğrenme Yolu
-            </Link>
+            {/* Çarpım Tablosu Dropdown */}
+            <div className="relative group">
+              <button className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium flex items-center gap-1">
+                Çarpım Tablosu
+                <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-lg shadow-lg border border-slate-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="py-2">
+                  <Link href="/1-10" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    1-10 Tablosu
+                  </Link>
+                  <Link href="/11-20" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    11-20 Tablosu
+                  </Link>
+                  <Link href="/21-30" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    21-30 Tablosu
+                  </Link>
+                  <Link href="/31-40" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    31-40 Tablosu
+                  </Link>
+                  <Link href="/41-50" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    41-50 Tablosu
+                  </Link>
+                  <Link href="/51-60" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    51-60 Tablosu
+                  </Link>
+                  <Link href="/61-70" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    61-70 Tablosu
+                  </Link>
+                  <Link href="/71-80" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    71-80 Tablosu
+                  </Link>
+                  <Link href="/81-90" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    81-90 Tablosu
+                  </Link>
+                  <Link href="/91-100" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    91-100 Tablosu
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Rehberler Dropdown */}
+            <div className="relative group">
+              <button className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium flex items-center gap-1">
+                Rehberler
+                <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-lg shadow-lg border border-slate-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="py-2">
+                  <Link href="/ogrenciler-icin" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    👨‍🎓 Öğrenciler İçin
+                  </Link>
+                  <Link href="/veliler-icin" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    👨‍👩‍👧‍👦 Veliler İçin
+                  </Link>
+                  <Link href="/ogretmenler-icin" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    👩‍🏫 Öğretmenler İçin
+                  </Link>
+                </div>
+              </div>
+            </div>
+
             <Link 
               href="/#practice" 
               className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
             >
-              Pratik
-            </Link>
-            <Link 
-              href="/#audience" 
-              className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
-            >
-              Kimler İçin?
+              Pratik Yap
             </Link>
             <Link 
               href="/#learning-paths" 
               className="ml-2 px-6 py-2.5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-200"
             >
-              Başla 🚀
+              Hemen Başla 🚀
             </Link>
           </div>
 
@@ -91,41 +140,80 @@ export default function Header() {
         }`}
       >
         <div className="px-4 pt-2 pb-4 space-y-2 bg-white border-t border-blue-100">
-          <Link 
-            href="/#definition" 
-            onClick={closeMobileMenu}
-            className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
-          >
-            📚 Çarpım Nedir?
-          </Link>
-          <Link 
-            href="/#learning-paths" 
-            onClick={closeMobileMenu}
-            className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
-          >
-            🎯 Öğrenme Yolu
-          </Link>
-          <Link 
-            href="/#practice" 
-            onClick={closeMobileMenu}
-            className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
-          >
-            ✏️ Pratik
-          </Link>
-          <Link 
-            href="/#audience" 
-            onClick={closeMobileMenu}
-            className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
-          >
-            👥 Kimler İçin?
-          </Link>
-          <Link 
-            href="/#learning-paths" 
-            onClick={closeMobileMenu}
-            className="block px-4 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-lg text-center hover:shadow-lg transition-all"
-          >
-            Başla 🚀
-          </Link>
+          {/* Çarpım Tablosu Section */}
+          <div className="py-2">
+            <h3 className="px-4 py-2 text-sm font-semibold text-slate-900 border-b border-slate-200">
+              📚 Çarpım Tablosu
+            </h3>
+            <div className="mt-2 space-y-1">
+              <Link href="/1-10" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                1-10 Tablosu
+              </Link>
+              <Link href="/11-20" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                11-20 Tablosu
+              </Link>
+              <Link href="/21-30" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                21-30 Tablosu
+              </Link>
+              <Link href="/31-40" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                31-40 Tablosu
+              </Link>
+              <Link href="/41-50" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                41-50 Tablosu
+              </Link>
+              <Link href="/51-60" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                51-60 Tablosu
+              </Link>
+              <Link href="/61-70" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                61-70 Tablosu
+              </Link>
+              <Link href="/71-80" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                71-80 Tablosu
+              </Link>
+              <Link href="/81-90" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                81-90 Tablosu
+              </Link>
+              <Link href="/91-100" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                91-100 Tablosu
+              </Link>
+            </div>
+          </div>
+
+          {/* Rehberler Section */}
+          <div className="py-2 border-t border-slate-200">
+            <h3 className="px-4 py-2 text-sm font-semibold text-slate-900">
+              📖 Rehberler
+            </h3>
+            <div className="mt-2 space-y-1">
+              <Link href="/ogrenciler-icin" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                👨‍🎓 Öğrenciler İçin
+              </Link>
+              <Link href="/veliler-icin" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                👨‍👩‍👧‍👦 Veliler İçin
+              </Link>
+              <Link href="/ogretmenler-icin" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                👩‍🏫 Öğretmenler İçin
+              </Link>
+            </div>
+          </div>
+
+          {/* Other Links */}
+          <div className="py-2 border-t border-slate-200">
+            <Link 
+              href="/#practice" 
+              onClick={closeMobileMenu}
+              className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
+            >
+              🎯 Pratik Yap
+            </Link>
+            <Link 
+              href="/#learning-paths" 
+              onClick={closeMobileMenu}
+              className="block px-4 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-lg text-center hover:shadow-lg transition-all"
+            >
+              Hemen Başla 🚀
+            </Link>
+          </div>
         </div>
       </div>
     </nav>

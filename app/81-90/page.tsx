@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/81-90#webpage",
-      "url": "https://carpimtablosu.com.tr/81-90",
-      "name": "81-90 Çarpım Tablosu - İleri Seviye",
-      "description": "81'den 90'a kadar çarpım tablolarını öğrenin. İleri seviye matematik becerilerini geliştirmek için interaktif materyaller.",
+      "@id": "https://tablasdemultiplicar.online/81-90#webpage",
+      "url": "https://tablasdemultiplicar.online/81-90",
+      "name": "Tabla del 81 al 90 - Nivel Avanzado",
+      "description": "Aprende las tablas de multiplicar del 81 al 90. Materiales interactivos para desarrollar habilidades matemáticas de nivel avanzado.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/81-90#learningresource"
+        "@id": "https://tablasdemultiplicar.online/81-90#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/81-90#learningresource",
-      "name": "81-90 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "İleri seviye çarpım tabloları: 81'den 90'a kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/81-90#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 81 al 90",
+      "description": "Tablas de multiplicar de nivel avanzado: aprende las tablas del 81 al 90 con ejercicios prácticos.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "81-90 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Comprensión y aplicación de las tablas de multiplicar del 81 al 90",
       "typicalAgeRange": "10-12",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '81-90 Çarpım Tablosu | Uzman Seviye',
-  description: '81\'den 90\'a kadar çarpım tablolarını öğrenin. Uzman seviye öğrenciler için zorlu çarpma işlemleri ve stratejiler.',
-  keywords: '81-90 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tabla del 81 al 90 | Nivel Experto',
+  description: 'Aprende las tablas de multiplicar del 81 al 90. Operaciones de multiplicación desafiantes y estrategias para estudiantes de nivel experto.',
+  keywords: 'tablas de multiplicar del 81 al 90, tablas de multiplicar, multiplicación, aprender matemáticas',
   alternates: {
     canonical: '/81-90',
   },

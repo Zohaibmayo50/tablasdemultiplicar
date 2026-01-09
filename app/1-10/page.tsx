@@ -5,44 +5,44 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/1-10#webpage",
-      "url": "https://carpimtablosu.com.tr/1-10",
-      "name": "1-10 Çarpım Tablosu - Başlangıç Seviyesi",
-      "description": "1'den 10'a kadar çarpım tablolarını öğrenin. Başlangıç seviyesi için ideal, interaktif alıştırmalar ve oyunlarla desteklenmiş eğitim materyalleri.",
+      "@id": "https://tablasdemultiplicar.online/1-10#webpage",
+      "url": "https://tablasdemultiplicar.online/1-10",
+      "name": "Tablas de Multiplicar del 1 al 10 - Nivel Principiante",
+      "description": "Aprende las tablas de multiplicar del 1 al 10. Ideal para nivel principiante, con ejercicios interactivos y juegos educativos.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/1-10#learningresource"
+        "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/1-10#learningresource",
-      "name": "1-10 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "Başlangıç seviyesi çarpım tabloları: 1'den 10'a kadar olan sayıların çarpım tablolarını pratik alıştırmalar, interaktif oyunlar ve yazdırılabilir çalışma sayfaları ile öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/1-10#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 1 al 10",
+      "description": "Tablas de multiplicar nivel principiante: Aprende las tablas de multiplicar de los números del 1 al 10 con ejercicios prácticos, juegos interactivos y hojas de trabajo imprimibles.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10 çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
       "typicalAgeRange": "6-8",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "hasPart": [
-        {"@type": "LearningResource", "name": "1 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/1"},
-        {"@type": "LearningResource", "name": "2 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/2"},
-        {"@type": "LearningResource", "name": "3 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/3"},
-        {"@type": "LearningResource", "name": "4 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/4"},
-        {"@type": "LearningResource", "name": "5 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/5"},
-        {"@type": "LearningResource", "name": "6 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/6"},
-        {"@type": "LearningResource", "name": "7 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/7"},
-        {"@type": "LearningResource", "name": "8 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/8"},
-        {"@type": "LearningResource", "name": "9 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/9"},
-        {"@type": "LearningResource", "name": "10 Çarpım Tablosu", "url": "https://carpimtablosu.com.tr/sayi/10"}
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 1", "url": "https://tablasdemultiplicar.online/tabla/1"},
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 2", "url": "https://tablasdemultiplicar.online/tabla/2"},
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 3", "url": "https://tablasdemultiplicar.online/tabla/3"},
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 4", "url": "https://tablasdemultiplicar.online/tabla/4"},
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 5", "url": "https://tablasdemultiplicar.online/tabla/5"},
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 6", "url": "https://tablasdemultiplicar.online/tabla/6"},
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 7", "url": "https://tablasdemultiplicar.online/tabla/7"},
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 8", "url": "https://tablasdemultiplicar.online/tabla/8"},
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 9", "url": "https://tablasdemultiplicar.online/tabla/9"},
+        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 10", "url": "https://tablasdemultiplicar.online/tabla/10"}
       ]
     }
   ]
@@ -50,9 +50,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '1-10 Çarpım Tablosu | Başlangıç Seviyesi Tablolar',
-  description: '1, 2, 3, 4, 5, 6, 7, 8, 9, 10 çarpım tablolarını öğrenin. Başlangıç seviyesi için kolay anlaşılır açıklamalar, görsel örnekler ve pratik alıştırmalar.',
-  keywords: '1-10 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tablas de Multiplicar del 1 al 10 | Nivel Principiante',
+  description: 'Aprende las tablas de multiplicar del 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Explicaciones fáciles para nivel principiante, ejemplos visuales y ejercicios prácticos.',
+  keywords: 'tablas de multiplicar del 1 al 10, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
   alternates: {
     canonical: '/1-10',
   },

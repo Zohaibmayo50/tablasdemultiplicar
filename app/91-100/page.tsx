@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/91-100#webpage",
-      "url": "https://carpimtablosu.com.tr/91-100",
-      "name": "91-100 Çarpım Tablosu - İleri Seviye",
-      "description": "91'den 100'e kadar çarpım tablolarını öğrenin. En ileri seviye çarpım tabloları için kapsamlı eğitim kaynakları.",
+      "@id": "https://tablasdemultiplicar.online/91-100#webpage",
+      "url": "https://tablasdemultiplicar.online/91-100",
+      "name": "Tablas de Multiplicar del 91 al 100 - Nivel Avanzado",
+      "description": "Aprende las tablas de multiplicar del 91 al 100. Recursos educativos completos para las tablas de multiplicar de nivel más avanzado.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/91-100#learningresource"
+        "@id": "https://tablasdemultiplicar.online/91-100#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/91-100#learningresource",
-      "name": "91-100 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "En ileri seviye çarpım tabloları: 91'den 100'e kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin. 100 çarpım tablosu ile çarpma becerilerini tamamlayın.",
+      "@id": "https://tablasdemultiplicar.online/91-100#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 91 al 100",
+      "description": "Tablas de multiplicar de nivel más avanzado: Aprende las tablas de multiplicar de los números del 91 al 100 con ejercicios prácticos. Completa tus habilidades de multiplicación con la tabla del 100.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "91-100 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 91 al 100",
       "typicalAgeRange": "10-12",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '91-100 Çarpım Tablosu | En Yüksek Seviye',
-  description: '91, 92, 93, 94, 95, 96, 97, 98, 99, 100 çarpım tablolarını öğrenin. En yüksek seviye çarpma becerileri için komple eğitim.',
-  keywords: '91-100 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tablas de Multiplicar del 91 al 100 | Nivel Más Alto',
+  description: 'Aprende las tablas de multiplicar del 91, 92, 93, 94, 95, 96, 97, 98, 99, 100. Educación completa para habilidades de multiplicación de nivel más alto.',
+  keywords: 'tablas de multiplicar del 91 al 100, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
   alternates: {
     canonical: '/91-100',
   },

@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/51-60#webpage",
-      "url": "https://carpimtablosu.com.tr/51-60",
-      "name": "51-60 Çarpım Tablosu - İleri Seviye",
-      "description": "51'den 60'a kadar çarpım tablolarını öğrenin. İleri seviye öğrenciler için büyük sayılarla çarpma pratikleri.",
+      "@id": "https://tablasdemultiplicar.online/51-60#webpage",
+      "url": "https://tablasdemultiplicar.online/51-60",
+      "name": "Tablas de Multiplicar del 51 al 60 - Nivel Avanzado",
+      "description": "Aprende las tablas de multiplicar del 51 al 60. Prácticas de multiplicación con números grandes para estudiantes de nivel avanzado.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/51-60#learningresource"
+        "@id": "https://tablasdemultiplicar.online/51-60#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/51-60#learningresource",
-      "name": "51-60 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "İleri seviye çarpım tabloları: 51'den 60'a kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/51-60#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 51 al 60",
+      "description": "Tablas de multiplicar nivel avanzado: Aprende las tablas de multiplicar de los números del 51 al 60 con ejercicios prácticos.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "51-60 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 51 al 60",
       "typicalAgeRange": "9-12",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '51-60 Çarpım Tablosu | İleri Seviye Tablolar',
-  description: '51, 52, 53, 54, 55, 56, 57, 58, 59, 60 çarpım tablolarını öğrenin. İleri seviye öğrenciler için detaylı çalışma materyalleri.',
-  keywords: '51-60 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tablas de Multiplicar del 51 al 60 | Nivel Avanzado',
+  description: 'Aprende las tablas de multiplicar del 51, 52, 53, 54, 55, 56, 57, 58, 59, 60. Materiales de estudio detallados para estudiantes de nivel avanzado.',
+  keywords: 'tablas de multiplicar del 51 al 60, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
   alternates: {
     canonical: '/51-60',
   },

@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/31-40#webpage",
-      "url": "https://carpimtablosu.com.tr/31-40",
-      "name": "31-40 Çarpım Tablosu - Orta Seviye",
-      "description": "31'den 40'a kadar çarpım tablolarını öğrenin. Orta seviye matematik becerileri geliştirmek için interaktif kaynaklar.",
+      "@id": "https://tablasdemultiplicar.online/31-40#webpage",
+      "url": "https://tablasdemultiplicar.online/31-40",
+      "name": "Tablas de Multiplicar del 31 al 40 - Nivel Intermedio",
+      "description": "Aprende las tablas de multiplicar del 31 al 40. Recursos interactivos para desarrollar habilidades matemáticas de nivel intermedio.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/31-40#learningresource"
+        "@id": "https://tablasdemultiplicar.online/31-40#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/31-40#learningresource",
-      "name": "31-40 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "Orta seviye çarpım tabloları: 31'den 40'a kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/31-40#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 31 al 40",
+      "description": "Tablas de multiplicar nivel intermedio: Aprende las tablas de multiplicar de los números del 31 al 40 con ejercicios prácticos.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "31-40 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 31 al 40",
       "typicalAgeRange": "8-10",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '31-40 Çarpım Tablosu | İleri Seviye Çarpma',
-  description: '31, 32, 33, 34, 35, 36, 37, 38, 39, 40 çarpım tablolarını öğrenin. İleri seviye çarpma becerileri için kapsamlı eğitim materyalleri.',
-  keywords: '31-40 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tablas de Multiplicar del 31 al 40 | Multiplicación Avanzada',
+  description: 'Aprende las tablas de multiplicar del 31, 32, 33, 34, 35, 36, 37, 38, 39, 40. Materiales educativos completos para habilidades de multiplicación avanzadas.',
+  keywords: 'tablas de multiplicar del 31 al 40, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
   alternates: {
     canonical: '/31-40',
   },

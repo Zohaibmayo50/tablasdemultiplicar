@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/61-70#webpage",
-      "url": "https://carpimtablosu.com.tr/61-70",
-      "name": "61-70 Çarpım Tablosu - İleri Seviye",
-      "description": "61'den 70'e kadar çarpım tablolarını öğrenin. İleri seviye matematik becerileri için interaktif öğrenme kaynakları.",
+      "@id": "https://tablasdemultiplicar.online/61-70#webpage",
+      "url": "https://tablasdemultiplicar.online/61-70",
+      "name": "Tablas de Multiplicar del 61 al 70 - Nivel Avanzado",
+      "description": "Aprende las tablas de multiplicar del 61 al 70. Recursos interactivos de aprendizaje para habilidades matemáticas de nivel avanzado.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/61-70#learningresource"
+        "@id": "https://tablasdemultiplicar.online/61-70#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/61-70#learningresource",
-      "name": "61-70 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "İleri seviye çarpım tabloları: 61'den 70'e kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/61-70#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 61 al 70",
+      "description": "Tablas de multiplicar nivel avanzado: Aprende las tablas de multiplicar de los números del 61 al 70 con ejercicios prácticos.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "61-70 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 61 al 70",
       "typicalAgeRange": "9-12",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '61-70 Çarpım Tablosu | Yüksek Sayılar',
-  description: '61\'den 70\'e kadar çarpım tablolarını öğrenin. Yüksek sayılarla çarpma işlemleri için kapsamlı eğitim kaynakları.',
-  keywords: '61-70 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tablas de Multiplicar del 61 al 70 | Números Altos',
+  description: 'Aprende las tablas de multiplicar del 61 al 70. Recursos educativos completos para multiplicación con números altos.',
+  keywords: 'tablas de multiplicar del 61 al 70, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
   alternates: {
     canonical: '/61-70',
   },

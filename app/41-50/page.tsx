@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/41-50#webpage",
-      "url": "https://carpimtablosu.com.tr/41-50",
-      "name": "41-50 Çarpım Tablosu - Orta Seviye",
-      "description": "41'den 50'ye kadar çarpım tablolarını öğrenin. Orta seviye matematik becerilerini geliştirmek için kapsamlı eğitim materyalleri.",
+      "@id": "https://tablasdemultiplicar.online/41-50#webpage",
+      "url": "https://tablasdemultiplicar.online/41-50",
+      "name": "Tablas de Multiplicar del 41 al 50 - Nivel Intermedio",
+      "description": "Aprende las tablas de multiplicar del 41 al 50. Materiales educativos completos para desarrollar habilidades matemáticas de nivel intermedio.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/41-50#learningresource"
+        "@id": "https://tablasdemultiplicar.online/41-50#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/41-50#learningresource",
-      "name": "41-50 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "Orta seviye çarpım tabloları: 41'den 50'ye kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/41-50#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 41 al 50",
+      "description": "Tablas de multiplicar nivel intermedio: Aprende las tablas de multiplicar de los números del 41 al 50 con ejercicios prácticos.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "41-50 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 41 al 50",
       "typicalAgeRange": "8-11",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '41-50 Çarpım Tablosu | Orta-İleri Seviye',
-  description: '41\'den 50\'ye kadar çarpım tablolarını öğrenin. Büyük sayılarla çarpma işlemlerinde ustalaşmak için interaktif alıştırmalar.',
-  keywords: '41-50 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tablas de Multiplicar del 41 al 50 | Nivel Intermedio-Avanzado',
+  description: 'Aprende las tablas de multiplicar del 41 al 50. Ejercicios interactivos para dominar la multiplicación con números grandes.',
+  keywords: 'tablas de multiplicar del 41 al 50, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
   alternates: {
     canonical: '/41-50',
   },

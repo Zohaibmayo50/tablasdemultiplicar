@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/21-30#webpage",
-      "url": "https://carpimtablosu.com.tr/21-30",
-      "name": "21-30 Çarpım Tablosu - Orta Seviye",
-      "description": "21'den 30'a kadar çarpım tablolarını öğrenin. Orta seviye öğrenciler için interaktif alıştırmalar ve pratik materyalleri.",
+      "@id": "https://tablasdemultiplicar.online/21-30#webpage",
+      "url": "https://tablasdemultiplicar.online/21-30",
+      "name": "Tablas de Multiplicar del 21 al 30 - Nivel Intermedio",
+      "description": "Aprende las tablas de multiplicar del 21 al 30. Ejercicios interactivos y materiales prácticos para estudiantes de nivel intermedio.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/21-30#learningresource"
+        "@id": "https://tablasdemultiplicar.online/21-30#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/21-30#learningresource",
-      "name": "21-30 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "Orta seviye çarpım tabloları: 21'den 30'a kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/21-30#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 21 al 30",
+      "description": "Tablas de multiplicar nivel intermedio: Aprende las tablas de multiplicar de los números del 21 al 30 con ejercicios prácticos.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "21-30 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 21 al 30",
       "typicalAgeRange": "8-10",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '21-30 Çarpım Tablosu | Orta Seviye Tablolar',
-  description: '21\'den 30\'a kadar çarpım tablolarını öğrenin. Orta seviye öğrenciler için detaylı açıklamalar ve pratik egzersizleri.',
-  keywords: '21-30 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tablas de Multiplicar del 21 al 30 | Nivel Intermedio',
+  description: 'Aprende las tablas de multiplicar del 21 al 30. Explicaciones detalladas y ejercicios prácticos para estudiantes de nivel intermedio.',
+  keywords: 'tablas de multiplicar del 21 al 30, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
   alternates: {
     canonical: '/21-30',
   },

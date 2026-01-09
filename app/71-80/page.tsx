@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/71-80#webpage",
-      "url": "https://carpimtablosu.com.tr/71-80",
-      "name": "71-80 Çarpım Tablosu - İleri Seviye",
-      "description": "71'den 80'e kadar çarpım tablolarını öğrenin. İleri seviye büyük sayılarla çarpma becerileri için kapsamlı kaynaklar.",
+      "@id": "https://tablasdemultiplicar.online/71-80#webpage",
+      "url": "https://tablasdemultiplicar.online/71-80",
+      "name": "Tabla del 71 al 80 - Nivel Avanzado",
+      "description": "Aprende las tablas de multiplicar del 71 al 80. Recursos completos para habilidades de multiplicación de nivel avanzado con números grandes.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/71-80#learningresource"
+        "@id": "https://tablasdemultiplicar.online/71-80#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/71-80#learningresource",
-      "name": "71-80 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "İleri seviye çarpım tabloları: 71'den 80'e kadar olan sayıların çarpım tablolarını pratik alıştırmalar ile öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/71-80#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 71 al 80",
+      "description": "Tablas de multiplicar de nivel avanzado: aprende las tablas del 71 al 80 con ejercicios prácticos.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "71-80 arası çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Comprensión y aplicación de las tablas de multiplicar del 71 al 80",
       "typicalAgeRange": "10-12",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '71-80 Çarpım Tablosu | İleri Düzey Çarpma',
-  description: '71, 72, 73, 74, 75, 76, 77, 78, 79, 80 çarpım tablolarını öğrenin. İleri düzey matematik becerileri geliştirin.',
-  keywords: '71-80 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tabla del 71 al 80 | Multiplicación Nivel Avanzado',
+  description: 'Aprende las tablas de multiplicar del 71, 72, 73, 74, 75, 76, 77, 78, 79, 80. Desarrolla habilidades matemáticas de nivel avanzado.',
+  keywords: 'tablas de multiplicar del 71 al 80, tablas de multiplicar, multiplicación, aprender matemáticas',
   alternates: {
     canonical: '/71-80',
   },

@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/11-20#webpage",
-      "url": "https://carpimtablosu.com.tr/11-20",
-      "name": "11-20 Çarpım Tablosu - Orta Seviye",
-      "description": "11'den 20'ye kadar çarpım tablolarını öğrenin. İki basamaklı sayıların çarpımı için interaktif alıştırmalar ve oyunlar.",
+      "@id": "https://tablasdemultiplicar.online/11-20#webpage",
+      "url": "https://tablasdemultiplicar.online/11-20",
+      "name": "Tablas de Multiplicar del 11 al 20 - Nivel Intermedio",
+      "description": "Aprende las tablas de multiplicar del 11 al 20. Ejercicios interactivos y juegos para la multiplicación con números de dos dígitos.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/11-20#learningresource"
+        "@id": "https://tablasdemultiplicar.online/11-20#learningresource"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/11-20#learningresource",
-      "name": "11-20 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "İki basamaklı sayılarla çarpım: 11'den 20'ye kadar olan sayıların çarpım tablolarını pratik alıştırmalar ve interaktif oyunlar ile öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/11-20#learningresource",
+      "name": "Recurso de Aprendizaje Tablas del 11 al 20",
+      "description": "Multiplicación con números de dos dígitos: Aprende las tablas de multiplicar de los números del 11 al 20 con ejercicios prácticos y juegos interactivos.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "11, 12, 13, 14, 15, 16, 17, 18, 19, 20 çarpım tablolarını anlama ve uygulama becerileri",
+      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 11, 12, 13, 14, 15, 16, 17, 18, 19, 20",
       "typicalAgeRange": "7-10",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: '11-20 Çarpım Tablosu | İki Basamaklı Sayılar',
-  description: '11, 12, 13, 14, 15, 16, 17, 18, 19, 20 çarpım tablolarını öğrenin. İki basamaklı sayılarla çarpma işlemlerinde ustalaşın.',
-  keywords: '11-20 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  title: 'Tablas de Multiplicar del 11 al 20 | Números de Dos Dígitos',
+  description: 'Aprende las tablas de multiplicar del 11, 12, 13, 14, 15, 16, 17, 18, 19, 20. Domina las operaciones de multiplicación con números de dos dígitos.',
+  keywords: 'tablas de multiplicar del 11 al 20, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
   alternates: {
     canonical: '/11-20',
   },

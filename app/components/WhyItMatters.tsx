@@ -3,7 +3,7 @@ export default function WhyItMatters() {
     <section className="section-container bg-gradient-to-br from-educational-50 to-white">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-slate-900 mb-12 text-center">
-          Çarpım Tablosu Öğrenmek Neden Önemlidir?
+          ¿Por Qué es Importante Aprender las Tablas de Multiplicar?
         </h2>
         
         <div className="grid gap-8 md:grid-cols-2">
@@ -15,13 +15,14 @@ export default function WhyItMatters() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Zihinsel Matematik Yeteneği
+                Habilidad de Cálculo Mental
               </h3>
             </div>
             <p className="text-slate-700">
-              Çarpım tablosunu iyi bilen öğrenciler, günlük hayatta ve okul 
-              matematiğinde hesaplamaları kâğıt-kalem kullanmadan zihinlerinde 
-              yapabilirler. Bu yetenek, problem çözme hızını ve güvenini artırır.
+              Los estudiantes que dominan las tablas de multiplicar pueden realizar 
+              cálculos mentalmente en la vida diaria y en matemáticas escolares sin 
+              necesidad de papel y lápiz. Esta habilidad aumenta la velocidad y confianza 
+              al resolver problemas.
             </p>
           </article>
           
@@ -33,13 +34,13 @@ export default function WhyItMatters() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Hız ve Doğruluk
+                Rapidez y Precisión
               </h3>
             </div>
             <p className="text-slate-700">
-              Çarpım tablosunu ezberlemek yerine anlamak, işlemleri hem hızlı 
-              hem de doğru yapmayı sağlar. Özellikle sınavlarda ve zaman kısıtlı 
-              durumlarda bu beceri kritik öneme sahiptir.
+              Comprender las tablas de multiplicar en lugar de solo memorizarlas permite 
+              realizar operaciones tanto rápida como correctamente. Esta habilidad es 
+              críticamente importante especialmente en exámenes y situaciones con límite de tiempo.
             </p>
           </article>
           
@@ -51,13 +52,13 @@ export default function WhyItMatters() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                İleri Matematik için Temel
+                Base para Matemáticas Avanzadas
               </h3>
             </div>
             <p className="text-slate-700">
-              Bölme işlemleri, kesirler, cebirsel ifadeler ve daha karmaşık 
-              matematiksel kavramların tamamı çarpım tablosu bilgisine dayanır. 
-              Güçlü bir temel, ileri düzey başarıyı garantiler.
+              Todas las operaciones de división, fracciones, expresiones algebraicas y 
+              conceptos matemáticos más complejos se basan en el conocimiento de las 
+              tablas de multiplicar. Una base sólida garantiza el éxito en niveles avanzados.
             </p>
           </article>
           
@@ -69,13 +70,13 @@ export default function WhyItMatters() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Matematikte Güven ve Motivasyon
+                Confianza y Motivación en Matemáticas
               </h3>
             </div>
             <p className="text-slate-700">
-              Çarpım tablosunu bilen öğrenciler, matematiğe karşı olumlu bir 
-              tutum geliştirir. Bu güven, matematik derslerindeki genel başarıyı 
-              ve öğrenme isteğini doğrudan etkiler.
+              Los estudiantes que conocen las tablas de multiplicar desarrollan una 
+              actitud positiva hacia las matemáticas. Esta confianza afecta directamente 
+              el éxito general en las clases de matemáticas y el deseo de aprender.
             </p>
           </article>
         </div>

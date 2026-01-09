@@ -34,7 +34,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         printWindow.document.write(`
           <html>
             <head>
-              <title>${number} Çarpım Tablosu</title>
+              <title>Tabla de Multiplicar del ${number}</title>
               <style>
                 body {
                   font-family: Arial, sans-serif;
@@ -70,7 +70,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
               </style>
             </head>
             <body>
-              <h1>${number} Çarpım Tablosu</h1>
+              <h1>Tabla de Multiplicar del ${number}</h1>
               ${Array.from({ length: 10 }, (_, i) => `
                 <div class="table-item">
                   <span class="equation">${number} × ${i + 1}</span>
@@ -122,7 +122,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         ctx.fillStyle = '#ffffff'
         ctx.font = 'bold 36px Arial'
         ctx.textAlign = 'center'
-        ctx.fillText(number + ' Çarpım Tablosu', 300, 60)
+        ctx.fillText('Tabla del ' + number, 300, 60)
 
         // Table items
         ctx.font = '24px Arial'
@@ -153,7 +153,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             const url = URL.createObjectURL(blob)
             const link = document.createElement('a')
             link.href = url
-            link.download = number + '-carpim-tablosu.png'
+            link.download = number + '-tabla-de-multiplicar.png'
             link.click()
             URL.revokeObjectURL(url)
           }
@@ -167,16 +167,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
   // Number-specific content
   const getNumberMeaning = () => {
     const meanings: { [key: number]: string} = {
-      1: "1 ile çarpmak, matematikte özel bir durumdur. Herhangi bir sayıyı 1 ile çarptığınızda, sonuç her zaman aynı sayıdır. Buna çarpmanın özdeşlik özelliği denir. Bunu 'bir şeyden kaç grubum var?' diye sormak gibi düşünün. Sadece 1 grubunuz olduğunda, tam olarak başladığınız şeye sahipsiniz.",
-      2: "2 ile çarpmak, bir sayıyı ikiye katlamak demektir. Bir şeyi 2 ile çarptığınızda, onu kendi üzerine ekliyorsunuz. Bu, en pratik çarpma işlemlerinden biridir çünkü gerçek hayatta sıklıkla şeyleri ikiye katlamaya ihtiyaç duyarız—ayakkabı çiftlerini saymak, bisiklet tekerlekleri ya da bir şeyi iki kişi arasında eşit olarak bölmek gibi.",
-      3: "3 ile çarpmak, bir sayıyı üç kez almak demektir. Bunu aynı sayıyı kendine üç kez eklemek olarak düşünebilirsiniz. Bu tablo, üçgenler, üçlüler ve üçerli gelen her şeyi anlamak için gereklidir.",
-      4: "4 ile çarpmak, iki kez ikiye katlamak gibidir. 4 = 2 × 2 olduğundan, bir sayıyı ikiye katlayabilir ve sonra sonucu tekrar ikiye katlayabilirsiniz. Bu, 2'leri zaten biliyorsanız 4 çarpım tablosunu öğrenmeyi kolaylaştırır. 4 sayısı geometride (karelerin 4 kenarı vardır) ve zamanı ölçmede (bir saatte 4 çeyrek) sıklıkla görülür.",
-      5: "5 ile çarpmak, matematikteki en güzel desenlerden birini oluşturur. 5'in tüm katları 0 veya 5 ile biter, bu da bu tabloyu çok öngörülebilir yapar. Bu, para saymak (5 kuruş, 5 lira) ve saati söylemek (5 dakikalık aralıklar) için son derece kullanışlıdır.",
-      6: "6 ile çarpmak, bir sayının altı grubunu almak demektir. 6, ilk 'gerçek' çarpım tablosudur çünkü 2 veya 3'ün basit katları değildir. Ancak, 6 = 2 × 3 olduğundan, bir sayıyı 2 ile çarpıp sonra 3 ile çarparak (veya tersi) 6 ile çarpma yapabilirsiniz. 6 sayısı doğada (arı peteği hücreleri) ve günlük hayatta (yumurta paketleri, zar yüzleri) sıkça görülür.",
-      7: "7 ile çarpmak, genellikle öğrencilerin en zorlandığı tablolardan biridir çünkü 7 asal sayıdır ve diğer basit çarpım tablolarından türetilemiyor. Ancak, 7'nin tüm katlarında güzel desenler vardır ve pratikle öğrenilebilir. 7, haftanın günleri, dünya kıtaları ve birçok kültürel referansta önemli bir sayıdır.",
-      8: "8 ile çarpmak, üç kez ikiye katlamak gibidir (8 = 2 × 2 × 2). Bir sayıyı ikiye katlayın, sonucu tekrar ikiye katlayın, ve bir kez daha ikiye katlayın—8 ile çarpmış olursunuz. Bu tablo, 2 ve 4 tablolarını iyi biliyorsanız daha kolay öğrenilir. 8, geometride (sekizgen) ve müzikte (oktav) önemli bir sayıdır.",
-      9: "9 ile çarpmak, matematikteki en büyüleyici desenlerden birine sahiptir. 9'un tüm katlarının basamakları toplandığında sonuç her zaman 9'a bölünebilir. Ayrıca, 9 × n'in onlar basamağı her zaman n-1'dir. Bu tablo, parmak hilesi ile de öğrenilebilir. 9, 10'dan sadece 1 eksik olduğu için, 10 tablosunu kullanarak da hesaplanabilir.",
-      10: "10 ile çarpmak, en kolay çarpım tablolarından biridir. Herhangi bir sayıyı 10 ile çarptığınızda, sadece sonuna bir sıfır eklersiniz. Bu, ondalık sistemimizin temelini oluşturur. 10 ile çarpmayı öğrenmek, öğrencilere yer değeri kavramını ve büyük sayılarla çalışmayı öğretir. 10 tablosu, tüm diğer çarpım tablolarını anlamak için bir referans noktasıdır.",
+      1: "Multiplicar por 1 es un caso especial en matemáticas. Cuando multiplicas cualquier número por 1, el resultado siempre es ese mismo número. Esto se llama la propiedad de identidad de la multiplicación. Piénsalo como preguntar '¿cuántos grupos de algo tengo?' Cuando solo tienes 1 grupo, tienes exactamente lo que empezaste.",
+      2: "Multiplicar por 2 significa duplicar un número. Cuando multiplicas algo por 2, lo estás agregando a sí mismo. Esta es una de las operaciones de multiplicación más prácticas porque frecuentemente necesitamos duplicar cosas en la vida real—contar pares de zapatos, ruedas de bicicleta, o dividir algo equitativamente entre dos personas.",
+      3: "Multiplicar por 3 significa tomar un número tres veces. Puedes pensarlo como sumar el mismo número a sí mismo tres veces. Esta tabla es esencial para entender triángulos, tríos y todo lo que viene en grupos de tres.",
+      4: "Multiplicar por 4 es como duplicar dos veces. Como 4 = 2 × 2, puedes duplicar un número y luego duplicar el resultado otra vez. Esto hace que aprender la tabla del 4 sea más fácil si ya conoces la del 2. El número 4 aparece frecuentemente en geometría (los cuadrados tienen 4 lados) y en la medición del tiempo (hay 4 cuartos en una hora).",
+      5: "Multiplicar por 5 crea uno de los patrones más hermosos en matemáticas. Todos los múltiplos de 5 terminan en 0 o 5, lo que hace que esta tabla sea muy predecible. Es extremadamente útil para contar dinero (monedas de 5 centavos, billetes de 5 pesos) y decir la hora (intervalos de 5 minutos).",
+      6: "Multiplicar por 6 significa tomar seis grupos de un número. El 6 es la primera tabla de multiplicar 'real' porque no es simplemente múltiplos de 2 o 3. Sin embargo, como 6 = 2 × 3, puedes multiplicar un número por 2 y luego por 3 (o al revés) para multiplicar por 6. El número 6 aparece frecuentemente en la naturaleza (celdas de panal de abeja) y en la vida cotidiana (cartones de huevos, caras de dados).",
+      7: "Multiplicar por 7 es generalmente una de las tablas con las que los estudiantes tienen más dificultades porque 7 es un número primo y no se puede derivar de otras tablas simples. Sin embargo, hay patrones hermosos en todos los múltiplos del 7 y se puede aprender con práctica. El 7 es un número importante en los días de la semana, los continentes del mundo y muchas referencias culturales.",
+      8: "Multiplicar por 8 es como duplicar tres veces (8 = 2 × 2 × 2). Duplica un número, duplica el resultado otra vez, y duplícalo una vez más—habrás multiplicado por 8. Esta tabla es más fácil de aprender si conoces bien las tablas del 2 y 4. El 8 es un número importante en geometría (octógonos) y música (octava).",
+      9: "Multiplicar por 9 tiene uno de los patrones más fascinantes en matemáticas. Cuando sumas los dígitos de todos los múltiplos del 9, el resultado siempre es divisible por 9. Además, el dígito de las decenas de 9 × n siempre es n-1. Esta tabla también se puede aprender con el truco de los dedos. Como 9 es solo 1 menos que 10, también se puede calcular usando la tabla del 10.",
+      10: "Multiplicar por 10 es una de las tablas de multiplicar más fáciles. Cuando multiplicas cualquier número por 10, simplemente agregas un cero al final. Esto forma la base de nuestro sistema decimal. Aprender a multiplicar por 10 enseña a los estudiantes el concepto de valor posicional y cómo trabajar con números grandes. La tabla del 10 es un punto de referencia para entender todas las demás tablas de multiplicar.",
       11: "11 ile çarpmak, matematikte en ilginç desenlerden birine sahiptir. 11 ile tek basamaklı sayıları çarptığınızda, sonuç o sayının iki kez tekrarıdır (11×3=33, 11×7=77). İki basamaklı sayıları 11 ile çarparken de güzel bir desen vardır: basamakları toplayıp ortaya yerleştirirsiniz. 11, bir asal sayıdır ve özel matematiksel özelliklere sahiptir.",
       12: "12 ile çarpmak, en pratik çarpım tablolarından biridir çünkü 12, birçok sayıya bölünebilir (1, 2, 3, 4, 6, 12). Bu özellik 12'yi günlük hayatta çok kullanışlı yapar—bir düzinede 12 nesne, saatte 12 saat, yılda 12 ay vardır. 12 = 3 × 4 = 2 × 6 olduğundan, bu tabloyu birden fazla yoldan öğrenebilirsiniz.",
       13: "13 ile çarpmak, öğrencilerin desen tanıma becerilerini geliştirir. 13 bir asal sayıdır, bu yüzden diğer tablolardan basitçe türetilemiyor. Ancak 13'ü 10+3 olarak düşünmek çok yardımcı olur: bir sayıyı 13 ile çarpmak, onu 10 ile çarpıp 3 ile çarparak toplamaktır. 13, birçok kültürde özel öneme sahip bir sayıdır.",

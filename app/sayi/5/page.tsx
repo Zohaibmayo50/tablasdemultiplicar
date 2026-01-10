@@ -5,24 +5,24 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/5#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/5",
-      "name": "Tabla del 5",
-      "description": "5 Ã§arpÄ±m tablosu ile beÅŸerli sayma Ã¶ÄŸrenin. Saat okuma ve para hesaplama iÃ§in kritik Ã¶neme sahip desenleri keÅŸfedin.",
+      "@id": "https://tablasdemultiplicar.online/sayi/5#webpage",
+      "url": "https://tablasdemultiplicar.online/sayi/5",
+      "name": "Tabla del 5 - Multiplicar por 1",
+      "description": "Aprende el concepto bÃ¡sico de multiplicar por 1. Propiedad de identidad, patrones y estrategias prÃ¡cticas para comprender las multiplicaciones por 1.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/5#learningresource"
+        "@id": "https://tablasdemultiplicar.online/sayi/5#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/5#breadcrumb"
+        "@id": "https://tablasdemultiplicar.online/sayi/5#breadcrumb"
       },
       "inLanguage": "es-MX"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/5#breadcrumb",
+      "@id": "https://tablasdemultiplicar.online/sayi/5#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -37,14 +37,14 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-Tabla del 5"
+            "name": "Tablas 1-10"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/5",
+            "@id": "https://tablasdemultiplicar.online/sayi/5",
             "name": "Tabla del 5"
           }
         }
@@ -52,15 +52,15 @@ const schemaData = {
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/5#learningresource",
-      "name": "Tabla del 5",
-      "description": "5 ile Ã§arpma: BeÅŸerli sayma, 0 ve 5 ile biten desen. Saat okuma ve para hesaplama iÃ§in temel beceriler.",
-      "educationalLevel": "Beginner",
+      "@id": "https://tablasdemultiplicar.online/sayi/5#learningresource",
+      "name": "Recurso de aprendizaje: Tabla del 5",
+      "description": "Multiplicar por 1 (propiedad de identidad): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Aprende las reglas bÃ¡sicas de la multiplicaciÃ³n.",
+      "educationalLevel": "Principiante",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "5 Ã§arpÄ±m tablosu, beÅŸerli sayma, saat okuma, para hesaplama",
-      "typicalAgeRange": "6-9",
+      "teaches": "Tabla del 5, propiedad de identidad, conceptos bÃ¡sicos de multiplicaciÃ³n",
+      "typicalAgeRange": "6-8",
       "inLanguage": "es-MX",
-      "educationalUse": ["practice", "self-study", "real-world application"],
+      "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
@@ -73,14 +73,23 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: 'Tabla del 5"application/ld+json"
+  title: 'Tabla del 5 | Aprende a multiplicar por 1',
+  description: 'Domina la Tabla del 5. Explicaciones claras, patrones y estrategias prÃ¡cticas para comprender la propiedad de identidad y sentar las bases de la multiplicaciÃ³n.',
+  alternates: {
+    canonical: '/tabla/5',
+  },
+}
+
+export default function MultiplicationTableOf5() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={5} rangeStart={1} rangeEnd={10} />
     </>
   )
 }
-
-
 
 

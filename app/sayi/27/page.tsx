@@ -1,4 +1,4 @@
-﻿import NumberPage from '@/app/components/NumberPage'
+import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/27#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/27",
-      "name": "Tabla del 27",
-      "description": "27 Ã§arpÄ±m tablosu ile 3Â³=27 kÃ¼p kavramÄ±nÄ± Ã¶ÄŸrenin. 3Ã—9 iliÅŸkisi ve geometrik desenler.",
+      "name": "27 Çarpım Tablosu - 3 Küp Kavramı",
+      "description": "27 çarpım tablosu ile 3³=27 küp kavramını öğrenin. 3×9 ilişkisi ve geometrik desenler.",
       "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
       "about": {"@id": "https://tablasdemultiplicar.online/tabla/27#learningresource"},
       "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/27#breadcrumb"},
@@ -19,18 +19,18 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/27#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-Tabla del 27"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/27", "name": "Tabla del 27"}}
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-30 Çarpım Tablosu"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/27", "name": "27 Çarpım Tablosu"}}
       ]
     },
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/27#learningresource",
-      "name": "Tabla del 27",
-      "description": "27 ile Ã§arpma: 3 kÃ¼p (3Â³=27), 3Ã—9 iliÅŸkisi ve ileri seviye Ã§arpma becerileri.",
+      "name": "27 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "27 ile çarpma: 3 küp (3³=27), 3×9 ilişkisi ve ileri seviye çarpma becerileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "27 Ã§arpÄ±m tablosu, 3 kÃ¼p kavramÄ±, 3Ã—9 iliÅŸkisi",
+      "teaches": "27 çarpım tablosu, 3 küp kavramı, 3×9 ilişkisi",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -41,12 +41,20 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: 'Tabla del 27"application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+  title: '27 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
+  description: '27 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
+  keywords: '27 çarpım tablosu, yirmi yedi çarpım tablosu, 27 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  alternates: {
+    canonical: '/tabla/27',
+  },
+}
+
+export default function Number27Page() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <NumberPage number={27} rangeStart={21} rangeEnd={30} />
     </>
   )
 }
-
-
-
 

@@ -1,4 +1,4 @@
-﻿import NumberPage from '@/app/components/NumberPage'
+import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/28#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/28",
-      "name": "Tabla del 28",
-      "description": "28 Ã§arpÄ±m tablosu ile 4Ã—7 iliÅŸkisini Ã¶ÄŸrenin. Hafta gÃ¼nleri ve ay kavramlarÄ± ile pratik uygulamalar.",
+      "name": "28 Çarpım Tablosu - 4×7 İlişkisi",
+      "description": "28 çarpım tablosu ile 4×7 ilişkisini öğrenin. Hafta günleri ve ay kavramları ile pratik uygulamalar.",
       "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
       "about": {"@id": "https://tablasdemultiplicar.online/tabla/28#learningresource"},
       "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/28#breadcrumb"},
@@ -19,18 +19,18 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/28#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-Tabla del 28"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/28", "name": "Tabla del 28"}}
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-30 Çarpım Tablosu"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/28", "name": "28 Çarpım Tablosu"}}
       ]
     },
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/28#learningresource",
-      "name": "Tabla del 28",
-      "description": "28 ile Ã§arpma: 4 hafta=28 gÃ¼n, 4Ã—7 iliÅŸkisi ve zaman hesaplama becerileri.",
+      "name": "28 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "28 ile çarpma: 4 hafta=28 gün, 4×7 ilişkisi ve zaman hesaplama becerileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "28 Ã§arpÄ±m tablosu, 4Ã—7 iliÅŸkisi, ay ve hafta kavramÄ±",
+      "teaches": "28 çarpım tablosu, 4×7 ilişkisi, ay ve hafta kavramı",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -41,12 +41,21 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: 'Tabla del 28"application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+  title: '28 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
+  description: '28 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
+  keywords: '28 çarpım tablosu, yirmi sekiz çarpım tablosu, 28 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  alternates: {
+    canonical: '/tabla/28',
+  },
+}
+
+export default function Number28Page() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <NumberPage number={28} rangeStart={21} rangeEnd={30} />
     </>
   )
 }
-
-
 
 

@@ -1,4 +1,4 @@
-﻿import NumberPage from '@/app/components/NumberPage'
+import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/23#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/23",
-      "name": "Tabla del 23",
-      "description": "23 Ã§arpÄ±m tablosu ile asal sayÄ± desenleri ve ileri dÃ¼zeyde Ã§arpma becerilerini geliÅŸtirin.",
+      "name": "23 Çarpım Tablosu - Asal Sayı Desenleri",
+      "description": "23 çarpım tablosu ile asal sayı desenleri ve ileri düzeyde çarpma becerilerini geliştirin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-Tabla del 23"
+            "name": "21-30 Çarpım Tablosu"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/23",
-            "name": "Tabla del 23"
+            "name": "23 Çarpım Tablosu"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/23#learningresource",
-      "name": "Tabla del 23",
-      "description": "23 ile Ã§arpma: Asal sayÄ± Ã¶zellikleri ve orta-ileri seviye Ã§arpma pratikleri.",
+      "name": "23 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "23 ile çarpma: Asal sayı özellikleri ve orta-ileri seviye çarpma pratikleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "23 Ã§arpÄ±m tablosu, asal sayÄ± kavramÄ±, ileri Ã§arpma",
+      "teaches": "23 çarpım tablosu, asal sayı kavramı, ileri çarpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,14 +73,24 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: 'Tabla del 23"application/ld+json"
+  title: '23 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
+  description: '23 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
+  keywords: '23 çarpım tablosu, yirmi üç çarpım tablosu, 23 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  alternates: {
+    canonical: '/tabla/23',
+  },
+}
+
+export default function Number23Page() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={23} rangeStart={21} rangeEnd={30} />
     </>
   )
 }
-
-
 
 

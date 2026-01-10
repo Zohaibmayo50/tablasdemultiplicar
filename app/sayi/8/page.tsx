@@ -1,4 +1,4 @@
-﻿import NumberPage from '@/app/components/NumberPage'
+import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/8#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/8",
-      "name": "Tabla del 8",
-      "description": "8 Ã§arpÄ±m tablosu ile ikiye ve dÃ¶rdÃ¼ne katlama tekniklerini Ã¶ÄŸrenin. 2Ã—2Ã—2 iliÅŸkisi ve sekizgen kavramÄ±nÄ± keÅŸfedin.",
+      "name": "8 Çarpım Tablosu - Sekizli Desenler",
+      "description": "8 çarpım tablosu ile ikiye ve dördüne katlama tekniklerini öğrenin. 2×2×2 ilişkisi ve sekizgen kavramını keşfedin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-Tabla del 8"
+            "name": "1-10 Çarpım Tablosu"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/8",
-            "name": "Tabla del 8"
+            "name": "8 Çarpım Tablosu"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/8#learningresource",
-      "name": "Tabla del 8",
-      "description": "8 ile Ã§arpma: 4 tablosunu ikiye katlama (4Ã—2=8), sekizli sayma ve 2Ã¼n kuvvetleri (2Â³=8).",
+      "name": "8 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "8 ile çarpma: 4 tablosunu ikiye katlama (4×2=8), sekizli sayma ve 2ün kuvvetleri (2³=8).",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "8 Ã§arpÄ±m tablosu, sekizli sayma, ikiye katlama, 2â€™nin kuvvetleri",
+      "teaches": "8 çarpım tablosu, sekizli sayma, ikiye katlama, 2’nin kuvvetleri",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,14 +73,23 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: 'Tabla del 8"application/ld+json"
+  title: '8 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
+  description: '8 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
+  keywords: '8 çarpım tablosu, sekiz çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  alternates: {
+    canonical: '/tabla/8',
+  },
+}
+
+export default function Number8Page() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={8} rangeStart={1} rangeEnd={10} />
     </>
   )
 }
-
-
-
 

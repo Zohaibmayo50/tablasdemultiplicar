@@ -1,4 +1,4 @@
-﻿import NumberPage from '@/app/components/NumberPage'
+import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/6#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/6",
-      "name": "Tabla del 6",
-      "description": "6 Ã§arpÄ±m tablosu ile altÄ±ÅŸar sayma Ã¶ÄŸrenin. 2Ã—3 ve 3Ã—2 iliÅŸkileri ile geometrik desenleri keÅŸfedin.",
+      "name": "6 Çarpım Tablosu - Altışar Sayma",
+      "description": "6 çarpım tablosu ile altışar sayma öğrenin. 2×3 ve 3×2 ilişkileri ile geometrik desenleri keşfedin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-Tabla del 6"
+            "name": "1-10 Çarpım Tablosu"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/6",
-            "name": "Tabla del 6"
+            "name": "6 Çarpım Tablosu"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/6#learningresource",
-      "name": "Tabla del 6",
-      "description": "6 ile Ã§arpma: 2 ve 3 tablolarÄ±nÄ±n birleÅŸimi (2Ã—3), altÄ±ÅŸar sayma ve Ã§ift sayÄ± desenleri.",
+      "name": "6 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "6 ile çarpma: 2 ve 3 tablolarının birleşimi (2×3), altışar sayma ve çift sayı desenleri.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "6 Ã§arpÄ±m tablosu, altÄ±ÅŸar sayma, 2 ve 3 tablolarÄ±nÄ±n iliÅŸkisi",
+      "teaches": "6 çarpım tablosu, altışar sayma, 2 ve 3 tablolarının ilişkisi",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,14 +73,24 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: 'Tabla del 6"application/ld+json"
+  title: '6 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
+  description: '6 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
+  keywords: '6 çarpım tablosu, altı çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  alternates: {
+    canonical: '/tabla/6',
+  },
+}
+
+export default function Number6Page() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={6} rangeStart={1} rangeEnd={10} />
     </>
   )
 }
-
-
 
 

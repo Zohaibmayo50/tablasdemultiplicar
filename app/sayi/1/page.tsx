@@ -1,4 +1,4 @@
-﻿import NumberPage from '../../components/NumberPage'
+import NumberPage from '../../components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/1#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/1",
       "name": "Tabla del 1 - Multiplicar por 1",
-      "description": "Aprende el concepto bÃ¡sico de multiplicar por 1. Propiedad de identidad, patrones y estrategias prÃ¡cticas para comprender las multiplicaciones por 1.",
+      "description": "Aprende el concepto básico de multiplicar por 1. Propiedad de identidad, patrones y estrategias prácticas para comprender las multiplicaciones por 1.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/1#learningresource",
       "name": "Recurso de aprendizaje: Tabla del 1",
-      "description": "Multiplicar por 1 (propiedad de identidad): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Aprende las reglas bÃ¡sicas de la multiplicaciÃ³n.",
+      "description": "Multiplicar por 1 (propiedad de identidad): cualquier número multiplicado por 1 es el mismo número. Aprende las reglas básicas de la multiplicación.",
       "educationalLevel": "Principiante",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Tabla del 1, propiedad de identidad, conceptos bÃ¡sicos de multiplicaciÃ³n",
+      "teaches": "Tabla del 1, propiedad de identidad, conceptos básicos de multiplicación",
       "typicalAgeRange": "6-8",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: 'Tabla del 1 | Aprende a multiplicar por 1',
-  description: 'Domina la tabla del 1. Explicaciones claras, patrones y estrategias prÃ¡cticas para comprender la propiedad de identidad y sentar las bases de la multiplicaciÃ³n.',
+  description: 'Domina la tabla del 1. Explicaciones claras, patrones y estrategias prácticas para comprender la propiedad de identidad y sentar las bases de la multiplicación.',
   alternates: {
     canonical: '/tabla/1',
   },
@@ -91,6 +91,3 @@ export default function MultiplicationTableOf1() {
     </>
   )
 }
-
-
-

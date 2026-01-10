@@ -5,24 +5,24 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/2#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/2",
-      "name": "Tabla del 2 - Conteo de dos en dos",
-      "description": "Mejora el conteo de dos en dos y la duplicaciÃ³n. Aprende patrones de nÃºmeros pares y estrategias prÃ¡cticas para multiplicar por 2.",
+      "@id": "https://tablasdemultiplicar.online/sayi/2#webpage",
+      "url": "https://tablasdemultiplicar.online/sayi/2",
+      "name": "Tabla del 2 - Multiplicar por 1",
+      "description": "Aprende el concepto bÃ¡sico de multiplicar por 1. Propiedad de identidad, patrones y estrategias prÃ¡cticas para comprender las multiplicaciones por 1.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/2#learningresource"
+        "@id": "https://tablasdemultiplicar.online/sayi/2#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/2#breadcrumb"
+        "@id": "https://tablasdemultiplicar.online/sayi/2#breadcrumb"
       },
       "inLanguage": "es-MX"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/2#breadcrumb",
+      "@id": "https://tablasdemultiplicar.online/sayi/2#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -44,7 +44,7 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/2",
+            "@id": "https://tablasdemultiplicar.online/sayi/2",
             "name": "Tabla del 2"
           }
         }
@@ -52,12 +52,12 @@ const schemaData = {
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/2#learningresource",
+      "@id": "https://tablasdemultiplicar.online/sayi/2#learningresource",
       "name": "Recurso de aprendizaje: Tabla del 2",
-      "description": "Multiplicar por 2: conteo de dos en dos, duplicaciÃ³n y patrones de nÃºmeros pares.",
+      "description": "Multiplicar por 1 (propiedad de identidad): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Aprende las reglas bÃ¡sicas de la multiplicaciÃ³n.",
       "educationalLevel": "Principiante",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Tabla del 2, conteo de dos en dos, duplicaciÃ³n, nÃºmeros pares",
+      "teaches": "Tabla del 2, propiedad de identidad, conceptos bÃ¡sicos de multiplicaciÃ³n",
       "typicalAgeRange": "6-8",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: 'Tabla del 2 | Aprende a multiplicar por 2',
-  description: 'Domina la tabla del 2. Estrategias de duplicaciÃ³n, patrones y ejemplos prÃ¡cticos para aprender con seguridad.',
+  title: 'Tabla del 2 | Aprende a multiplicar por 1',
+  description: 'Domina la Tabla del 2. Explicaciones claras, patrones y estrategias prÃ¡cticas para comprender la propiedad de identidad y sentar las bases de la multiplicaciÃ³n.',
   alternates: {
     canonical: '/tabla/2',
   },
@@ -91,6 +91,5 @@ export default function MultiplicationTableOf2() {
     </>
   )
 }
-
 
 

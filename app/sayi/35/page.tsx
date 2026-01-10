@@ -1,4 +1,4 @@
-﻿import NumberPage from '@/app/components/NumberPage'
+import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/35#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/35",
-      "name": "Tabla del 35",
-      "description": "35 Ã§arpÄ±m tablosu ile 5Ã—7 iliÅŸkisini Ã¶ÄŸrenin. Hafta ve beÅŸlik sistem baÄŸlantÄ±larÄ±.",
+      "name": "35 Çarpım Tablosu - 5×7 İlişkisi",
+      "description": "35 çarpım tablosu ile 5×7 ilişkisini öğrenin. Hafta ve beşlik sistem bağlantıları.",
       "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
       "about": {"@id": "https://tablasdemultiplicar.online/tabla/35#learningresource"},
       "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/35#breadcrumb"},
@@ -19,18 +19,18 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/35#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-Tabla del 35"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/35", "name": "Tabla del 35"}}
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-40 Çarpım Tablosu"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/35", "name": "35 Çarpım Tablosu"}}
       ]
     },
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/35#learningresource",
-      "name": "Tabla del 35",
-      "description": "35 ile Ã§arpma: 5Ã—7 iliÅŸkisi, beÅŸlik ve yedilik sistem baÄŸlantÄ±larÄ±, pratik uygulamalar.",
+      "name": "35 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "35 ile çarpma: 5×7 ilişkisi, beşlik ve yedilik sistem bağlantıları, pratik uygulamalar.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "35 Ã§arpÄ±m tablosu, 5Ã—7 iliÅŸkisi, hafta-beÅŸlik baÄŸlantÄ±sÄ±",
+      "teaches": "35 çarpım tablosu, 5×7 ilişkisi, hafta-beşlik bağlantısı",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -41,12 +41,20 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: 'Tabla del 35"application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+  title: '35 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
+  description: '35 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
+  keywords: '35 çarpım tablosu, otuz beş çarpım tablosu, 35 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  alternates: {
+    canonical: '/tabla/35',
+  },
+}
+
+export default function Number35Page() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <NumberPage number={35} rangeStart={31} rangeEnd={40} />
     </>
   )
 }
-
-
-
 

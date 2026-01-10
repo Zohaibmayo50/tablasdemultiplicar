@@ -1,4 +1,4 @@
-﻿import NumberPage from '@/app/components/NumberPage'
+import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/9#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/9",
-      "name": "Tabla del 9",
-      "description": "9 Ã§arpÄ±m tablosu ile parmak triklerini ve basamak toplama sihirli kurallarÄ±nÄ± Ã¶ÄŸrenin. En eÄŸlenceli Ã§arpÄ±m tablosu desenlerini keÅŸfedin.",
+      "name": "9 Çarpım Tablosu - Dokuzlu Sihirli Desenler",
+      "description": "9 çarpım tablosu ile parmak triklerini ve basamak toplama sihirli kurallarını öğrenin. En eğlenceli çarpım tablosu desenlerini keşfedin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-Tabla del 9"
+            "name": "1-10 Çarpım Tablosu"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/9",
-            "name": "Tabla del 9"
+            "name": "9 Çarpım Tablosu"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/9#learningresource",
-      "name": "Tabla del 9",
-      "description": "9 ile Ã§arpma: Parmak trikleri, basamak toplama kuralÄ± (sonuÃ§larÄ±n rakamlarÄ± toplamÄ±=9), 10-1 iliÅŸkisi ve sihirli desenler.",
+      "name": "9 Çarpım Tablosu Öğrenme Kaynağı",
+      "description": "9 ile çarpma: Parmak trikleri, basamak toplama kuralı (sonuçların rakamları toplamı=9), 10-1 ilişkisi ve sihirli desenler.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "9 Ã§arpÄ±m tablosu, parmak trikeri, basamak toplama kuralÄ±, 3Â²=9",
+      "teaches": "9 çarpım tablosu, parmak trikeri, basamak toplama kuralı, 3²=9",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,14 +73,24 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: 'Tabla del 9"application/ld+json"
+  title: '9 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
+  description: '9 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
+  keywords: '9 çarpım tablosu, dokuz çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  alternates: {
+    canonical: '/tabla/9',
+  },
+}
+
+export default function Number9Page() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={9} rangeStart={1} rangeEnd={10} />
     </>
   )
 }
-
-
 
 

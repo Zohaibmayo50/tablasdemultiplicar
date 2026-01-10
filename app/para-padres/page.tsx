@@ -2,9 +2,9 @@ import Link from 'next/link'
 import Footer from '@/app/components/Footer'
 
 export const metadata = {
-  title: 'Ebeveynler İçin Çarpım Tablosu Rehberi | Çocuğunuza Nasıl Yardımcı Olabilirsiniz',
-  description: 'Çocuğunuzun çarpım tablosu öğrenmesine nasıl destek olabilirsiniz? Etkili stratejiler, motivasyon teknikleri ve ev içi aktiviteler.',
-  keywords: 'çarpım tablosu öğretme, ebeveyn rehberi, çocuklara matematik, ev ödevleri',
+  title: 'Guía de Tablas de Multiplicar para Padres | Apoya el Aprendizaje en Casa',
+  description: 'Cómo ayudar a tu hijo a aprender tablas de multiplicar en casa. Consejos prácticos, juegos educativos y estrategias de motivación.',
+  keywords: 'ayudar a niños con tablas de multiplicar, matemáticas en casa, educación para padres, actividades educativas',
   alternates: {
     canonical: '/para-padres',
   },

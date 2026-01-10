@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/33#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/33",
-      "name": "33 Çarpım Tablosu - 3×11 İlişkisi",
-      "description": "33 çarpım tablosu ile 3×11 ilişkisini öğrenin. Basamak desenleri ve çarpma stratejileri.",
+      "name": "Tabla del 33",
+      "description": "33 Ã§arpÄ±m tablosu ile 3Ã—11 iliÅŸkisini Ã¶ÄŸrenin. Basamak desenleri ve Ã§arpma stratejileri.",
       "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
       "about": {"@id": "https://tablasdemultiplicar.online/tabla/33#learningresource"},
       "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/33#breadcrumb"},
@@ -19,18 +19,18 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/33#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-40 Çarpım Tablosu"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/33", "name": "33 Çarpım Tablosu"}}
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-Tabla del 33"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/33", "name": "Tabla del 33"}}
       ]
     },
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/33#learningresource",
-      "name": "33 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "33 ile çarpma: 3 ve 11 tablolarının birleşimi (3×11=33), çift basamak desenleri.",
+      "name": "Tabla del 33",
+      "description": "33 ile Ã§arpma: 3 ve 11 tablolarÄ±nÄ±n birleÅŸimi (3Ã—11=33), Ã§ift basamak desenleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "33 çarpım tablosu, 3×11 ilişkisi, basamak desenleri",
+      "teaches": "33 Ã§arpÄ±m tablosu, 3Ã—11 iliÅŸkisi, basamak desenleri",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -41,21 +41,12 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '33 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '33 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '33 çarpım tablosu, otuz üç çarpım tablosu, 33 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
-  alternates: {
-    canonical: '/tabla/33',
-  },
-}
-
-export default function Number33Page() {
-  return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+  title: 'Tabla del 33"application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <NumberPage number={33} rangeStart={31} rangeEnd={40} />
     </>
   )
 }
+
+
 
 

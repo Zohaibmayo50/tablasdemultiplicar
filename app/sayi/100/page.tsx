@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 import { Metadata } from 'next'
 
 const schemaData = {
@@ -8,8 +8,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/100#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/100",
-      "name": "100 Çarpım Tablosu - Onluk Sistemin Ustası",
-      "description": "100 çarpım tablosu ile onluk sistem, yüzde hesaplamaları ve yer değeri kavramında ustalaşın. En önemli çarpım tablolarından biri.",
+      "name": "Tabla del 100",
+      "description": "100 Ã§arpÄ±m tablosu ile onluk sistem, yÃ¼zde hesaplamalarÄ± ve yer deÄŸeri kavramÄ±nda ustalaÅŸÄ±n. En Ã¶nemli Ã§arpÄ±m tablolarÄ±ndan biri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -38,7 +38,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/91-100",
-            "name": "91-100 Çarpım Tablosu"
+            "name": "91-Tabla del 100"
           }
         },
         {
@@ -46,7 +46,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/100",
-            "name": "100 Çarpım Tablosu"
+            "name": "Tabla del 100"
           }
         }
       ]
@@ -54,11 +54,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/100#learningresource",
-      "name": "100 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "100 ile çarpma: Onluk sistemin temeli, yer değeri kavramı, yüzde hesaplamaları (100%=tam), sonuna iki sıfır ekleme kuralı. En kullanışlı çarpım tablolarından biri.",
+      "name": "Tabla del 100",
+      "description": "100 ile Ã§arpma: Onluk sistemin temeli, yer deÄŸeri kavramÄ±, yÃ¼zde hesaplamalarÄ± (100%=tam), sonuna iki sÄ±fÄ±r ekleme kuralÄ±. En kullanÄ±ÅŸlÄ± Ã§arpÄ±m tablolarÄ±ndan biri.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "100 çarpım tablosu, onluk sistem, yer değeri, yüzde hesaplama, 10'un karesi",
+      "teaches": "100 Ã§arpÄ±m tablosu, onluk sistem, yer deÄŸeri, yÃ¼zde hesaplama, 10'un karesi",
       "typicalAgeRange": "9-12",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application", "foundational concept"],
@@ -74,23 +74,14 @@ const schemaData = {
 }
 
 export const metadata: Metadata = {
-  title: '100 Çarpım Tablosu - Kolay Öğrenme Yöntemleri',
-  description: '100 çarpım tablosunu öğrenmek için eğlenceli ve etkili yöntemler. Görsel araçlar ve pratik ipuçlarıyla 100 tablosunda ustalaşın.',
-  keywords: '100 çarpım tablosu, 100 tablosu, çarpım tablosu 100, matematik, çarpma işlemi',
-  alternates: {
-    canonical: '/tabla/100',
-  },
-}
-
-export default function Number100Page() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
+  title: 'Tabla del 100"application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={100} rangeStart={91} rangeEnd={100} />
     </>
   )
 }
+
+
+
 

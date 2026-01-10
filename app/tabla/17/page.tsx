@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/17#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/17",
-      "name": "17 Çarpım Tablosu - Asal Sayı Keşfi",
-      "description": "17 çarpım tablosu ile asal sayı kavramını keşfedin. Zihinsel matematik ve pratik stratejilerle 17 ile çarpma.",
+      "name": "Tabla del 17",
+      "description": "17 Ã§arpÄ±m tablosu ile asal sayÄ± kavramÄ±nÄ± keÅŸfedin. Zihinsel matematik ve pratik stratejilerle 17 ile Ã§arpma.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-Tabla del 17"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/17",
-            "name": "17 Çarpım Tablosu"
+            "name": "Tabla del 17"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/17#learningresource",
-      "name": "17 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "17 ile çarpma: Asal sayı özellikleri, 10+7 ayrıştırma stratejisi, zihinsel matematik teknikleri.",
+      "name": "Tabla del 17",
+      "description": "17 ile Ã§arpma: Asal sayÄ± Ã¶zellikleri, 10+7 ayrÄ±ÅŸtÄ±rma stratejisi, zihinsel matematik teknikleri.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "17 çarpım tablosu, asal sayılar, zihinsel matematik",
+      "teaches": "17 Ã§arpÄ±m tablosu, asal sayÄ±lar, zihinsel matematik",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,24 +73,14 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '17 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '17 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '17 çarpım tablosu, on yedi çarpım tablosu, 17 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
-  alternates: {
-    canonical: '/tabla/17',
-  },
-}
-
-export default function Number17Page() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
+  title: 'Tabla del 17"application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={17} rangeStart={11} rangeEnd={20} />
     </>
   )
 }
+
+
 
 

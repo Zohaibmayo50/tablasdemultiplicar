@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/21#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/21",
-      "name": "21 Çarpım Tablosu - Yirmili Sistemler",
-      "description": "21 çarpım tablosu ile yirmili sayı sistemini keşfedin. 3×7 ilişkisi ve iki basamaklı sayı desenleri.",
+      "name": "Tabla del 21",
+      "description": "21 Ã§arpÄ±m tablosu ile yirmili sayÄ± sistemini keÅŸfedin. 3Ã—7 iliÅŸkisi ve iki basamaklÄ± sayÄ± desenleri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Çarpım Tablosu"
+            "name": "21-Tabla del 21"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/21",
-            "name": "21 Çarpım Tablosu"
+            "name": "Tabla del 21"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/21#learningresource",
-      "name": "21 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "21 ile çarpma: 3 ve 7 tablolarının birleşimi (3×7=21), yirmili sistem ve orta seviye çarpma becerileri.",
+      "name": "Tabla del 21",
+      "description": "21 ile Ã§arpma: 3 ve 7 tablolarÄ±nÄ±n birleÅŸimi (3Ã—7=21), yirmili sistem ve orta seviye Ã§arpma becerileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "21 çarpım tablosu, 3×7 ilişkisi, iki basamaklı çarpma",
+      "teaches": "21 Ã§arpÄ±m tablosu, 3Ã—7 iliÅŸkisi, iki basamaklÄ± Ã§arpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,24 +73,14 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '21 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '21 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '21 çarpım tablosu, yirmi bir çarpım tablosu, 21 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
-  alternates: {
-    canonical: '/tabla/21',
-  },
-}
-
-export default function Number21Page() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
+  title: 'Tabla del 21"application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={21} rangeStart={21} rangeEnd={30} />
     </>
   )
 }
+
+
 
 

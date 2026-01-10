@@ -2,9 +2,9 @@ import Link from 'next/link'
 import Footer from '@/app/components/Footer'
 
 export const metadata = {
-  title: 'Öğretmenler İçin Çarpım Tablosu Rehberi | Sınıf İçi Öğretim Materyalleri',
-  description: 'Sınıfınızda çarpım tablosu öğretimi için profesyonel kaynaklar, pedagojik stratejiler, aktivite önerileri ve değerlendirme araçları.',
-  keywords: 'çarpım tablosu öğretimi, sınıf aktiviteleri, pedagojik yöntemler, matematik öğretimi',
+  title: 'Guía de Tablas de Multiplicar para Profesores | Recursos Educativos',
+  description: 'Recursos para enseñar tablas de multiplicar en el aula. Estrategias pedagógicas, sugerencias de actividades y herramientas de evaluación.',
+  keywords: 'enseñanza de tablas de multiplicar, actividades de aula, métodos pedagógicos, matemáticas para maestros',
   alternates: {
     canonical: '/para-profesores',
   },

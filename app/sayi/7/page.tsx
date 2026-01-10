@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/7#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/7",
-      "name": "7 Çarpım Tablosu - Yedili Sistemler",
-      "description": "7 çarpım tablosu ile yedili sayma desenlerini öğrenin. Hafta günleri ve periyodik desenlerle pratik uygulamalar.",
+      "name": "Tabla del 7",
+      "description": "7 Ã§arpÄ±m tablosu ile yedili sayma desenlerini Ã¶ÄŸrenin. Hafta gÃ¼nleri ve periyodik desenlerle pratik uygulamalar.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Çarpım Tablosu"
+            "name": "1-Tabla del 7"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/7",
-            "name": "7 Çarpım Tablosu"
+            "name": "Tabla del 7"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/7#learningresource",
-      "name": "7 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "7 ile çarpma: Yedili sayma, hafta günleri ilişkisi ve zorlayıcı ama düzenli desenleri ile 7 tablosunu keşfedin.",
+      "name": "Tabla del 7",
+      "description": "7 ile Ã§arpma: Yedili sayma, hafta gÃ¼nleri iliÅŸkisi ve zorlayÄ±cÄ± ama dÃ¼zenli desenleri ile 7 tablosunu keÅŸfedin.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "7 çarpım tablosu, yedili sayma, hafta günleri kavramı",
+      "teaches": "7 Ã§arpÄ±m tablosu, yedili sayma, hafta gÃ¼nleri kavramÄ±",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,23 +73,14 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '7 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '7 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
-  keywords: '7 çarpım tablosu, yedi çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
-  alternates: {
-    canonical: '/tabla/7',
-  },
-}
-
-export default function Number7Page() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
+  title: 'Tabla del 7"application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={7} rangeStart={1} rangeEnd={10} />
     </>
   )
 }
+
+
+
 

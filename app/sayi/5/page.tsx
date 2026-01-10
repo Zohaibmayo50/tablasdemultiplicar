@@ -1,4 +1,4 @@
-import NumberPage from '../../components/NumberPage'
+﻿import NumberPage from '../../components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/5#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/5",
-      "name": "5 Çarpım Tablosu - Beşerli Sayma",
-      "description": "5 çarpım tablosu ile beşerli sayma öğrenin. Saat okuma ve para hesaplama için kritik öneme sahip desenleri keşfedin.",
+      "name": "Tabla del 5",
+      "description": "5 Ã§arpÄ±m tablosu ile beÅŸerli sayma Ã¶ÄŸrenin. Saat okuma ve para hesaplama iÃ§in kritik Ã¶neme sahip desenleri keÅŸfedin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Çarpım Tablosu"
+            "name": "1-Tabla del 5"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/5",
-            "name": "5 Çarpım Tablosu"
+            "name": "Tabla del 5"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/5#learningresource",
-      "name": "5 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "5 ile çarpma: Beşerli sayma, 0 ve 5 ile biten desen. Saat okuma ve para hesaplama için temel beceriler.",
+      "name": "Tabla del 5",
+      "description": "5 ile Ã§arpma: BeÅŸerli sayma, 0 ve 5 ile biten desen. Saat okuma ve para hesaplama iÃ§in temel beceriler.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "5 çarpım tablosu, beşerli sayma, saat okuma, para hesaplama",
+      "teaches": "5 Ã§arpÄ±m tablosu, beÅŸerli sayma, saat okuma, para hesaplama",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,22 +73,14 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '5 Çarpım Tablosu | 5 İle Çarpmayı Öğrenin',
-  description: '5 çarpım tablosunu güzel desenleri, para sayma bağlantıları ve saat söyleme uygulamalarıyla öğrenin. Bu son derece pratik tabloda ustalaşın.',
-  alternates: {
-    canonical: '/tabla/5',
-  },
-}
-
-export default function MultiplicationTableOf5() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
+  title: 'Tabla del 5"application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={5} rangeStart={1} rangeEnd={10} />
     </>
   )
 }
+
+
+
 

@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/15#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/15",
-      "name": "15 Çarpım Tablosu - Çeyrek Saat Kavramı",
-      "description": "15 çarpım tablosu ile çeyrek saat ve zaman okumasını öğrenin. 3×5 ilişkisi ve pratik stratejilerle 15 ile çarpma.",
+      "name": "Tabla del 15",
+      "description": "15 Ã§arpÄ±m tablosu ile Ã§eyrek saat ve zaman okumasÄ±nÄ± Ã¶ÄŸrenin. 3Ã—5 iliÅŸkisi ve pratik stratejilerle 15 ile Ã§arpma.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-Tabla del 15"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/15",
-            "name": "15 Çarpım Tablosu"
+            "name": "Tabla del 15"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/15#learningresource",
-      "name": "15 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "15 ile çarpma: Çeyrek saat (15 dakika), 3×5 ilişkisi, 5'in son rakam deseni (5-0-5-0) ve saat okuma uygulamaları.",
+      "name": "Tabla del 15",
+      "description": "15 ile Ã§arpma: Ã‡eyrek saat (15 dakika), 3Ã—5 iliÅŸkisi, 5'in son rakam deseni (5-0-5-0) ve saat okuma uygulamalarÄ±.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "15 çarpım tablosu, çeyrek saat kavramı, saat okuma, 3 ve 5 tablolarının ilişkisi",
+      "teaches": "15 Ã§arpÄ±m tablosu, Ã§eyrek saat kavramÄ±, saat okuma, 3 ve 5 tablolarÄ±nÄ±n iliÅŸkisi",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,23 +73,14 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '15 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '15 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '15 çarpım tablosu, on beş çarpım tablosu, 15 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
-  alternates: {
-    canonical: '/tabla/15',
-  },
-}
-
-export default function Number15Page() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
+  title: 'Tabla del 15"application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={15} rangeStart={11} rangeEnd={20} />
     </>
   )
 }
+
+
+
 

@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/26#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/26",
-      "name": "26 Çarpım Tablosu - İki Kat 13",
-      "description": "26 çarpım tablosu ile 2×13 ilişkisini ve çift sayı desenlerini öğrenin. Orta seviye çarpma becerileri.",
+      "name": "Tabla del 26",
+      "description": "26 Ã§arpÄ±m tablosu ile 2Ã—13 iliÅŸkisini ve Ã§ift sayÄ± desenlerini Ã¶ÄŸrenin. Orta seviye Ã§arpma becerileri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Çarpım Tablosu"
+            "name": "21-Tabla del 26"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/26",
-            "name": "26 Çarpım Tablosu"
+            "name": "Tabla del 26"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/26#learningresource",
-      "name": "26 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "26 ile çarpma: 2 ve 13 tablolarının birleşimi (2×13=26), çift sayı desenleri.",
+      "name": "Tabla del 26",
+      "description": "26 ile Ã§arpma: 2 ve 13 tablolarÄ±nÄ±n birleÅŸimi (2Ã—13=26), Ã§ift sayÄ± desenleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "26 çarpım tablosu, 2×13 ilişkisi, çift sayılar",
+      "teaches": "26 Ã§arpÄ±m tablosu, 2Ã—13 iliÅŸkisi, Ã§ift sayÄ±lar",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,24 +73,14 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '26 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '26 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '26 çarpım tablosu, yirmi altı çarpım tablosu, 26 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
-  alternates: {
-    canonical: '/tabla/26',
-  },
-}
-
-export default function Number26Page() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
+  title: 'Tabla del 26"application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <NumberPage number={26} rangeStart={21} rangeEnd={30} />
     </>
   )
 }
+
+
 
 

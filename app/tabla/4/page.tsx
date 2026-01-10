@@ -1,4 +1,4 @@
-import NumberPage from '../../components/NumberPage'
+﻿import NumberPage from '../../components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/4#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/4",
-      "name": "4 Çarpım Tablosu - Dörtlü Desenler",
-      "description": "4 çarpım tablosu ile ikiye katlama tekniklerini ve dörtgen şekil ilişkilerini öğrenin. 2 tablosunu ikiye katlayarak 4 tablosunu keşfedin.",
+      "name": "Tabla del 4",
+      "description": "4 Ã§arpÄ±m tablosu ile ikiye katlama tekniklerini ve dÃ¶rtgen ÅŸekil iliÅŸkilerini Ã¶ÄŸrenin. 2 tablosunu ikiye katlayarak 4 tablosunu keÅŸfedin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -44,8 +44,8 @@ const schemaData = {
                   "@type": "WebPage",
                   "@id": "https://tablasdemultiplicar.online/tabla/4#webpage",
                   "url": "https://tablasdemultiplicar.online/tabla/4",
-                  "name": "Tabla del 4 - Duplicación doble",
-                  "description": "Aprende la tabla del 4 pensando en duplicar dos veces. Estrategias de duplicación y patrones para practicar.",
+                  "name": "Tabla del 4 - DuplicaciÃ³n doble",
+                  "description": "Aprende la tabla del 4 pensando en duplicar dos veces. Estrategias de duplicaciÃ³n y patrones para practicar.",
                   "isPartOf": {
                     "@id": "https://tablasdemultiplicar.online/#website"
                   },
@@ -91,10 +91,10 @@ const schemaData = {
                   "@type": "LearningResource",
                   "@id": "https://tablasdemultiplicar.online/tabla/4#learningresource",
                   "name": "Recurso de aprendizaje: Tabla del 4",
-                  "description": "Multiplicar por 4 mediante duplicar dos veces y reconocer patrones para facilitar el cálculo.",
+                  "description": "Multiplicar por 4 mediante duplicar dos veces y reconocer patrones para facilitar el cÃ¡lculo.",
                   "educationalLevel": "Principiante",
                   "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-                  "teaches": "Tabla del 4, duplicación, patrones",
+                  "teaches": "Tabla del 4, duplicaciÃ³n, patrones",
                   "typicalAgeRange": "6-8",
                   "inLanguage": "es-MX",
                   "educationalUse": ["practice", "self-study"],
@@ -111,9 +111,11 @@ const schemaData = {
 
             export const metadata = {
               title: 'Tabla del 4 | Aprende a multiplicar por 4',
-              description: 'Aprende la tabla del 4 con estrategias de duplicación y patrones que facilitan el cálculo.',
+              description: 'Aprende la tabla del 4 con estrategias de duplicaciÃ³n y patrones que facilitan el cÃ¡lculo.',
               alternates: {
                 canonical: '/tabla/4',
               },
             }
+
+
 

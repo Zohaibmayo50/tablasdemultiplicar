@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/30#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/30",
-      "name": "30 Çarpım Tablosu - Yarım Saat Kavramı",
-      "description": "30 çarpım tablosu ile yarım saat (30 dakika) ve ay kavramlarını öğrenin. 3×10, 5×6 ilişkileri.",
+      "name": "Tabla del 30",
+      "description": "30 Ã§arpÄ±m tablosu ile yarÄ±m saat (30 dakika) ve ay kavramlarÄ±nÄ± Ã¶ÄŸrenin. 3Ã—10, 5Ã—6 iliÅŸkileri.",
       "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
       "about": {"@id": "https://tablasdemultiplicar.online/tabla/30#learningresource"},
       "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/30#breadcrumb"},
@@ -19,18 +19,18 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/30#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-30 Çarpım Tablosu"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/30", "name": "30 Çarpım Tablosu"}}
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-Tabla del 30"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/30", "name": "Tabla del 30"}}
       ]
     },
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/30#learningresource",
-      "name": "30 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "30 ile çarpma: Yarım saat (30 dakika), ay günleri (~30 gün), 3×10 ve 5×6 çarpan ilişkileri.",
+      "name": "Tabla del 30",
+      "description": "30 ile Ã§arpma: YarÄ±m saat (30 dakika), ay gÃ¼nleri (~30 gÃ¼n), 3Ã—10 ve 5Ã—6 Ã§arpan iliÅŸkileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "30 çarpım tablosu, yarım saat kavramı, 3×10 ve 5×6 ilişkisi",
+      "teaches": "30 Ã§arpÄ±m tablosu, yarÄ±m saat kavramÄ±, 3Ã—10 ve 5Ã—6 iliÅŸkisi",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -41,20 +41,12 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '30 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '30 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '30 çarpım tablosu, otuz çarpım tablosu, 30 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
-  alternates: {
-    canonical: '/tabla/30',
-  },
-}
-
-export default function Number30Page() {
-  return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+  title: 'Tabla del 30"application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <NumberPage number={30} rangeStart={21} rangeEnd={30} />
     </>
   )
 }
+
+
+
 

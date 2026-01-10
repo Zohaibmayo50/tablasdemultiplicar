@@ -1,4 +1,4 @@
-import NumberPage from '../../components/NumberPage'
+﻿import NumberPage from '../../components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/2#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/2",
       "name": "Tabla del 2 - Conteo de dos en dos",
-      "description": "Mejora el conteo de dos en dos y la duplicación. Aprende patrones de números pares y estrategias prácticas para multiplicar por 2.",
+      "description": "Mejora el conteo de dos en dos y la duplicaciÃ³n. Aprende patrones de nÃºmeros pares y estrategias prÃ¡cticas para multiplicar por 2.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/2#learningresource",
       "name": "Recurso de aprendizaje: Tabla del 2",
-      "description": "Multiplicar por 2: conteo de dos en dos, duplicación y patrones de números pares.",
+      "description": "Multiplicar por 2: conteo de dos en dos, duplicaciÃ³n y patrones de nÃºmeros pares.",
       "educationalLevel": "Principiante",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Tabla del 2, conteo de dos en dos, duplicación, números pares",
+      "teaches": "Tabla del 2, conteo de dos en dos, duplicaciÃ³n, nÃºmeros pares",
       "typicalAgeRange": "6-8",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: 'Tabla del 2 | Aprende a multiplicar por 2',
-  description: 'Domina la tabla del 2. Estrategias de duplicación, patrones y ejemplos prácticos para aprender con seguridad.',
+  description: 'Domina la tabla del 2. Estrategias de duplicaciÃ³n, patrones y ejemplos prÃ¡cticos para aprender con seguridad.',
   alternates: {
     canonical: '/tabla/2',
   },
@@ -91,4 +91,6 @@ export default function MultiplicationTableOf2() {
     </>
   )
 }
+
+
 

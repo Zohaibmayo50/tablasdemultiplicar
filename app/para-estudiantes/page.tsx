@@ -2,9 +2,9 @@ import Link from 'next/link'
 import Footer from '@/app/components/Footer'
 
 export const metadata = {
-  title: 'Öğrenciler İçin Çarpım Tablosu Rehberi | Adım Adım Öğrenme',
-  description: 'Çarpım tablosunu kolayca öğrenmek için adım adım rehber. Görsel materyaller, pratik aktiviteler ve eğlenceli oyunlarla kendi hızında öğren!',
-  keywords: 'çarpım tablosu öğrenme, matematik öğrenme, öğrenci rehberi, adım adım çarpım',
+  title: 'Guía de Tablas de Multiplicar para Estudiantes | Aprende Paso a Paso',
+  description: 'Guía paso a paso para aprender tablas de multiplicar fácilmente. Materiales visuales, actividades prácticas y juegos divertidos para aprender a tu ritmo.',
+  keywords: 'aprender tablas de multiplicar, matemáticas para estudiantes, guía de tablas, multiplicación paso a paso',
   alternates: {
     canonical: '/para-estudiantes',
   },

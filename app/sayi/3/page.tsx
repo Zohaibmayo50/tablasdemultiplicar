@@ -1,4 +1,4 @@
-import NumberPage from '../../components/NumberPage'
+﻿import NumberPage from '../../components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://carpimtablosu.com.tr/sayi/3#webpage",
       "url": "https://carpimtablosu.com.tr/sayi/3",
-      "name": "3 Çarpım Tablosu - Üçerli Sayma",
-      "description": "3 çarpım tablosu ile üçerli sayma ve basamak toplama desenlerini öğrenin. Ügenler ve geometrik şekillerde uygulayın.",
+      "name": "Tabla del 3",
+      "description": "3 Ã§arpÄ±m tablosu ile Ã¼Ã§erli sayma ve basamak toplama desenlerini Ã¶ÄŸrenin. Ãœgenler ve geometrik ÅŸekillerde uygulayÄ±n.",
       "isPartOf": {
         "@id": "https://carpimtablosu.com.tr/#website"
       },
@@ -45,7 +45,7 @@ const schemaData = {
                   "@id": "https://tablasdemultiplicar.online/tabla/3#webpage",
                   "url": "https://tablasdemultiplicar.online/tabla/3",
                   "name": "Tabla del 3 - Patrones de suma triplicada",
-                  "description": "Explora la tabla del 3 usando patrones de suma repetida y estrategias prácticas para facilitar el cálculo.",
+                  "description": "Explora la tabla del 3 usando patrones de suma repetida y estrategias prÃ¡cticas para facilitar el cÃ¡lculo.",
                   "isPartOf": {
                     "@id": "https://tablasdemultiplicar.online/#website"
                   },
@@ -91,7 +91,7 @@ const schemaData = {
                   "@type": "LearningResource",
                   "@id": "https://tablasdemultiplicar.online/tabla/3#learningresource",
                   "name": "Recurso de aprendizaje: Tabla del 3",
-                  "description": "Mejora tus habilidades para multiplicar por 3 con ejemplos de suma repetida y prácticas guiadas.",
+                  "description": "Mejora tus habilidades para multiplicar por 3 con ejemplos de suma repetida y prÃ¡cticas guiadas.",
                   "educationalLevel": "Principiante",
                   "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
                   "teaches": "Tabla del 3, suma repetida, patrones",
@@ -111,8 +111,11 @@ const schemaData = {
 
             export const metadata = {
               title: 'Tabla del 3 | Aprende a multiplicar por 3',
-              description: 'Domina la tabla del 3 con estrategias de suma repetida y patrones útiles para el cálculo mental.',
+              description: 'Domina la tabla del 3 con estrategias de suma repetida y patrones Ãºtiles para el cÃ¡lculo mental.',
               alternates: {
                 canonical: '/tabla/3',
               },
             }
+
+
+

@@ -512,7 +512,7 @@ export default function RangePage({
       <section className="section-container bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            {rangeStart}'den {rangeEnd}'a Çarpım Tablosu Nasıl Öğrenilir?
+            ¿Cómo Aprender la Tabla de Multiplicar del {rangeStart} al {rangeEnd}?
           </h2>
           
           <div className="space-y-8">

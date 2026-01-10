@@ -409,14 +409,14 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                     onClick={() => startExercise(activeExercise)}
                     className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-indigo-700"
                   >
-                    Tekrar Çöz
+                    Resolver de Nuevo
                   </button>
                 </div>
 
                 {/* Wrong answers review */}
                 {exerciseQuestions.filter(q => q.correct === false).length > 0 && (
                   <div className="mt-8 text-left max-w-xl mx-auto">
-                    <h4 className="font-semibold text-slate-900 mb-4">Yanlış Cevaplar:</h4>
+                    <h4 className="font-semibold text-slate-900 mb-4">Respuestas Incorrectas:</h4>
                     <div className="space-y-2">
                       {exerciseQuestions.map((q, idx) => 
                         q.correct === false && (
@@ -446,13 +446,13 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
             </svg>
             <div>
               <h4 className="font-semibold text-slate-900 mb-2">
-                💡 Pratik Yaparken İpuçları
+                💡 Consejos al Practicar
               </h4>
               <p className="text-slate-700">
-                Pratik yapmak sadece hız kazanmak için değildir. Her soruyu dikkatlice 
-                düşünün, yanlış cevaplarınızı analiz edin ve hangi çarpım tablolarında 
-                zorlandığınızı belirleyin. Günde 10-15 dakika düzenli pratik, uzun süreli 
-                öğrenme için en etkili yöntemdir.
+                Practicar no es solo para ganar velocidad. Piensa cuidadosamente en cada pregunta, 
+                analiza tus respuestas incorrectas e identifica qué tablas de multiplicar 
+                te resultan difíciles. La práctica regular de 10-15 minutos al día es el 
+                método más efectivo para el aprendizaje a largo plazo.
               </p>
             </div>
           </div>

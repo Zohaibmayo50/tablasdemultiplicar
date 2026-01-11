@@ -125,7 +125,7 @@ export default function NumberGames({ number }: NumberGamesProps) {
   }
 
   // Racing Game: Generate question
-  const generateRaceQuestion = () => {
+  const generateRaceQuestion = (currentPosition: number = raceCar.position) => {
     const multiplier = Math.floor(Math.random() * 10) + 1
     const correctAnswer = number * multiplier
     const options = [correctAnswer]
@@ -138,7 +138,7 @@ export default function NumberGames({ number }: NumberGamesProps) {
     }
     
     setRaceCar({
-      position: raceCar.position,
+      position: currentPosition,
       question: { multiplier, answer: correctAnswer },
       options: options.sort(() => Math.random() - 0.5)
     })
@@ -157,12 +157,12 @@ export default function NumberGames({ number }: NumberGamesProps) {
     if (selected === raceCar.question.answer) {
       setRaceScore(raceScore + 1)
       const newPosition = raceCar.position + 10
-      setRaceCar(prev => ({ ...prev, position: newPosition }))
       
       if (newPosition >= 100) {
+        setRaceCar(prev => ({ ...prev, position: newPosition }))
         setRaceGameActive(false)
       } else {
-        setTimeout(() => generateRaceQuestion(), 300)
+        setTimeout(() => generateRaceQuestion(newPosition), 300)
       }
     } else {
       setWrongAnimation(true)

@@ -65,7 +65,7 @@ export default function NumberGames({ number }: NumberGamesProps) {
       answer,
       x: Math.random() * 80 + 10,
       y: 100,
-      speed: Math.random() * 1.5 + 1,
+      speed: Math.random() * 0.5 + 0.4,
       isCorrect
     }
   }

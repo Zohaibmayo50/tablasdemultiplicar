@@ -251,69 +251,27 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
         {/* Exercises Tab */}
         {activeTab === 'exercises' && !activeExercise && (
           <div className="grid gap-6 md:grid-cols-2 max-w-4xl mx-auto">
-            <div onClick={() => startExercise('easy')} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all cursor-pointer border-2 border-gray-200 group">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <div className="inline-block px-4 py-2 rounded-lg font-semibold mb-3 border-2 bg-green-100 text-green-700 border-green-300">
-                    Kolay
+            {exercises.map((exercise, index) => (
+              <div 
+                key={index}
+                onClick={() => startExercise(['easy', 'medium', 'hard', 'expert'][index] as ExerciseType)} 
+                className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all cursor-pointer border-2 border-gray-200 group"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <div className={`inline-block px-4 py-2 rounded-lg font-semibold mb-3 border-2 ${exercise.color}`}>
+                      {exercise.level}
+                    </div>
+                    <h3 className="text-xl font-bold text-slate-900 mb-1">{exercise.range}</h3>
+                    <p className="text-slate-600">{exercise.questions}</p>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">Tablas 2-5</h3>
-                  <p className="text-slate-600">20 Preguntas</p>
+                  <div className="text-3xl group-hover:scale-110 transition-transform">📋</div>
                 </div>
-                <div className="text-3xl group-hover:scale-110 transition-transform">📋</div>
+                <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all mt-4">
+                  Comenzar
+                </button>
               </div>
-              <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all mt-4">
-                Comenzar
-              </button>
-            </div>
-
-            <div onClick={() => startExercise('medium')} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all cursor-pointer border-2 border-gray-200 group">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <div className="inline-block px-4 py-2 rounded-lg font-semibold mb-3 border-2 bg-yellow-100 text-yellow-700 border-yellow-300">
-                    Orta
-                  </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">Tablas 6-8</h3>
-                  <p className="text-slate-600">30 Preguntas</p>
-                </div>
-                <div className="text-3xl group-hover:scale-110 transition-transform">📋</div>
-              </div>
-              <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all mt-4">
-                Comenzar
-              </button>
-            </div>
-
-            <div onClick={() => startExercise('hard')} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all cursor-pointer border-2 border-gray-200 group">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <div className="inline-block px-4 py-2 rounded-lg font-semibold mb-3 border-2 bg-orange-100 text-orange-700 border-orange-300">
-                    Zor
-                  </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">Tablas 9-12</h3>
-                  <p className="text-slate-600">40 Preguntas</p>
-                </div>
-                <div className="text-3xl group-hover:scale-110 transition-transform">📋</div>
-              </div>
-              <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all mt-4">
-                Comenzar
-              </button>
-            </div>
-
-            <div onClick={() => startExercise('expert')} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all cursor-pointer border-2 border-gray-200 group">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <div className="inline-block px-4 py-2 rounded-lg font-semibold mb-3 border-2 bg-red-100 text-red-700 border-red-300">
-                    Uzman
-                  </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">Todas las Tablas Mezcladas</h3>
-                  <p className="text-slate-600">50 Preguntas</p>
-                </div>
-                <div className="text-3xl group-hover:scale-110 transition-transform">📋</div>
-              </div>
-              <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all mt-4">
-                Comenzar
-              </button>
-            </div>
+            ))}
           </div>
         )}
 

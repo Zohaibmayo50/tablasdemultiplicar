@@ -12,7 +12,10 @@ interface PracticePreviewProps {
 
 export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: PracticePreviewProps) {
   const [activeTab, setActiveTab] = useState<'quick' | 'exercises'>('quick')
-  const [question, setQuestion] = useState({ num1: 7, num2: 8 })
+  const [question, setQuestion] = useState({ 
+    num1: Math.floor(Math.random() * (rangeEnd - rangeStart + 1)) + rangeStart,
+    num2: Math.floor(Math.random() * 10) + 1
+  })
   const [userAnswer, setUserAnswer] = useState('')
   const [score, setScore] = useState({ correct: 0, total: 0 })
   const [feedback, setFeedback] = useState<'correct' | 'wrong' | null>(null)

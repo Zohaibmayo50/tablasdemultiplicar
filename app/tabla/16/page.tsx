@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/16#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/16",
       "name": "16 Tabla de Multiplicar - Kare Sayı İlişkisi",
-      "description": "16 Tabla de Multiplicar ile kare sayı kavramını öğrenin. 4×4=16 ilişkisi ve kolay stratejilerle 16 Multiplicar por.",
+      "description": "16 Tabla de Multiplicar con kare sayı concepto aprende. 4×4=16 relación y kolay stratejilerle 16 Multiplicar por.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/16#learningresource",
       "name": "16 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "16 Multiplicar por: 4'ün karesi (4×4=16), ikili katlar (8×2), çift sayı desenleri ve geometrik uygulamalar.",
+      "description": "16 Multiplicar por: 4'ün karesi (4×4=16), dosli katlar (8×2), çift sayı patrones y geometrik uygulamalar.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "16 Tabla de Multiplicar, kare sayılar, 4 tablosunun katları",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "16 Tabla de Multiplicar, números cuadrados, 4 tablanun múltiplos",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '16 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '16 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '16 Tabla de Multiplicar, on altı Tabla de Multiplicar, 16 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '16 Tabla de Multiplicar, on seis Tabla de Multiplicar, 16 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/16',
   },

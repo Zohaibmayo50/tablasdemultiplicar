@@ -1,4 +1,4 @@
-import NumberPage from '../../components/NumberPage'
+﻿import NumberPage from '../../components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -56,7 +56,7 @@ const schemaData = {
       "name": "Recurso de aprendizaje: Tabla del 1",
       "description": "Multiplicar por 1 (propiedad de identidad): cualquier número multiplicado por 1 es el mismo número. Aprende las reglas básicas de la multiplicación.",
       "educationalLevel": "Principiante",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
       "teaches": "Tabla del 1, propiedad de identidad, conceptos básicos de multiplicación",
       "typicalAgeRange": "6-8",
       "inLanguage": "es-MX",

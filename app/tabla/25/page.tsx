@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/25#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/25",
-      "name": "25 Tabla de Multiplicar - Çeyrek ve Yüzde Kavramı",
-      "description": "25 Tabla de Multiplicar ile çeyrek kavramı ve yüzde hesaplamalarını öğrenin. Para hesaplama için kritik öneme sahip desenleri keşfedin.",
+      "name": "25 Tabla de Multiplicar - Çeyrek y Yüzde Kavramı",
+      "description": "25 Tabla de Multiplicar con çeyrek kavramı y yüzde hesaplamalarını aprende. Para hesaplama için kritik öneme sahip patrones descubre.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/25#learningresource",
       "name": "25 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "25 Multiplicar por: Çeyrek (1/4) kavramı, yüzde hesaplamaları (25%=1/4), para hesaplama ve 25-50-75-00 son rakam deseni.",
+      "description": "25 Multiplicar por: Çeyrek (1/4) kavramı, yüzde hesaplamaları (25%=1/4), cálculo de dinero y 25-50-75-00 son rakam deseni.",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "25 Tabla de Multiplicar, çeyrek kavramı, yüzde hesaplama, para hesaplama, 5'in karesi",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "25 Tabla de Multiplicar, çeyrek kavramı, yüzde hesaplama, cálculo de dinero, 5'in karesi",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '25 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '25 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '25 Tabla de Multiplicar, yirmi beş Tabla de Multiplicar, 25 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '25 Tabla de Multiplicar, yirmi cinco Tabla de Multiplicar, 25 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/25',
   },

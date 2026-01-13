@@ -56,7 +56,7 @@ const schemaData = {
       "name": "Recurso de aprendizaje: Tabla del 5",
       "description": "Multiplicar por 1 (propiedad de identidad): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Aprende las reglas bÃ¡sicas de la multiplicaciÃ³n.",
       "educationalLevel": "Principiante",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
       "teaches": "Tabla del 5, propiedad de identidad, conceptos bÃ¡sicos de multiplicaciÃ³n",
       "typicalAgeRange": "6-8",
       "inLanguage": "es-MX",

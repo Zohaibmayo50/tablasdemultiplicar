@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/15#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/15",
       "name": "15 Tabla de Multiplicar - Çeyrek Saat Kavramı",
-      "description": "15 Tabla de Multiplicar ile çeyrek saat ve zaman okumasını öğrenin. 3×5 ilişkisi ve pratik stratejilerle 15 Multiplicar por.",
+      "description": "15 Tabla de Multiplicar con çeyrek saat y zaman okumasını aprende. 3×5 relación y pratik stratejilerle 15 Multiplicar por.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/15#learningresource",
       "name": "15 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "15 Multiplicar por: Çeyrek saat (15 dakika), 3×5 ilişkisi, 5'in son rakam deseni (5-0-5-0) ve saat okuma uygulamaları.",
+      "description": "15 Multiplicar por: Çeyrek saat (15 dakika), 3×5 relación, 5'in son rakam deseni (5-0-5-0) y saat okuma uygulamaları.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "15 Tabla de Multiplicar, çeyrek saat kavramı, saat okuma, 3 ve 5 tablolarının ilişkisi",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "15 Tabla de Multiplicar, çeyrek saat kavramı, saat okuma, 3 y 5 tablolarının relación",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '15 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '15 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '15 Tabla de Multiplicar, on beş Tabla de Multiplicar, 15 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '15 Tabla de Multiplicar, on cinco Tabla de Multiplicar, 15 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/15',
   },

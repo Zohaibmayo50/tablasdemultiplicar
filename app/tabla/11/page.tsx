@@ -56,7 +56,7 @@ const schemaData = {
       "name": "11 Tabla de Multiplicar Recurso de Aprendizaje",
       "description": "11 Multiplicar por: Introducción a números de dos dígitos, patrón de repetición de dígitos (11×2=22, 11×3=33), estrategias fáciles de memorización.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
       "teaches": "11 Tabla de Multiplicar, números de dos dígitos, patrones de dígitos",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '11 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '11 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '11 Tabla de Multiplicar, on bir Tabla de Multiplicar, 11 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '11 Tabla de Multiplicar, on uno Tabla de Multiplicar, 11 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/11',
   },

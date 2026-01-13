@@ -9,7 +9,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/100#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/100",
       "name": "100 Tabla de Multiplicar - Onluk Sistemin Ustası",
-      "description": "100 Tabla de Multiplicar ile onluk sistem, yüzde hesaplamaları ve yer değeri kavramında ustalaşın. En önemli çarpım tablolarından biri.",
+      "description": "100 Tabla de Multiplicar con onluk sistem, yüzde hesaplamaları y yer değeri kavramında domina. En önemli çarpım tablolarından unoi.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -55,9 +55,9 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/100#learningresource",
       "name": "100 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "100 Multiplicar por: Onluk sistemin temeli, yer değeri kavramı, yüzde hesaplamaları (100%=tam), sonuna iki sıfır ekleme kuralı. En kullanışlı çarpım tablolarından biri.",
+      "description": "100 Multiplicar por: Onluk sistemin temeli, yer değeri kavramı, yüzde hesaplamaları (100%=tam), sonuna dos sıfır ekleme kuralı. En kullanışlı çarpım tablolarından unoi.",
       "educationalLevel": "Advanced",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
       "teaches": "100 Tabla de Multiplicar, onluk sistem, yer değeri, yüzde hesaplama, 10'un karesi",
       "typicalAgeRange": "9-12",
       "inLanguage": "es-MX",
@@ -76,7 +76,7 @@ const schemaData = {
 export const metadata: Metadata = {
   title: '100 Tabla de Multiplicar - Métodos Fáciles de Aprendizaje',
   description: '100 Tabla de Multiplicarnu con métodos divertidos y efectivos. Domina la tabla con herramientas visuales y consejos prácticos.',
-  keywords: '100 Tabla de Multiplicar, 100 tablosu, Tabla de Multiplicar 100, matematik, çarpma işlemi',
+  keywords: '100 Tabla de Multiplicar, 100 tabla, Tabla de Multiplicar 100, matemáticas, multiplicación',
   alternates: {
     canonical: '/tabla/100',
   },

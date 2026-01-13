@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/17#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/17",
-      "name": "17 Tabla de Multiplicar - Asal Sayı Keşfi",
-      "description": "17 Tabla de Multiplicar ile asal sayı kavramını keşfedin. Zihinsel matematik ve pratik stratejilerle 17 Multiplicar por.",
+      "name": "17 Tabla de Multiplicar - Número Primo Keşfi",
+      "description": "17 Tabla de Multiplicar con número primo concepto descubre. Zihinsel matemáticas y pratik stratejilerle 17 Multiplicar por.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/17#learningresource",
       "name": "17 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "17 Multiplicar por: Asal sayı özellikleri, 10+7 ayrıştırma stratejisi, zihinsel matematik teknikleri.",
+      "description": "17 Multiplicar por: Asal sayı características, 10+7 ayrıştırma estrategia, zihinsel matemáticas teknikleri.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "17 Tabla de Multiplicar, asal sayılar, zihinsel matematik",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "17 Tabla de Multiplicar, número primolar, zihinsel matemáticas",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '17 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '17 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '17 Tabla de Multiplicar, on yedi Tabla de Multiplicar, 17 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '17 Tabla de Multiplicar, on siete Tabla de Multiplicar, 17 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/17',
   },

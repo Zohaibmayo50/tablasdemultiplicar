@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/12#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/12",
       "name": "12 Tabla de Multiplicar - Düzine Kavramı",
-      "description": "12 Tabla de Multiplicar ile düzine kavramını öğrenin. Saat sistemi ve günlük hayatta sıkça kullanılan 12 tablosunda ustalaşın.",
+      "description": "12 Tabla de Multiplicar con docena concepto aprende. Saat sistemi y vida diaria usado frecuentemente 12 tablanda domina.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/12#learningresource",
       "name": "12 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "12 Multiplicar por: Düzine kavramı, saat sistemi (12 saat), 3×4 ilişkisi ve günlük hayat uygulamaları.",
+      "description": "12 Multiplicar por: Düzine kavramı, saat sistemi (12 saat), 3×4 relación y günlük hayat uygulamaları.",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "12 Tabla de Multiplicar, düzine kavramı, saat okuma, 3 ve 4 tablolarının ilişkisi",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "12 Tabla de Multiplicar, docena kavramı, saat okuma, 3 y 4 tablolarının relación",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '12 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '12 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '12 Tabla de Multiplicar, on iki Tabla de Multiplicar, 12 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '12 Tabla de Multiplicar, on dos Tabla de Multiplicar, 12 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/12',
   },

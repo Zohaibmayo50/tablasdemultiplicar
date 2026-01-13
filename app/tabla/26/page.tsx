@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/26#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/26",
       "name": "26 Tabla de Multiplicar - İki Kat 13",
-      "description": "26 Tabla de Multiplicar ile 2×13 ilişkisini ve çift sayı desenlerini öğrenin. Orta seviye çarpma becerileri.",
+      "description": "26 Tabla de Multiplicar con 2×13 relaciónni y çift sayı patronesni aprende. Orta seviye çarpma habilidades.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/26#learningresource",
       "name": "26 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "26 Multiplicar por: 2 ve 13 tablolarının birleşimi (2×13=26), çift sayı desenleri.",
+      "description": "26 Multiplicar por: 2 y 13 tablolarının unoleşimi (2×13=26), çift sayı patrones.",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "26 Tabla de Multiplicar, 2×13 ilişkisi, çift sayılar",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "26 Tabla de Multiplicar, 2×13 relación, çift sayılar",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '26 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '26 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '26 Tabla de Multiplicar, yirmi altı Tabla de Multiplicar, 26 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '26 Tabla de Multiplicar, yirmi seis Tabla de Multiplicar, 26 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/26',
   },

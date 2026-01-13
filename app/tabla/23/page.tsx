@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/23#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/23",
-      "name": "23 Tabla de Multiplicar - Asal Sayı Desenleri",
-      "description": "23 Tabla de Multiplicar ile asal sayı desenleri ve ileri düzeyde çarpma becerilerini geliştirin.",
+      "name": "23 Tabla de Multiplicar - Número Primo Desenleri",
+      "description": "23 Tabla de Multiplicar con número primo patrones y nivel avanzadode çarpma habilidadesni geliştirin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/23#learningresource",
       "name": "23 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "23 Multiplicar por: Asal sayı özellikleri ve orta-ileri seviye çarpma pratikleri.",
+      "description": "23 Multiplicar por: Asal sayı características y orta-ileri seviye çarpma prácticas.",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "23 Tabla de Multiplicar, asal sayı kavramı, ileri çarpma",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "23 Tabla de Multiplicar, número primo kavramı, ileri çarpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '23 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '23 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '23 Tabla de Multiplicar, yirmi üç Tabla de Multiplicar, 23 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '23 Tabla de Multiplicar, yirmi tres Tabla de Multiplicar, 23 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/23',
   },

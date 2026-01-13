@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/22#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/22",
       "name": "22 Tabla de Multiplicar - Çift Sayı Desenleri",
-      "description": "22 Tabla de Multiplicar ile 2 ve 11 tablolarının ilişkisini öğrenin. Çift sayı desenleri ve kolay çarpma stratejileri.",
+      "description": "22 Tabla de Multiplicar con 2 y 11 tablolarının relaciónni aprende. Çift sayı patrones y kolay çarpma stratejileri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/22#learningresource",
       "name": "22 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "22 Multiplicar por: 2 ve 11 tablolarının birleşimi (2×11=22), çift sayı desenleri ve ikiye katlama.",
+      "description": "22 Multiplicar por: 2 y 11 tablolarının unoleşimi (2×11=22), çift sayı patrones y doblar.",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "22 Tabla de Multiplicar, 2×11 ilişkisi, çift sayılar",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "22 Tabla de Multiplicar, 2×11 relación, çift sayılar",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '22 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '22 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '22 Tabla de Multiplicar, yirmi iki Tabla de Multiplicar, 22 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '22 Tabla de Multiplicar, yirmi dos Tabla de Multiplicar, 22 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/22',
   },

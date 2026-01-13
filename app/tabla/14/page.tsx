@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/14#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/14",
       "name": "14 Tabla de Multiplicar - İki Haftalık Döngü",
-      "description": "14 Tabla de Multiplicar ile hafta ve zaman kavramlarını öğrenin. 7×2 ilişkisi ve pratik stratejilerle 14 Multiplicar por.",
+      "description": "14 Tabla de Multiplicar con semana y zaman kavramlarını aprende. 7×2 relación y pratik stratejilerle 14 Multiplicar por.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/14#learningresource",
       "name": "14 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "14 Multiplicar por: İki hafta (14 gün), 7×2 ilişkisi, çift sayı desenleri ve günlük hayat uygulamaları.",
+      "description": "14 Multiplicar por: İki semana (14 gün), 7×2 relación, çift sayı patrones y günlük hayat uygulamaları.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "14 Tabla de Multiplicar, hafta hesaplama, 7 tablosunun katları",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "14 Tabla de Multiplicar, semana hesaplama, 7 tablanun múltiplos",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '14 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '14 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '14 Tabla de Multiplicar, on dört Tabla de Multiplicar, 14 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '14 Tabla de Multiplicar, on cuatro Tabla de Multiplicar, 14 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/14',
   },

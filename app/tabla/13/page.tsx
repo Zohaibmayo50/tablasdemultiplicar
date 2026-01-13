@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/13#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/13",
       "name": "13 Tabla de Multiplicar - Uğurlu Sayı Desenleri",
-      "description": "13 Tabla de Multiplicar ile matematik becerilerinizi geliştirin. Desenler ve kolay stratejilerle 13 Multiplicar por işleminde ustalaşın.",
+      "description": "13 Tabla de Multiplicar con matemáticas habilidadesnizi geliştirin. Desenler y kolay stratejilerle 13 Multiplicar por işleminde domina.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/13#learningresource",
       "name": "13 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "13 Multiplicar por: Asal sayı özellikleri, zihinsel matematik stratejileri, 10+3 ayrıştırma yöntemi.",
+      "description": "13 Multiplicar por: Asal sayı características, zihinsel matemáticas stratejileri, 10+3 ayrıştırma yöntemi.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "13 Tabla de Multiplicar, asal sayılar, zihinsel matematik",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "13 Tabla de Multiplicar, número primolar, zihinsel matemáticas",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '13 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '13 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '13 Tabla de Multiplicar, on üç Tabla de Multiplicar, 13 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '13 Tabla de Multiplicar, on tres Tabla de Multiplicar, 13 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/13',
   },

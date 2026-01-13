@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/19#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/19",
-      "name": "19 Tabla de Multiplicar - Asal Sayı Ustası",
-      "description": "19 Tabla de Multiplicar ile asal sayılarda ustalaşın. 20-1 stratejisi ve zihinsel matematik teknikleri.",
+      "name": "19 Tabla de Multiplicar - Número Primo Ustası",
+      "description": "19 Tabla de Multiplicar con número primolarda domina. 20-1 estrategia y zihinsel matemáticas teknikleri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/19#learningresource",
       "name": "19 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "19 Multiplicar por: Asal sayı özellikleri, 20-1 yaklaşım stratejisi, ileri düzey zihinsel matematik.",
+      "description": "19 Multiplicar por: Asal sayı características, 20-1 yaklaşım estrategia, nivel avanzado zihinsel matemáticas.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "19 Tabla de Multiplicar, asal sayılar, 20-1 çıkarma stratejisi",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "19 Tabla de Multiplicar, número primolar, 20-1 çıkarma estrategia",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '19 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '19 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '19 Tabla de Multiplicar, on dokuz Tabla de Multiplicar, 19 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '19 Tabla de Multiplicar, on nueve Tabla de Multiplicar, 19 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/19',
   },

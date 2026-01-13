@@ -33,7 +33,7 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
-            {/* Çarpım Tablosu Dropdown */}
+            {/* Multiplication Tables Dropdown */}
             <div className="relative group">
               <button className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium flex items-center gap-1">
                 Tablas de Multiplicar
@@ -146,7 +146,7 @@ export default function Header() {
         }`}
       >
         <div className="px-4 pt-2 pb-4 space-y-2 bg-white border-t border-blue-100">
-          {/* Çarpım Tablosu Section */}
+          {/* Multiplication Tables Section */}
           <div className="py-2">
             <h3 className="px-4 py-2 text-sm font-semibold text-slate-900 border-b border-slate-200">
               📚 Tablas de Multiplicar

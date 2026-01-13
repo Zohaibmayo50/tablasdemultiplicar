@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/21#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/21",
       "name": "21 Tabla de Multiplicar - Yirmili Sistemler",
-      "description": "21 Tabla de Multiplicar ile yirmili sayı sistemini keşfedin. 3×7 ilişkisi ve iki basamaklı sayı desenleri.",
+      "description": "21 Tabla de Multiplicar con yirmili sayı sistemini descubre. 3×7 relación y dos basamaklı sayı patrones.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/21#learningresource",
       "name": "21 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "21 Multiplicar por: 3 ve 7 tablolarının birleşimi (3×7=21), yirmili sistem ve orta seviye çarpma becerileri.",
+      "description": "21 Multiplicar por: 3 y 7 tablolarının unoleşimi (3×7=21), sistema de veinte y orta seviye çarpma habilidades.",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "21 Tabla de Multiplicar, 3×7 ilişkisi, iki basamaklı çarpma",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "21 Tabla de Multiplicar, 3×7 relación, dos basamaklı çarpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '21 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '21 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '21 Tabla de Multiplicar, yirmi bir Tabla de Multiplicar, 21 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '21 Tabla de Multiplicar, yirmi uno Tabla de Multiplicar, 21 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/21',
   },

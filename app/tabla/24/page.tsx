@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/24#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/24",
       "name": "24 Tabla de Multiplicar - 24 Saat Sistemi",
-      "description": "24 Tabla de Multiplicar ile 24 saat sistemi ve günlük zaman hesaplamalarını öğrenin. 3×8, 4×6, 2×12 ilişkilerini keşfedin.",
+      "description": "24 Tabla de Multiplicar con 24 saat sistemi y günlük zaman hesaplamalarını aprende. 3×8, 4×6, 2×12 relacionesni descubre.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/24#learningresource",
       "name": "24 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "24 Multiplicar por: 24 saat gün sistemi, 3×8, 4×6, 2×12 çarpan ilişkileri ve zaman hesaplama.",
+      "description": "24 Multiplicar por: 24 saat gün sistemi, 3×8, 4×6, 2×12 çarpan relaciones y zaman hesaplama.",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "24 Tabla de Multiplicar, 24 saat sistemi, çoklu çarpan ilişkileri",
+      "learningResourceType": ["Interactiy Resource", "Practice Material", "Educational Game"],
+      "teaches": "24 Tabla de Multiplicar, 24 saat sistemi, çoklu çarpan relaciones",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -75,7 +75,7 @@ const schemaData = {
 export const metadata = {
   title: '24 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
   description: '24 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '24 Tabla de Multiplicar, yirmi dört Tabla de Multiplicar, 24 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  keywords: '24 Tabla de Multiplicar, yirmi cuatro Tabla de Multiplicar, 24 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/24',
   },
